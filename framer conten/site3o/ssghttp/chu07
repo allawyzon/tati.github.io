@@ -1,0 +1,54 @@
+import { a as t } from "./chunk-LQASWB4D.mjs";
+function r(e, a) {
+  return {
+    bodyClassName: "framer-body-augiA20Il",
+    breakpoints: [
+      {
+        hash: "72rtr7",
+        mediaQuery: "(min-width: 1200px)",
+      },
+      {
+        hash: "y8m92x",
+        mediaQuery: "(min-width: 810px) and (max-width: 1199px)",
+      },
+      {
+        hash: "2py4ww",
+        mediaQuery: "(max-width: 809px)",
+      },
+    ],
+    description: t(e, a).description,
+    elements: {
+      b5iizAEeN: "statements",
+      Jh1_SWJMR: "scroll-trigger",
+      OJFc7eXma: "intro",
+      ozgXYY6mY: "blog-item",
+      PMsEyAMzO: "case",
+      SC6KaHTx0: "title",
+      XCc3BvWIk: "blog",
+    },
+    title: t(e, a).title || "Home",
+    viewport: "width=device-width",
+  };
+}
+var s = 1,
+  d = {
+    exports: {
+      metadataVersion: {
+        type: "variable",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      default: {
+        type: "function",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      __FramerMetadata__: {
+        type: "variable",
+      },
+    },
+  };
+export { r as a, s as b, d as c };
+//# sourceMappingURL=chunk-O7T3526D.mjs.map

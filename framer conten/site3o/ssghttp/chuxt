@@ -1,0 +1,311 @@
+import {l as E, m as G, n as O, o as Q} from "./chunk-AACKV3QY.mjs";
+import {b as e, c as y} from "./chunk-5SFOXFGW.mjs";
+import {$ as L, J as S, P as f, S as j, V as z, b as Z, d as F, h as T, ia as K, j as A, ka as U, l as M, p as q, r as a, ra as _, t as P, ta as k, wa as H, xa as J} from "./chunk-NVV4GD4L.mjs";
+var B = E(a.a)
+  , re = ["JHgq2UTa2", "liiqKgpFH", "nAP0y4xuZ"]
+  , ae = {
+    JHgq2UTa2: "framer-v-vmlhbg",
+    liiqKgpFH: "framer-v-10ntszm",
+    nAP0y4xuZ: "framer-v-1cii71i"
+};
+function N(t, ...n) {
+    let l = {};
+    return n?.forEach(i=>i && Object.assign(l, t[i])),
+    l
+}
+var te = {
+    default: {
+        damping: 60,
+        delay: 0,
+        mass: 1,
+        stiffness: 500,
+        type: "spring"
+    }
+}
+  , R = (t,n)=>`perspective(1200px) ${n}`
+  , ne = ({value: t, children: n})=>{
+    let l = T(q)
+      , i = t ?? l.transition
+      , m = M(()=>({
+        ...l,
+        transition: i
+    }), [JSON.stringify(i)]);
+    return e(q.Provider, {
+        value: m,
+        children: n
+    })
+}
+  , ie = {
+    "Active 1": "liiqKgpFH",
+    "Active 2": "nAP0y4xuZ",
+    Default: "JHgq2UTa2"
+}
+  , le = ({height: t, id: n, label: l, label2: i, link: m, link2: s, width: v, ...o})=>{
+    var p, d, h, c;
+    return {
+        ...o,
+        bqoIQrjGt: s ?? o.bqoIQrjGt,
+        HonDhIlVI: (p = i ?? o.HonDhIlVI) !== null && p !== void 0 ? p : "Img \u2006View",
+        Kegml6hwI: m ?? o.Kegml6hwI,
+        M0hIOs9FZ: (d = l ?? o.M0hIOs9FZ) !== null && d !== void 0 ? d : "List View",
+        variant: (c = (h = ie[o.variant]) !== null && h !== void 0 ? h : o.variant) !== null && c !== void 0 ? c : "JHgq2UTa2"
+    }
+}
+  , oe = (t,n)=>n.join("-") + t.layoutDependency
+  , me = F(function(t, n) {
+    let {activeLocale: l} = S()
+      , {style: i, className: m, layoutId: s, variant: v, Kegml6hwI: o, M0hIOs9FZ: p, bqoIQrjGt: d, HonDhIlVI: h, ...c} = le(t)
+      , {baseVariant: g, classNames: W, gestureVariant: I, setGestureState: u, setVariant: w, transition: X, variants: V} = _({
+        cycleOrder: re,
+        defaultVariant: "JHgq2UTa2",
+        transitions: te,
+        variant: v,
+        variantClassNames: ae
+    })
+      , r = oe(t, V)
+      , {activeVariantCallback: b, delay: se} = U(g)
+      , Y = b(async(...C)=>{
+        w("liiqKgpFH")
+    }
+    )
+      , D = b(async(...C)=>{
+        w("JHgq2UTa2")
+    }
+    )
+      , $ = b(async(...C)=>{
+        w("nAP0y4xuZ")
+    }
+    )
+      , ee = A();
+    return e(P, {
+        id: s ?? ee,
+        children: e(a.div, {
+            initial: v,
+            animate: V,
+            onHoverStart: ()=>u({
+                isHovered: !0
+            }),
+            onHoverEnd: ()=>u({
+                isHovered: !1
+            }),
+            onTapStart: ()=>u({
+                isPressed: !0
+            }),
+            onTap: ()=>u({
+                isPressed: !1
+            }),
+            onTapCancel: ()=>u({
+                isPressed: !1
+            }),
+            className: z("framer-zZI0h", Q, W),
+            style: {
+                display: "contents"
+            },
+            children: e(ne, {
+                value: X,
+                children: e(a.div, {
+                    ...c,
+                    className: z("framer-vmlhbg", m),
+                    "data-framer-name": "Default",
+                    layoutDependency: r,
+                    layoutId: "JHgq2UTa2",
+                    ref: n,
+                    style: {
+                        ...i
+                    },
+                    ...N({
+                        liiqKgpFH: {
+                            "data-framer-name": "Active 1"
+                        },
+                        nAP0y4xuZ: {
+                            "data-framer-name": "Active 2"
+                        }
+                    }, g, I),
+                    children: y(a.div, {
+                        className: "framer-1q5fsy8",
+                        layoutDependency: r,
+                        layoutId: "Eib57MNni",
+                        children: [e(a.div, {
+                            className: "framer-nqomnq",
+                            "data-framer-name": "Item",
+                            layoutDependency: r,
+                            layoutId: "abPCCFmJr",
+                            children: e(L, {
+                                href: o,
+                                children: y(B, {
+                                    className: "framer-13n3rzx framer-glv5l5",
+                                    "data-highlight": !0,
+                                    layoutDependency: r,
+                                    layoutId: "LqN62wxTy",
+                                    onMouseEnter: Y,
+                                    transformTemplate: R,
+                                    ...N({
+                                        liiqKgpFH: {
+                                            onMouseLeave: D
+                                        }
+                                    }, g, I),
+                                    children: [e(H, {
+                                        __fromCanvasComponent: !0,
+                                        children: e(Z, {
+                                            children: e(a.p, {
+                                                className: "framer-styles-preset-pkh94a",
+                                                "data-styles-preset": "eU7VI2S7e",
+                                                style: {
+                                                    "--framer-text-color": "var(--extracted-r6o4lv)"
+                                                },
+                                                children: "List View"
+                                            })
+                                        }),
+                                        className: "framer-qaqogw",
+                                        layoutDependency: r,
+                                        layoutId: "qGIQDTCHu",
+                                        style: {
+                                            "--extracted-r6o4lv": "var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) ",
+                                            "--framer-paragraph-spacing": "0px"
+                                        },
+                                        text: p,
+                                        variants: {
+                                            liiqKgpFH: {
+                                                "--extracted-r6o4lv": "var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0))"
+                                            }
+                                        },
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0
+                                    }), e(a.div, {
+                                        className: "framer-th8059",
+                                        layoutDependency: r,
+                                        layoutId: "wnBq1giIC",
+                                        children: e(a.div, {
+                                            className: "framer-puhmfp",
+                                            layoutDependency: r,
+                                            layoutId: "uukNAtWqG",
+                                            children: e(k, {
+                                                className: "framer-mnok8a",
+                                                "data-framer-name": "Arrow Light",
+                                                layout: "position",
+                                                layoutDependency: r,
+                                                layoutId: "fnPUUoMuH",
+                                                opacity: 1,
+                                                svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18"><path d="M 15.412 4.9 L 15.412 14.016 L 1.575 0 L 0 1.595 L 13.5 15.383 L 4.613 15.383 L 4.613 17.663 L 17.662 17.663 L 17.662 4.9 Z" fill="var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {&quot;name&quot;:&quot;Foreground&quot;} */"></path></svg>',
+                                                svgContentId: 1995230161,
+                                                withExternalLayout: !0
+                                            })
+                                        })
+                                    })]
+                                })
+                            })
+                        }), e(a.div, {
+                            className: "framer-9i4u0r",
+                            "data-framer-name": "Item",
+                            layoutDependency: r,
+                            layoutId: "cje1fYW7Z",
+                            children: e(L, {
+                                href: d,
+                                children: y(B, {
+                                    className: "framer-qi6sbl framer-glv5l5",
+                                    "data-highlight": !0,
+                                    layoutDependency: r,
+                                    layoutId: "XSTTeNG8v",
+                                    onMouseEnter: $,
+                                    transformTemplate: R,
+                                    ...N({
+                                        nAP0y4xuZ: {
+                                            onMouseLeave: D
+                                        }
+                                    }, g, I),
+                                    children: [e(H, {
+                                        __fromCanvasComponent: !0,
+                                        children: e(Z, {
+                                            children: e(a.p, {
+                                                className: "framer-styles-preset-pkh94a",
+                                                "data-styles-preset": "eU7VI2S7e",
+                                                style: {
+                                                    "--framer-text-color": "var(--extracted-r6o4lv)"
+                                                },
+                                                children: "Img \u2006View"
+                                            })
+                                        }),
+                                        className: "framer-1es1xw0",
+                                        layoutDependency: r,
+                                        layoutId: "ncS8gJhCd",
+                                        style: {
+                                            "--extracted-r6o4lv": "var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) ",
+                                            "--framer-paragraph-spacing": "0px"
+                                        },
+                                        text: h,
+                                        variants: {
+                                            liiqKgpFH: {
+                                                "--extracted-r6o4lv": "var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0))"
+                                            }
+                                        },
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0
+                                    }), e(a.div, {
+                                        className: "framer-eal9du",
+                                        layoutDependency: r,
+                                        layoutId: "PvryIvRrU",
+                                        children: e(a.div, {
+                                            className: "framer-1y8q86p",
+                                            layoutDependency: r,
+                                            layoutId: "HzSSQm13L",
+                                            children: e(k, {
+                                                className: "framer-1wwqqha",
+                                                "data-framer-name": "Arrow Light",
+                                                layout: "position",
+                                                layoutDependency: r,
+                                                layoutId: "NmEJhMqDk",
+                                                opacity: 1,
+                                                svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18"><path d="M 15.412 4.9 L 15.412 14.016 L 1.575 0 L 0 1.595 L 13.5 15.383 L 4.613 15.383 L 4.613 17.663 L 17.662 17.663 L 17.662 4.9 Z" fill="var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {&quot;name&quot;:&quot;Foreground&quot;} */"></path></svg>',
+                                                svgContentId: 1995230161,
+                                                withExternalLayout: !0
+                                            })
+                                        })
+                                    })]
+                                })
+                            })
+                        })]
+                    })
+                })
+            })
+        })
+    })
+})
+  , fe = ['.framer-zZI0h [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }', "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-zZI0h .framer-glv5l5 { display: block; }", ".framer-zZI0h .framer-vmlhbg { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 1200px; }", ".framer-zZI0h .framer-1q5fsy8 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px 0px 0px 20px; position: relative; width: 100%; }", ".framer-zZI0h .framer-nqomnq, .framer-zZI0h .framer-9i4u0r { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: min-content; }", ".framer-zZI0h .framer-13n3rzx, .framer-zZI0h .framer-qi6sbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; text-decoration: none; width: min-content; }", ".framer-zZI0h .framer-qaqogw, .framer-zZI0h .framer-1es1xw0 { flex: none; height: auto; pointer-events: none; position: relative; white-space: pre; width: auto; }", ".framer-zZI0h .framer-th8059, .framer-zZI0h .framer-eal9du { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; min-height: 19px; min-width: 19px; overflow: hidden; padding: 0px 0px 0px 0px; pointer-events: none; position: relative; width: min-content; }", ".framer-zZI0h .framer-puhmfp, .framer-zZI0h .framer-1y8q86p { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; left: -18px; overflow: visible; padding: 0px 0px 0px 0px; position: absolute; top: -18px; width: min-content; z-index: 1; }", ".framer-zZI0h .framer-mnok8a, .framer-zZI0h .framer-1wwqqha { flex: none; height: 18px; position: relative; width: 18px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-zZI0h .framer-vmlhbg, .framer-zZI0h .framer-1q5fsy8, .framer-zZI0h .framer-nqomnq, .framer-zZI0h .framer-13n3rzx, .framer-zZI0h .framer-th8059, .framer-zZI0h .framer-puhmfp, .framer-zZI0h .framer-9i4u0r, .framer-zZI0h .framer-qi6sbl, .framer-zZI0h .framer-eal9du, .framer-zZI0h .framer-1y8q86p { gap: 0px; } .framer-zZI0h .framer-vmlhbg > *, .framer-zZI0h .framer-1q5fsy8 > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-zZI0h .framer-vmlhbg > :first-child, .framer-zZI0h .framer-1q5fsy8 > :first-child { margin-top: 0px; } .framer-zZI0h .framer-vmlhbg > :last-child, .framer-zZI0h .framer-1q5fsy8 > :last-child { margin-bottom: 0px; } .framer-zZI0h .framer-nqomnq > *, .framer-zZI0h .framer-9i4u0r > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-zZI0h .framer-nqomnq > :first-child, .framer-zZI0h .framer-13n3rzx > :first-child, .framer-zZI0h .framer-th8059 > :first-child, .framer-zZI0h .framer-puhmfp > :first-child, .framer-zZI0h .framer-9i4u0r > :first-child, .framer-zZI0h .framer-qi6sbl > :first-child, .framer-zZI0h .framer-eal9du > :first-child, .framer-zZI0h .framer-1y8q86p > :first-child { margin-left: 0px; } .framer-zZI0h .framer-nqomnq > :last-child, .framer-zZI0h .framer-13n3rzx > :last-child, .framer-zZI0h .framer-th8059 > :last-child, .framer-zZI0h .framer-puhmfp > :last-child, .framer-zZI0h .framer-9i4u0r > :last-child, .framer-zZI0h .framer-qi6sbl > :last-child, .framer-zZI0h .framer-eal9du > :last-child, .framer-zZI0h .framer-1y8q86p > :last-child { margin-right: 0px; } .framer-zZI0h .framer-13n3rzx > *, .framer-zZI0h .framer-th8059 > *, .framer-zZI0h .framer-puhmfp > *, .framer-zZI0h .framer-qi6sbl > *, .framer-zZI0h .framer-eal9du > *, .framer-zZI0h .framer-1y8q86p > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } }", ".framer-zZI0h.framer-v-10ntszm .framer-puhmfp, .framer-zZI0h.framer-v-1cii71i .framer-1y8q86p { left: 0px; top: 0px; }", ...O]
+  , x = K(me, fe, "framer-zZI0h")
+  , Ie = x;
+x.displayName = "Subnav",
+x.defaultProps = {
+    height: 66,
+    width: 1200
+},
+j(x, {
+    variant: {
+        options: ["JHgq2UTa2", "liiqKgpFH", "nAP0y4xuZ"],
+        optionTitles: ["Default", "Active 1", "Active 2"],
+        title: "Variant",
+        type: f.Enum
+    },
+    Kegml6hwI: {
+        title: "Link",
+        type: f.Link
+    },
+    M0hIOs9FZ: {
+        defaultValue: "List View",
+        displayTextArea: !1,
+        title: "Label",
+        type: f.String
+    },
+    bqoIQrjGt: {
+        title: "Link 2",
+        type: f.Link
+    },
+    HonDhIlVI: {
+        defaultValue: "Img \u2006View",
+        displayTextArea: !1,
+        title: "Label 2",
+        type: f.String
+    }
+}),
+J(x, [...G]);
+export {Ie as a};
+//# sourceMappingURL=chunk-4OXT4YBR.mjs.map

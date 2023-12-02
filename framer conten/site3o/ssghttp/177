@@ -1,0 +1,2557 @@
+import { a as X } from "./chunk-4YGELINC.mjs";
+import { a as Y } from "./chunk-OHXEU5DX.mjs";
+import { a as pr } from "./chunk-MEZSA5XW.mjs";
+import { a as q } from "./chunk-P7KVXIJS.mjs";
+import { e as gr, f as xr, g as yr } from "./chunk-YIYFVZEU.mjs";
+import "./chunk-LQASWB4D.mjs";
+import { a as V } from "./chunk-S6ZWUL3A.mjs";
+import { a as p } from "./chunk-SGIMV2LV.mjs";
+import { a as C } from "./chunk-WTBM6HB3.mjs";
+import {
+  d as sr,
+  e as fr,
+  f as lr,
+  m as or,
+  n as cr,
+  o as dr,
+  p as O,
+  q as j,
+  r as z,
+  s as hr,
+} from "./chunk-AACKV3QY.mjs";
+import { a as R, b as r, c as a } from "./chunk-5SFOXFGW.mjs";
+import {
+  $ as K,
+  C as J,
+  J as $,
+  M as b,
+  V as L,
+  W as k,
+  Y as f,
+  Z as rr,
+  b as e,
+  d as H,
+  ia as er,
+  j as P,
+  ja as s,
+  k as U,
+  ka as ar,
+  la as tr,
+  m as u,
+  ma as mr,
+  oa as nr,
+  r as w,
+  s as D,
+  t as Z,
+  ua as N,
+  wa as t,
+  xa as ir,
+  ya as d,
+} from "./chunk-NVV4GD4L.mjs";
+import "./chunk-OIST4OYN.mjs";
+N.loadWebFontsFromSelectors(["CUSTOM;FF Grotesk Regular"]);
+var vr = [
+    {
+      family: "FF Grotesk Regular",
+      moduleAsset: {
+        localModuleIdentifier: "local-module:css/EmiBLxOCy:default",
+        url: "assets/Fu5bTsziyHQgZ6Pq74Babf5gc.woff2",
+      },
+      url: new URL(
+        "https://framerusercontent.com/modules/assets/Fu5bTsziyHQgZ6Pq74Babf5gc~DOGDlu6geGbeSU80sOOGd7Y8JZjvIYXbOQ4p_eN-tJw.woff2"
+      ).href,
+    },
+  ],
+  Sr = [
+    '.framer-wGfNN .framer-styles-preset-1rsxd2w:not(.rich-text-wrapper), .framer-wGfNN .framer-styles-preset-1rsxd2w.rich-text-wrapper p { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 12px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.02em; --framer-line-height: 1.25em; --framer-paragraph-spacing: 10px; --framer-text-alignment: start; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; }',
+  ],
+  ur = "framer-wGfNN";
+N.loadWebFontsFromSelectors(["CUSTOM;FF Grotesk Regular"]);
+var Kr = [
+    {
+      family: "FF Grotesk Regular",
+      moduleAsset: {
+        localModuleIdentifier: "local-module:css/QrIbNzZ_a:default",
+        url: "assets/Fu5bTsziyHQgZ6Pq74Babf5gc.woff2",
+      },
+      url: new URL(
+        "https://framerusercontent.com/modules/assets/Fu5bTsziyHQgZ6Pq74Babf5gc~DOGDlu6geGbeSU80sOOGd7Y8JZjvIYXbOQ4p_eN-tJw.woff2"
+      ).href,
+    },
+  ],
+  br = [
+    '.framer-fCccK .framer-styles-preset-udfsgc:not(.rich-text-wrapper), .framer-fCccK .framer-styles-preset-udfsgc.rich-text-wrapper h1 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 400px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 0.8em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #ffffff); --framer-text-decoration: none; --framer-text-transform: uppercase; }',
+    '@media (max-width: 1199px) and (min-width: 810px) { .framer-fCccK .framer-styles-preset-udfsgc:not(.rich-text-wrapper), .framer-fCccK .framer-styles-preset-udfsgc.rich-text-wrapper h1 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 280px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 0.8em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #ffffff); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+    '@media (max-width: 809px) and (min-width: 0px) { .framer-fCccK .framer-styles-preset-udfsgc:not(.rich-text-wrapper), .framer-fCccK .framer-styles-preset-udfsgc.rich-text-wrapper h1 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 200px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 0.8em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #ffffff); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+  ],
+  kr = "framer-fCccK";
+var Mr = d(z),
+  Qr = d(j),
+  Wr = d(O),
+  Gr = hr(w.div),
+  Nr = pr(t),
+  Hr = d(C),
+  h = k(f),
+  g = k(t),
+  Cr = k(w.div),
+  Pr = d(p),
+  Ur = d(V),
+  Dr = d(Y),
+  Zr = d(q);
+var jr = {
+    BRVqjymYB: "(max-width: 809px)",
+    koRoYRlzx: "(min-width: 1200px)",
+    TFH34v6C8: "(min-width: 810px) and (max-width: 1199px)",
+  },
+  F = () => typeof document < "u";
+var zr = {
+  BRVqjymYB: "framer-v-6qoyec",
+  koRoYRlzx: "framer-v-32rh7m",
+  TFH34v6C8: "framer-v-17p1l1l",
+};
+F() && mr("koRoYRlzx", jr, zr);
+var Jr = {
+    default: {
+      duration: 0,
+    },
+  },
+  $r = ({ children: l, blockDocumentScrolling: o }) => {
+    let [x, c] = nr({
+      blockDocumentScrolling: o,
+    });
+    return l({
+      hide: () => c(!1),
+      show: () => c(!0),
+      toggle: () => c(!x),
+      visible: x,
+    });
+  },
+  m = (l, o) => `perspective(1200px) ${o}`,
+  E = (l, o) => {
+    if (l && typeof l == "object")
+      return {
+        ...l,
+        alt: o,
+      };
+  },
+  A = X(),
+  re = {
+    Desktop: "koRoYRlzx",
+    Phone: "BRVqjymYB",
+    Tablet: "TFH34v6C8",
+  },
+  ee = ({ height: l, id: o, width: x, ...c }) => {
+    var _, y;
+    return {
+      ...c,
+      variant:
+        (y = (_ = re[c.variant]) !== null && _ !== void 0 ? _ : c.variant) !==
+          null && y !== void 0
+          ? y
+          : "koRoYRlzx",
+    };
+  },
+  ae = H(function (l, o) {
+    let { activeLocale: x } = $(),
+      { style: c, className: _, layoutId: y, variant: Fr, ...Tr } = ee(l);
+    U(() => {
+      let n = X(void 0, x);
+      if (((document.title = n.title || ""), n.viewport)) {
+        var S;
+        (S = document.querySelector('meta[name="viewport"]')) === null ||
+          S === void 0 ||
+          S.setAttribute("content", n.viewport);
+      }
+      if (n.bodyClassName)
+        return (
+          Array.from(document.body.classList)
+            .filter((B) => B.startsWith("framer-body-"))
+            .map((B) => document.body.classList.remove(B)),
+          document.body.classList.add(n.bodyClassName),
+          () => {
+            document.body.classList.remove(n.bodyClassName);
+          }
+        );
+    }, [void 0, x]);
+    let [i, me] = tr(Fr, jr, !1);
+    Jr.default;
+    let { activeVariantCallback: I, delay: ne } = ar(void 0),
+      Br = (n) =>
+        I(async (...S) => {
+          n.toggle();
+        }),
+      Lr = (n) =>
+        I(async (...S) => {
+          n.hide();
+        }),
+      Rr = u(null),
+      M = () => i === "BRVqjymYB" || !F(),
+      Q = u(null),
+      qr = b("JxQKonVuj"),
+      Or = b("n7prDYwBK"),
+      W = u(null),
+      v = () => !["TFH34v6C8", "BRVqjymYB"].includes(i) || !F(),
+      G = u(null),
+      Yr = b("QyQRZJIvC"),
+      Vr = P(),
+      Xr = [yr, dr, ur, lr, kr];
+    return r(rr.Provider, {
+      value: {
+        primaryVariantId: "koRoYRlzx",
+        variantClassNames: zr,
+      },
+      children: r(Z, {
+        id: y ?? Vr,
+        children: a(w.div, {
+          className: L("framer-KerES", ...Xr),
+          style: {
+            display: "contents",
+          },
+          children: [
+            a(w.div, {
+              ...Tr,
+              className: L("framer-32rh7m", _),
+              ref: o ?? Rr,
+              style: {
+                ...c,
+              },
+              children: [
+                r("div", {
+                  className: "framer-mlo8th",
+                  "data-framer-name": "Grid Wrapper",
+                  name: "Grid Wrapper",
+                  children: r(f, {
+                    className: "framer-5ivwag-container",
+                    children: r(s, {
+                      breakpoint: i,
+                      overrides: {
+                        BRVqjymYB: {
+                          opacity: 0.1,
+                        },
+                      },
+                      children: r(z, {
+                        background:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        columns: 4,
+                        height: "100%",
+                        id: "y36dm8buw",
+                        layoutId: "y36dm8buw",
+                        opacity: 0.15,
+                        style: {
+                          height: "100%",
+                          width: "100%",
+                        },
+                        width: "100%",
+                      }),
+                    }),
+                  }),
+                }),
+                r("div", {
+                  className: "framer-17ovtnn",
+                  "data-framer-name": "Blend Header",
+                  name: "Blend Header",
+                  children: r($r, {
+                    children: (n) =>
+                      r(R, {
+                        children: a(f, {
+                          className: "framer-1jzvjb-container",
+                          children: [
+                            r(s, {
+                              breakpoint: i,
+                              overrides: {
+                                BRVqjymYB: {
+                                  nav: "sLw35ONWj",
+                                },
+                              },
+                              children: r(j, {
+                                height: "100%",
+                                id: "uWHKw8B4I",
+                                layoutId: "uWHKw8B4I",
+                                nav: "cuxVLrlfN",
+                                style: {
+                                  width: "100%",
+                                },
+                                tap: Br(n),
+                                width: "100%",
+                              }),
+                            }),
+                            M() &&
+                              r(D, {
+                                children:
+                                  n.visible &&
+                                  r(R, {
+                                    children: J(
+                                      a(e, {
+                                        children: [
+                                          r(
+                                            w.div,
+                                            {
+                                              animate: {
+                                                opacity: 1,
+                                                transition: {
+                                                  delay: 0,
+                                                  duration: 0,
+                                                  ease: [0.5, 0, 0.88, 0.77],
+                                                  type: "tween",
+                                                },
+                                              },
+                                              className:
+                                                "framer-hxphpd hidden-32rh7m hidden-17p1l1l",
+                                              exit: {
+                                                opacity: 0,
+                                                transition: {
+                                                  delay: 0,
+                                                  duration: 0,
+                                                  ease: [0.12, 0.23, 0.5, 1],
+                                                  type: "tween",
+                                                },
+                                              },
+                                              initial: {
+                                                opacity: 0,
+                                              },
+                                              onTap: () => n.hide(),
+                                            },
+                                            "XUvhwSg1x"
+                                          ),
+                                          r(f, {
+                                            className:
+                                              "framer-ls50ie-container",
+                                            children: r(O, {
+                                              height: "100%",
+                                              id: "eXoIrt94e",
+                                              layoutId: "eXoIrt94e",
+                                              style: {
+                                                height: "100%",
+                                                width: "100%",
+                                              },
+                                              width: "100%",
+                                            }),
+                                          }),
+                                          r(f, {
+                                            className:
+                                              "framer-aphebl-container",
+                                            children: r(j, {
+                                              height: "100%",
+                                              id: "OvxOrm99X",
+                                              layoutId: "OvxOrm99X",
+                                              nav: "cz0I8PyZA",
+                                              style: {
+                                                width: "100%",
+                                              },
+                                              tap: Lr(n),
+                                              width: "100%",
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                      document.querySelector("#overlay")
+                                    ),
+                                  }),
+                              }),
+                          ],
+                        }),
+                      }),
+                  }),
+                }),
+                r(Gr, {
+                  className: "framer-19mjyuk",
+                  "data-framer-name": "Cursor",
+                  name: "Cursor",
+                }),
+                a("main", {
+                  className: "framer-ff07s6",
+                  "data-framer-name": "Main",
+                  name: "Main",
+                  children: [
+                    (i !== "BRVqjymYB" || !F()) &&
+                      a("section", {
+                        className: "framer-sxnkka hidden-6qoyec",
+                        "data-framer-name": "Section",
+                        name: "Section",
+                        children: [
+                          r("div", {
+                            className: "framer-1vs9j2n",
+                            "data-framer-name": "Sticky",
+                            name: "Sticky",
+                            children: r("div", {
+                              className: "framer-fbeloj",
+                              children: r(Nr, {
+                                __fromCanvasComponent: !0,
+                                children: r(e, {
+                                  children: r("h1", {
+                                    className: "framer-styles-preset-1yh2sbr",
+                                    "data-styles-preset": "xF1aPLl_c",
+                                    style: {
+                                      "--framer-text-alignment": "center",
+                                    },
+                                    children: "Studio",
+                                  }),
+                                }),
+                                className: "framer-a5qqq5",
+                                verticalAlignment: "top",
+                                withExternalLayout: !0,
+                              }),
+                            }),
+                          }),
+                          r("div", {
+                            className: "framer-n6ojdh",
+                            children: r(h, {
+                              __framer__spring: {
+                                damping: 60,
+                                delay: 0,
+                                duration: 0.3,
+                                ease: [0.44, 0, 0.56, 1],
+                                mass: 1,
+                                stiffness: 500,
+                                type: "spring",
+                              },
+                              __framer__styleTransformEffectEnabled: !0,
+                              __framer__transformTargets: [
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 0.6,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                                {
+                                  ref: Q,
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                              ],
+                              __framer__transformTrigger: "onScrollTarget",
+                              __framer__transformViewportThreshold: 1,
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: "framer-905i20-container",
+                              transformTemplate: m,
+                              children: r(C, {
+                                backgroundColor: "rgba(0, 0, 0, 0)",
+                                borderRadius: 0,
+                                bottomLeftRadius: 0,
+                                bottomRightRadius: 0,
+                                controls: !1,
+                                height: "100%",
+                                id: "EeDpFzm_R",
+                                isMixedBorderRadius: !1,
+                                layoutId: "EeDpFzm_R",
+                                loop: !0,
+                                muted: !0,
+                                objectFit: "cover",
+                                playing: !0,
+                                poster:
+                                  "https://framerusercontent.com/images/TF1CkElRwYY0WdzXyTrR4HWp9w.jpg",
+                                posterEnabled: !0,
+                                srcFile:
+                                  "https://framerusercontent.com/assets/BzXBLqK33xeFsrNj0WKyZbRZE.mp4",
+                                srcType: "Upload",
+                                srcUrl:
+                                  "https://assets.mixkit.co/videos/preview/mixkit-ice-cream-glass-of-red-soda-5094-small.mp4",
+                                startTime: 0,
+                                style: {
+                                  height: "100%",
+                                  width: "100%",
+                                },
+                                topLeftRadius: 0,
+                                topRightRadius: 0,
+                                volume: 25,
+                                width: "100%",
+                              }),
+                            }),
+                          }),
+                          r("div", {
+                            className: "framer-hly2nv",
+                            "data-framer-name": "Scroll Trigger",
+                            id: qr,
+                            name: "Scroll Trigger",
+                            ref: Q,
+                          }),
+                        ],
+                      }),
+                    r("section", {
+                      className: "framer-ort62j",
+                      "data-framer-name": "Section",
+                      id: Or,
+                      name: "Section",
+                      ref: W,
+                      children: r("div", {
+                        className: "framer-1qzx9a3",
+                        children: r(g, {
+                          __framer__spring: {
+                            damping: 60,
+                            delay: 0,
+                            duration: 0.3,
+                            ease: [0.44, 0, 0.56, 1],
+                            mass: 1,
+                            stiffness: 500,
+                            type: "spring",
+                          },
+                          __framer__styleTransformEffectEnabled: !0,
+                          __framer__transformTargets: [
+                            {
+                              target: {
+                                opacity: 0,
+                                rotate: 0,
+                                rotateX: 0,
+                                rotateY: 0,
+                                scale: 1,
+                                x: 0,
+                                y: 0,
+                              },
+                            },
+                            {
+                              ref: W,
+                              target: {
+                                opacity: 1,
+                                rotate: 0,
+                                rotateX: 0,
+                                rotateY: 0,
+                                scale: 1,
+                                x: 0,
+                                y: 0,
+                              },
+                            },
+                          ],
+                          __framer__transformTrigger: "onScrollTarget",
+                          __framer__transformViewportThreshold: 1,
+                          __fromCanvasComponent: !0,
+                          __perspectiveFX: !1,
+                          __targetOpacity: 1,
+                          children: r(e, {
+                            children: r("p", {
+                              className: "framer-styles-preset-pkh94a",
+                              "data-styles-preset": "eU7VI2S7e",
+                              style: {
+                                "--framer-text-alignment": "center",
+                              },
+                              children:
+                                "Based in the vibrant city of Melbourne, Form Studio is your destination for brand transformation, creative brilliance, and idea celebration. We\u2019re the fearless studio that dares to blur boundaries while embracing the elegance of simplicity. Renowned brands choose us for our artful mastery in crafting concepts that captivate effortlessly.",
+                            }),
+                          }),
+                          className: "framer-181jt2g",
+                          transformTemplate: m,
+                          verticalAlignment: "top",
+                          withExternalLayout: !0,
+                        }),
+                      }),
+                    }),
+                    r("section", {
+                      className: "framer-1656lin",
+                      "data-framer-name": "Section",
+                      name: "Section",
+                      children: a("div", {
+                        className: "framer-1lfhxa",
+                        children: [
+                          a("div", {
+                            className: "framer-85amrc",
+                            children: [
+                              r(s, {
+                                breakpoint: i,
+                                overrides: {
+                                  BRVqjymYB: {
+                                    __framer__spring: {
+                                      damping: 60,
+                                      delay: 0,
+                                      duration: 0.3,
+                                      ease: [0.44, 0, 0.56, 1],
+                                      mass: 1,
+                                      stiffness: 200,
+                                      type: "spring",
+                                    },
+                                    __framer__styleTransformEffectEnabled: !0,
+                                    __framer__transformTargets: [
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 200,
+                                        },
+                                      },
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 0,
+                                        },
+                                      },
+                                    ],
+                                    __framer__transformTrigger: "onInView",
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: r(e, {
+                                      children: r("h3", {
+                                        className:
+                                          "framer-styles-preset-pkh94a",
+                                        "data-styles-preset": "eU7VI2S7e",
+                                        style: {
+                                          "--framer-text-alignment": "left",
+                                        },
+                                        children: "Services",
+                                      }),
+                                    }),
+                                    transformTemplate: m,
+                                  },
+                                },
+                                children: r(g, {
+                                  __fromCanvasComponent: !0,
+                                  children: r(e, {
+                                    children: r("h3", {
+                                      className: "framer-styles-preset-pkh94a",
+                                      "data-styles-preset": "eU7VI2S7e",
+                                      style: {
+                                        "--framer-text-alignment": "center",
+                                      },
+                                      children: "Services",
+                                    }),
+                                  }),
+                                  className: "framer-u028x7",
+                                  verticalAlignment: "top",
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              r(s, {
+                                breakpoint: i,
+                                overrides: {
+                                  BRVqjymYB: {
+                                    children: r(e, {
+                                      children: a("p", {
+                                        className:
+                                          "framer-styles-preset-1rsxd2w",
+                                        "data-styles-preset": "EmiBLxOCy",
+                                        style: {
+                                          "--framer-text-alignment": "left",
+                                        },
+                                        children: [
+                                          "Animation",
+                                          r("br", {}),
+                                          "Brand Building",
+                                          r("br", {}),
+                                          "Brand Concepts",
+                                          r("br", {}),
+                                          "Campaigns",
+                                          r("br", {}),
+                                          "Social Media",
+                                          r("br", {}),
+                                          "Naming & Logos",
+                                          r("br", {}),
+                                          "Type Design",
+                                          r("br", {}),
+                                          "Packaging",
+                                          r("br", {}),
+                                          "Creative Direction",
+                                          r("br", {}),
+                                          "Art Direction",
+                                          r("br", {}),
+                                          "Website Design",
+                                          r("br", {}),
+                                          "Photography",
+                                        ],
+                                      }),
+                                    }),
+                                  },
+                                },
+                                children: r(g, {
+                                  __framer__spring: {
+                                    damping: 60,
+                                    delay: 0,
+                                    duration: 0.3,
+                                    ease: [0.44, 0, 0.56, 1],
+                                    mass: 1,
+                                    stiffness: 200,
+                                    type: "spring",
+                                  },
+                                  __framer__styleTransformEffectEnabled: !0,
+                                  __framer__transformTargets: [
+                                    {
+                                      target: {
+                                        opacity: 1,
+                                        rotate: 0,
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        scale: 1,
+                                        x: 0,
+                                        y: 200,
+                                      },
+                                    },
+                                    {
+                                      target: {
+                                        opacity: 1,
+                                        rotate: 0,
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        scale: 1,
+                                        x: 0,
+                                        y: 0,
+                                      },
+                                    },
+                                  ],
+                                  __framer__transformTrigger: "onInView",
+                                  __fromCanvasComponent: !0,
+                                  __perspectiveFX: !1,
+                                  __targetOpacity: 1,
+                                  children: r(e, {
+                                    children: a("p", {
+                                      className: "framer-styles-preset-1rsxd2w",
+                                      "data-styles-preset": "EmiBLxOCy",
+                                      children: [
+                                        "Animation",
+                                        r("br", {}),
+                                        "Brand Building",
+                                        r("br", {}),
+                                        "Brand Concepts",
+                                        r("br", {}),
+                                        "Campaigns",
+                                        r("br", {}),
+                                        "Social Media",
+                                        r("br", {}),
+                                        "Naming & Logos",
+                                        r("br", {}),
+                                        "Type Design",
+                                        r("br", {}),
+                                        "Packaging",
+                                        r("br", {}),
+                                        "Creative Direction",
+                                        r("br", {}),
+                                        "Art Direction",
+                                        r("br", {}),
+                                        "Website Design",
+                                        r("br", {}),
+                                        "Photography",
+                                      ],
+                                    }),
+                                  }),
+                                  className: "framer-1x1knlo",
+                                  transformTemplate: m,
+                                  verticalAlignment: "top",
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                            ],
+                          }),
+                          a("div", {
+                            className: "framer-12av4ny",
+                            children: [
+                              r(s, {
+                                breakpoint: i,
+                                overrides: {
+                                  BRVqjymYB: {
+                                    __framer__spring: {
+                                      damping: 60,
+                                      delay: 0,
+                                      duration: 0.3,
+                                      ease: [0.44, 0, 0.56, 1],
+                                      mass: 1,
+                                      stiffness: 200,
+                                      type: "spring",
+                                    },
+                                    __framer__styleTransformEffectEnabled: !0,
+                                    __framer__transformTargets: [
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 200,
+                                        },
+                                      },
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 0,
+                                        },
+                                      },
+                                    ],
+                                    __framer__transformTrigger: "onInView",
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: r(e, {
+                                      children: r("h3", {
+                                        className:
+                                          "framer-styles-preset-pkh94a",
+                                        "data-styles-preset": "eU7VI2S7e",
+                                        style: {
+                                          "--framer-text-alignment": "left",
+                                        },
+                                        children: "Brands",
+                                      }),
+                                    }),
+                                    transformTemplate: m,
+                                  },
+                                },
+                                children: r(g, {
+                                  __fromCanvasComponent: !0,
+                                  children: r(e, {
+                                    children: r("h3", {
+                                      className: "framer-styles-preset-pkh94a",
+                                      "data-styles-preset": "eU7VI2S7e",
+                                      style: {
+                                        "--framer-text-alignment": "center",
+                                      },
+                                      children: "Brands",
+                                    }),
+                                  }),
+                                  className: "framer-1oj7knz",
+                                  verticalAlignment: "top",
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              r(g, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __fromCanvasComponent: !0,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                children: r(e, {
+                                  children: a("p", {
+                                    className: "framer-styles-preset-1rsxd2w",
+                                    "data-styles-preset": "EmiBLxOCy",
+                                    children: [
+                                      "Aesop",
+                                      r("br", {}),
+                                      "Apple inc",
+                                      r("br", {}),
+                                      "Bang & Olufsen",
+                                      r("br", {}),
+                                      "Beats by Dre",
+                                      r("br", {}),
+                                      "Framer",
+                                      r("br", {}),
+                                      "Lululemon",
+                                      r("br", {}),
+                                      "Mercedes",
+                                      r("br", {}),
+                                      "Netflix",
+                                      r("br", {}),
+                                      "Nike inc",
+                                      r("br", {}),
+                                      "Patek Philippe",
+                                      r("br", {}),
+                                      "Porsche",
+                                      r("br", {}),
+                                      "Spotify",
+                                    ],
+                                  }),
+                                }),
+                                className: "framer-1txksbf",
+                                transformTemplate: m,
+                                verticalAlignment: "top",
+                                withExternalLayout: !0,
+                              }),
+                            ],
+                          }),
+                          a("div", {
+                            className: "framer-1r0luc8",
+                            children: [
+                              r(s, {
+                                breakpoint: i,
+                                overrides: {
+                                  BRVqjymYB: {
+                                    __framer__spring: {
+                                      damping: 60,
+                                      delay: 0,
+                                      duration: 0.3,
+                                      ease: [0.44, 0, 0.56, 1],
+                                      mass: 1,
+                                      stiffness: 200,
+                                      type: "spring",
+                                    },
+                                    __framer__styleTransformEffectEnabled: !0,
+                                    __framer__transformTargets: [
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 200,
+                                        },
+                                      },
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 0,
+                                        },
+                                      },
+                                    ],
+                                    __framer__transformTrigger: "onInView",
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: r(e, {
+                                      children: r("h3", {
+                                        className:
+                                          "framer-styles-preset-pkh94a",
+                                        "data-styles-preset": "eU7VI2S7e",
+                                        style: {
+                                          "--framer-text-alignment": "left",
+                                        },
+                                        children: "Awards",
+                                      }),
+                                    }),
+                                    transformTemplate: m,
+                                  },
+                                },
+                                children: r(g, {
+                                  __fromCanvasComponent: !0,
+                                  children: r(e, {
+                                    children: r("h3", {
+                                      className: "framer-styles-preset-pkh94a",
+                                      "data-styles-preset": "eU7VI2S7e",
+                                      style: {
+                                        "--framer-text-alignment": "center",
+                                      },
+                                      children: "Awards",
+                                    }),
+                                  }),
+                                  className: "framer-1x9kz0n",
+                                  verticalAlignment: "top",
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              a(Cr, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: "framer-fggjjk",
+                                transformTemplate: m,
+                                children: [
+                                  a("div", {
+                                    className: "framer-1mz8pib",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "2",
+                                          }),
+                                        }),
+                                        className: "framer-y5vz91",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Emmys",
+                                          }),
+                                        }),
+                                        className: "framer-vhnnxw",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-p1t1gl",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "12",
+                                          }),
+                                        }),
+                                        className: "framer-1fsezjb",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "One Show",
+                                          }),
+                                        }),
+                                        className: "framer-15jntf6",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-guc9y3",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "2",
+                                          }),
+                                        }),
+                                        className: "framer-1sfk1qj",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Awwwards",
+                                          }),
+                                        }),
+                                        className: "framer-1y2eyza",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1lhatsr",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "7",
+                                          }),
+                                        }),
+                                        className: "framer-14w9lgi",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Webbys",
+                                          }),
+                                        }),
+                                        className: "framer-18hwr04",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1fczru5",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "12",
+                                          }),
+                                        }),
+                                        className: "framer-iogstm",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Behance",
+                                          }),
+                                        }),
+                                        className: "framer-12ts27s",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-11k506b",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "18",
+                                          }),
+                                        }),
+                                        className: "framer-1viylp1",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "London Awards",
+                                          }),
+                                        }),
+                                        className: "framer-6ckd12",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-olgki",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "6",
+                                          }),
+                                        }),
+                                        className: "framer-gpo3mp",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Clio Awards",
+                                          }),
+                                        }),
+                                        className: "framer-1nlck6u",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1ekrdpe",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "15",
+                                          }),
+                                        }),
+                                        className: "framer-kk3jys",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Commarts",
+                                          }),
+                                        }),
+                                        className: "framer-4dht55",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-6h4jtx",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "5",
+                                          }),
+                                        }),
+                                        className: "framer-vzr19p",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Cannes Lions",
+                                          }),
+                                        }),
+                                        className: "framer-vkq4s5",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1n9lnz6",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "3",
+                                          }),
+                                        }),
+                                        className: "framer-17zj9z0",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "AdWeek Arc",
+                                          }),
+                                        }),
+                                        className: "framer-574tvy",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1idvkim",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "3",
+                                          }),
+                                        }),
+                                        className: "framer-180ogp8",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Graphis (Gold)",
+                                          }),
+                                        }),
+                                        className: "framer-1uq2z7o",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1vhsifx",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "3",
+                                          }),
+                                        }),
+                                        className: "framer-9vzl2g",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Young Gun Award",
+                                          }),
+                                        }),
+                                        className: "framer-1fkr70d",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                          a("div", {
+                            className: "framer-1v6vg5y",
+                            children: [
+                              r(s, {
+                                breakpoint: i,
+                                overrides: {
+                                  BRVqjymYB: {
+                                    __framer__spring: {
+                                      damping: 60,
+                                      delay: 0,
+                                      duration: 0.3,
+                                      ease: [0.44, 0, 0.56, 1],
+                                      mass: 1,
+                                      stiffness: 200,
+                                      type: "spring",
+                                    },
+                                    __framer__styleTransformEffectEnabled: !0,
+                                    __framer__transformTargets: [
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 200,
+                                        },
+                                      },
+                                      {
+                                        target: {
+                                          opacity: 1,
+                                          rotate: 0,
+                                          rotateX: 0,
+                                          rotateY: 0,
+                                          scale: 1,
+                                          x: 0,
+                                          y: 0,
+                                        },
+                                      },
+                                    ],
+                                    __framer__transformTrigger: "onInView",
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: r(e, {
+                                      children: r("h3", {
+                                        className:
+                                          "framer-styles-preset-pkh94a",
+                                        "data-styles-preset": "eU7VI2S7e",
+                                        style: {
+                                          "--framer-text-alignment": "left",
+                                        },
+                                        children: "Credits",
+                                      }),
+                                    }),
+                                    transformTemplate: m,
+                                  },
+                                },
+                                children: r(g, {
+                                  __fromCanvasComponent: !0,
+                                  children: r(e, {
+                                    children: r("h3", {
+                                      className: "framer-styles-preset-pkh94a",
+                                      "data-styles-preset": "eU7VI2S7e",
+                                      style: {
+                                        "--framer-text-alignment": "center",
+                                      },
+                                      children: "Credits",
+                                    }),
+                                  }),
+                                  className: "framer-iviaiw",
+                                  verticalAlignment: "top",
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              a(Cr, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: "framer-s7l7ze",
+                                transformTemplate: m,
+                                children: [
+                                  a("div", {
+                                    className: "framer-oxifc0",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Framer Template by:",
+                                          }),
+                                        }),
+                                        className: "framer-1gz2us",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: r(K, {
+                                              href: "https://www.favoritframe.com/",
+                                              openInNewTab: !0,
+                                              smoothScroll: !1,
+                                              children: r("a", {
+                                                className:
+                                                  "framer-styles-preset-pdbkry",
+                                                "data-styles-preset":
+                                                  "S10cASEsh",
+                                                children: "Favorit x Frame",
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: "framer-1k90th8",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-x5hf1b",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Exclusive for:",
+                                          }),
+                                        }),
+                                        className: "framer-14ontzk",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: r(K, {
+                                              href: "https://the-brandidentity.com/",
+                                              openInNewTab: !0,
+                                              smoothScroll: !1,
+                                              children: r("a", {
+                                                className:
+                                                  "framer-styles-preset-pdbkry",
+                                                "data-styles-preset":
+                                                  "S10cASEsh",
+                                                children: "The Brand Identity",
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: "framer-20635v",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-1k3ykut",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: a("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: [
+                                              "Design & ",
+                                              r("br", {}),
+                                              "Development:",
+                                            ],
+                                          }),
+                                        }),
+                                        className: "framer-1t28nju",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: r(K, {
+                                              href: "https://favorit.studio/",
+                                              openInNewTab: !0,
+                                              smoothScroll: !1,
+                                              children: r("a", {
+                                                className:
+                                                  "framer-styles-preset-pdbkry",
+                                                "data-styles-preset":
+                                                  "S10cASEsh",
+                                                children: "Favorit Studio",
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: "framer-1ytwl7i",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: r(K, {
+                                              href: "https://www.frameone.ch/",
+                                              openInNewTab: !0,
+                                              smoothScroll: !1,
+                                              children: r("a", {
+                                                className:
+                                                  "framer-styles-preset-pdbkry",
+                                                "data-styles-preset":
+                                                  "S10cASEsh",
+                                                children: "Frame One",
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: "framer-56jygp",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                  a("div", {
+                                    className: "framer-jtfr6u",
+                                    children: [
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Typeface:",
+                                          }),
+                                        }),
+                                        className: "framer-1d3eim9",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                      r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("p", {
+                                            className:
+                                              "framer-styles-preset-1rsxd2w",
+                                            "data-styles-preset": "EmiBLxOCy",
+                                            children: "Favorit Grotesk",
+                                          }),
+                                        }),
+                                        className: "framer-jby6qb",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                    r("section", {
+                      className: "framer-ydm3g3",
+                      "data-framer-name": "Section",
+                      name: "Section",
+                      children: r("div", {
+                        className: "framer-xlhhls",
+                        children: a("div", {
+                          className: "framer-1gygf9h",
+                          children: [
+                            r(h, {
+                              __framer__spring: {
+                                damping: 60,
+                                delay: 0,
+                                duration: 0.3,
+                                ease: [0.44, 0, 0.56, 1],
+                                mass: 1,
+                                stiffness: 200,
+                                type: "spring",
+                              },
+                              __framer__styleTransformEffectEnabled: !0,
+                              __framer__transformTargets: [
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 200,
+                                  },
+                                },
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                              ],
+                              __framer__transformTrigger: "onInView",
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: "framer-9u5rmu-container",
+                              transformTemplate: m,
+                              children: r(p, {
+                                ddQMkdkdo: E(
+                                  {
+                                    src: "https://framerusercontent.com/images/uM9PbPh7B3XQurWyKOXQJ6Myhuo.jpg",
+                                    srcSet:
+                                      "https://framerusercontent.com/images/uM9PbPh7B3XQurWyKOXQJ6Myhuo.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/uM9PbPh7B3XQurWyKOXQJ6Myhuo.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/uM9PbPh7B3XQurWyKOXQJ6Myhuo.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/uM9PbPh7B3XQurWyKOXQJ6Myhuo.jpg 2500w",
+                                  },
+                                  ""
+                                ),
+                                G5KBM_7bd: !1,
+                                G6300ScRf: "mailto:name@framer.com",
+                                H2POhTSwb: !1,
+                                height: "100%",
+                                id: "TDSEwa9bA",
+                                layoutId: "TDSEwa9bA",
+                                oEYvl36ZQ: "CEO & Founder",
+                                pedAo6Ikh: "Tony Gazosa",
+                                qd10VzCH_: !1,
+                                style: {
+                                  width: "100%",
+                                },
+                                TEW6XRezz: "Contact",
+                                width: "100%",
+                              }),
+                            }),
+                            v() &&
+                              r("div", {
+                                className:
+                                  "framer-1b1qtgs hidden-17p1l1l hidden-6qoyec",
+                                "data-framer-name": "Spacer",
+                                name: "Spacer",
+                              }),
+                            r("div", {
+                              className: "framer-5xawws",
+                              children: r(h, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: "framer-10npegv-container",
+                                transformTemplate: m,
+                                children: r(p, {
+                                  ddQMkdkdo: E(
+                                    {
+                                      src: "https://framerusercontent.com/images/tbww3BRUdqhJSbFkR6eNf4UMECg.jpg",
+                                      srcSet:
+                                        "https://framerusercontent.com/images/tbww3BRUdqhJSbFkR6eNf4UMECg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/tbww3BRUdqhJSbFkR6eNf4UMECg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/tbww3BRUdqhJSbFkR6eNf4UMECg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/tbww3BRUdqhJSbFkR6eNf4UMECg.jpg 2500w",
+                                    },
+                                    ""
+                                  ),
+                                  G5KBM_7bd: !1,
+                                  G6300ScRf: "mailto:name@framer.com",
+                                  H2POhTSwb: !1,
+                                  height: "100%",
+                                  id: "MeMB7IWxO",
+                                  layoutId: "MeMB7IWxO",
+                                  oEYvl36ZQ: "Creative Director",
+                                  pedAo6Ikh: "Jamar Foster",
+                                  qd10VzCH_: !1,
+                                  style: {
+                                    width: "100%",
+                                  },
+                                  TEW6XRezz: "Contact",
+                                  width: "100%",
+                                }),
+                              }),
+                            }),
+                            v() &&
+                              r("div", {
+                                className:
+                                  "framer-wpmb9g hidden-17p1l1l hidden-6qoyec",
+                                "data-framer-name": "Spacer",
+                                name: "Spacer",
+                              }),
+                            r(h, {
+                              __framer__spring: {
+                                damping: 60,
+                                delay: 0,
+                                duration: 0.3,
+                                ease: [0.44, 0, 0.56, 1],
+                                mass: 1,
+                                stiffness: 200,
+                                type: "spring",
+                              },
+                              __framer__styleTransformEffectEnabled: !0,
+                              __framer__transformTargets: [
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 200,
+                                  },
+                                },
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                              ],
+                              __framer__transformTrigger: "onInView",
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: "framer-1ahphst-container",
+                              transformTemplate: m,
+                              children: r(p, {
+                                ddQMkdkdo: E(
+                                  {
+                                    src: "https://framerusercontent.com/images/KWic1xdTh2BPvZtRNLf470Kq0I.jpg",
+                                    srcSet:
+                                      "https://framerusercontent.com/images/KWic1xdTh2BPvZtRNLf470Kq0I.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/KWic1xdTh2BPvZtRNLf470Kq0I.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/KWic1xdTh2BPvZtRNLf470Kq0I.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/KWic1xdTh2BPvZtRNLf470Kq0I.jpg 2500w",
+                                  },
+                                  ""
+                                ),
+                                G5KBM_7bd: !1,
+                                G6300ScRf: "mailto:name@framer.com",
+                                H2POhTSwb: !1,
+                                height: "100%",
+                                id: "sOW5aMfVx",
+                                layoutId: "sOW5aMfVx",
+                                oEYvl36ZQ: "Head of Development",
+                                pedAo6Ikh: "Leena Gupta",
+                                qd10VzCH_: !0,
+                                style: {
+                                  width: "100%",
+                                },
+                                TEW6XRezz: "Contact",
+                                width: "100%",
+                              }),
+                            }),
+                            v() &&
+                              r("div", {
+                                className:
+                                  "framer-18ojbdb hidden-17p1l1l hidden-6qoyec",
+                                "data-framer-name": "Spacer",
+                                name: "Spacer",
+                              }),
+                            r("div", {
+                              className: "framer-16zzayc",
+                              children: r(h, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: "framer-1jnou9i-container",
+                                transformTemplate: m,
+                                children: r(p, {
+                                  ddQMkdkdo: E(
+                                    {
+                                      src: "https://framerusercontent.com/images/jOYCMVjZN4TgcX6GAvLv2XlYrY.jpg",
+                                      srcSet:
+                                        "https://framerusercontent.com/images/jOYCMVjZN4TgcX6GAvLv2XlYrY.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/jOYCMVjZN4TgcX6GAvLv2XlYrY.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/jOYCMVjZN4TgcX6GAvLv2XlYrY.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/jOYCMVjZN4TgcX6GAvLv2XlYrY.jpg 2500w",
+                                    },
+                                    ""
+                                  ),
+                                  G5KBM_7bd: !1,
+                                  G6300ScRf: "mailto:name@framer.com",
+                                  H2POhTSwb: !1,
+                                  height: "100%",
+                                  id: "f55prqCO7",
+                                  layoutId: "f55prqCO7",
+                                  oEYvl36ZQ: "Photography Director",
+                                  pedAo6Ikh: "Nico Jagger",
+                                  qd10VzCH_: !0,
+                                  style: {
+                                    width: "100%",
+                                  },
+                                  TEW6XRezz: "Contact",
+                                  width: "100%",
+                                }),
+                              }),
+                            }),
+                            v() &&
+                              r("div", {
+                                className:
+                                  "framer-1r722f0 hidden-17p1l1l hidden-6qoyec",
+                                "data-framer-name": "Spacer",
+                                name: "Spacer",
+                              }),
+                            r("div", {
+                              className: "framer-1yw4mki",
+                              children: r(h, {
+                                __framer__spring: {
+                                  damping: 60,
+                                  delay: 0,
+                                  duration: 0.3,
+                                  ease: [0.44, 0, 0.56, 1],
+                                  mass: 1,
+                                  stiffness: 200,
+                                  type: "spring",
+                                },
+                                __framer__styleTransformEffectEnabled: !0,
+                                __framer__transformTargets: [
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 200,
+                                    },
+                                  },
+                                  {
+                                    target: {
+                                      opacity: 1,
+                                      rotate: 0,
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      scale: 1,
+                                      x: 0,
+                                      y: 0,
+                                    },
+                                  },
+                                ],
+                                __framer__transformTrigger: "onInView",
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: "framer-4fy9py-container",
+                                transformTemplate: m,
+                                children: r(p, {
+                                  ddQMkdkdo: E(
+                                    {
+                                      src: "https://framerusercontent.com/images/rHVe4HRQqir6fxn7TDVzKh8vQ.jpg",
+                                      srcSet:
+                                        "https://framerusercontent.com/images/rHVe4HRQqir6fxn7TDVzKh8vQ.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/rHVe4HRQqir6fxn7TDVzKh8vQ.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/rHVe4HRQqir6fxn7TDVzKh8vQ.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/rHVe4HRQqir6fxn7TDVzKh8vQ.jpg 2500w",
+                                    },
+                                    ""
+                                  ),
+                                  G5KBM_7bd: !1,
+                                  G6300ScRf: "mailto:name@framer.com",
+                                  H2POhTSwb: !1,
+                                  height: "100%",
+                                  id: "zjfix5edw",
+                                  layoutId: "zjfix5edw",
+                                  oEYvl36ZQ: "Strategy Director",
+                                  pedAo6Ikh: "Helen Brooks",
+                                  qd10VzCH_: !0,
+                                  style: {
+                                    width: "100%",
+                                  },
+                                  TEW6XRezz: "Contact",
+                                  width: "100%",
+                                }),
+                              }),
+                            }),
+                            v() &&
+                              r("div", {
+                                className:
+                                  "framer-gk75g hidden-17p1l1l hidden-6qoyec",
+                                "data-framer-name": "Spacer",
+                                name: "Spacer",
+                              }),
+                            r(h, {
+                              __framer__spring: {
+                                damping: 60,
+                                delay: 0,
+                                duration: 0.3,
+                                ease: [0.44, 0, 0.56, 1],
+                                mass: 1,
+                                stiffness: 200,
+                                type: "spring",
+                              },
+                              __framer__styleTransformEffectEnabled: !0,
+                              __framer__transformTargets: [
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 200,
+                                  },
+                                },
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                              ],
+                              __framer__transformTrigger: "onInView",
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: "framer-1195h3c-container",
+                              transformTemplate: m,
+                              children: r(p, {
+                                ddQMkdkdo: E(
+                                  {
+                                    src: "https://framerusercontent.com/images/1tNBrQxkYExgvcUOQSd72rk8Wg.jpg",
+                                    srcSet:
+                                      "https://framerusercontent.com/images/1tNBrQxkYExgvcUOQSd72rk8Wg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/1tNBrQxkYExgvcUOQSd72rk8Wg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/1tNBrQxkYExgvcUOQSd72rk8Wg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/1tNBrQxkYExgvcUOQSd72rk8Wg.jpg 2500w",
+                                  },
+                                  ""
+                                ),
+                                G5KBM_7bd: !1,
+                                H2POhTSwb: !1,
+                                height: "100%",
+                                id: "DKwcyqKZv",
+                                layoutId: "DKwcyqKZv",
+                                oEYvl36ZQ: "5:55 AM",
+                                pedAo6Ikh: "Studio View",
+                                qd10VzCH_: !1,
+                                style: {
+                                  width: "100%",
+                                },
+                                TEW6XRezz: "",
+                                width: "100%",
+                              }),
+                            }),
+                          ],
+                        }),
+                      }),
+                    }),
+                    a("section", {
+                      className: "framer-s33e0g",
+                      "data-framer-name": "Section",
+                      name: "Section",
+                      children: [
+                        r("div", {
+                          className: "framer-1c1szx2",
+                          "data-framer-name": "Blend Grid",
+                          name: "Blend Grid",
+                          children: r(f, {
+                            className: "framer-knutyk-container",
+                            children: r(s, {
+                              breakpoint: i,
+                              overrides: {
+                                BRVqjymYB: {
+                                  opacity: 0.1,
+                                },
+                              },
+                              children: r(z, {
+                                background: "rgb(255, 255, 255)",
+                                columns: 4,
+                                height: "100%",
+                                id: "RqwG0BOf7",
+                                layoutId: "RqwG0BOf7",
+                                opacity: 0.15,
+                                style: {
+                                  height: "100%",
+                                  width: "100%",
+                                },
+                                width: "100%",
+                              }),
+                            }),
+                          }),
+                        }),
+                        r("div", {
+                          className: "framer-10knw6u",
+                          children: a("div", {
+                            className: "framer-l4ythk",
+                            children: [
+                              r(f, {
+                                className: "framer-9o0ai3-container",
+                                children: r(V, {
+                                  height: "100%",
+                                  id: "bachaC16f",
+                                  layoutId: "bachaC16f",
+                                  style: {
+                                    maxWidth: "100%",
+                                  },
+                                  width: "100%",
+                                  children: r("div", {
+                                    className: "framer-r9s2q9",
+                                    children: r("div", {
+                                      className: "framer-t4ayke",
+                                      children: r(t, {
+                                        __fromCanvasComponent: !0,
+                                        children: r(e, {
+                                          children: r("h2", {
+                                            className:
+                                              "framer-styles-preset-udfsgc",
+                                            "data-styles-preset": "QrIbNzZ_a",
+                                            style: {
+                                              "--framer-text-color":
+                                                "var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255))",
+                                            },
+                                            children: "Drop us a line.",
+                                          }),
+                                        }),
+                                        className: "framer-16gu2sy",
+                                        verticalAlignment: "top",
+                                        withExternalLayout: !0,
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                              }),
+                              r("div", {
+                                className: "framer-1gqho9d",
+                                children: r(f, {
+                                  className: "framer-12t0r2b-container",
+                                  children: r(s, {
+                                    breakpoint: i,
+                                    overrides: {
+                                      BRVqjymYB: {
+                                        variant: "O1VdR0oxm",
+                                      },
+                                    },
+                                    children: r(Y, {
+                                      height: "100%",
+                                      id: "RyYRyQjus",
+                                      layoutId: "RyYRyQjus",
+                                      style: {
+                                        width: "100%",
+                                      },
+                                      variant: "M2SzVrFKv",
+                                      width: "100%",
+                                    }),
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                        }),
+                        r(f, {
+                          className: "framer-n9qexm-container",
+                          children: r(s, {
+                            breakpoint: i,
+                            overrides: {
+                              BRVqjymYB: {
+                                variant: "H79U6ydPJ",
+                              },
+                            },
+                            children: r(q, {
+                              color:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                              height: "100%",
+                              id: "PHAWFqNUE",
+                              layoutId: "PHAWFqNUE",
+                              style: {
+                                width: "100%",
+                              },
+                              variant: "jAq1bEjzP",
+                              width: "100%",
+                            }),
+                          }),
+                        }),
+                      ],
+                    }),
+                    M() &&
+                      a("section", {
+                        className: "framer-ay5vmq hidden-32rh7m hidden-17p1l1l",
+                        "data-framer-name": "Section",
+                        name: "Section",
+                        children: [
+                          r("div", {
+                            className: "framer-d0srh9",
+                            "data-framer-name": "Sticky",
+                            name: "Sticky",
+                            children: r("div", {
+                              className: "framer-h56cgw",
+                              children: r(Nr, {
+                                __fromCanvasComponent: !0,
+                                children: r(e, {
+                                  children: r("h1", {
+                                    className: "framer-styles-preset-1yh2sbr",
+                                    "data-styles-preset": "xF1aPLl_c",
+                                    style: {
+                                      "--framer-text-alignment": "center",
+                                    },
+                                    children: "Studio",
+                                  }),
+                                }),
+                                className: "framer-hw9fme",
+                                verticalAlignment: "top",
+                                withExternalLayout: !0,
+                              }),
+                            }),
+                          }),
+                          r("div", {
+                            className: "framer-m5z4ka",
+                            children: r(h, {
+                              __framer__spring: {
+                                damping: 60,
+                                delay: 0,
+                                duration: 0.3,
+                                ease: [0.44, 0, 0.56, 1],
+                                mass: 1,
+                                stiffness: 500,
+                                type: "spring",
+                              },
+                              __framer__styleTransformEffectEnabled: !0,
+                              __framer__transformTargets: [
+                                {
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 0.6,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                                {
+                                  ref: G,
+                                  target: {
+                                    opacity: 1,
+                                    rotate: 0,
+                                    rotateX: 0,
+                                    rotateY: 0,
+                                    scale: 1,
+                                    x: 0,
+                                    y: 0,
+                                  },
+                                },
+                              ],
+                              __framer__transformTrigger: "onScrollTarget",
+                              __framer__transformViewportThreshold: 1,
+                              __perspectiveFX: !1,
+                              __targetOpacity: 1,
+                              className: "framer-jk2zpe-container",
+                              transformTemplate: m,
+                              children: r(C, {
+                                backgroundColor: "rgba(0, 0, 0, 0)",
+                                borderRadius: 0,
+                                bottomLeftRadius: 0,
+                                bottomRightRadius: 0,
+                                controls: !1,
+                                height: "100%",
+                                id: "xFJo3tRk9",
+                                isMixedBorderRadius: !1,
+                                layoutId: "xFJo3tRk9",
+                                loop: !0,
+                                muted: !0,
+                                objectFit: "cover",
+                                playing: !0,
+                                poster:
+                                  "https://framerusercontent.com/images/TF1CkElRwYY0WdzXyTrR4HWp9w.jpg",
+                                posterEnabled: !0,
+                                srcFile:
+                                  "https://framerusercontent.com/assets/BzXBLqK33xeFsrNj0WKyZbRZE.mp4",
+                                srcType: "Upload",
+                                srcUrl:
+                                  "https://assets.mixkit.co/videos/preview/mixkit-ice-cream-glass-of-red-soda-5094-small.mp4",
+                                startTime: 0,
+                                style: {
+                                  height: "100%",
+                                  width: "100%",
+                                },
+                                topLeftRadius: 0,
+                                topRightRadius: 0,
+                                volume: 25,
+                                width: "100%",
+                              }),
+                            }),
+                          }),
+                          r("div", {
+                            className: "framer-1ol1doi",
+                            "data-framer-name": "Scroll Trigger",
+                            id: Yr,
+                            name: "Scroll Trigger",
+                            ref: G,
+                          }),
+                        ],
+                      }),
+                  ],
+                }),
+              ],
+            }),
+            r("div", {
+              id: "overlay",
+            }),
+          ],
+        }),
+      }),
+    });
+  }),
+  te = [
+    '.framer-KerES [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+    "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
+    `.${A.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); }`,
+    ".framer-KerES .framer-1006ljv { display: block; }",
+    ".framer-KerES .framer-32rh7m { align-content: center; align-items: center; background-color: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, #000000); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 1200px; }",
+    ".framer-KerES .framer-mlo8th { flex: none; height: 100%; left: 0px; overflow: hidden; pointer-events: none; position: fixed; top: 0px; width: 100%; }",
+    ".framer-KerES .framer-5ivwag-container { flex: none; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; }",
+    ".framer-KerES .framer-17ovtnn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; left: 0px; mix-blend-mode: difference; overflow: hidden; padding: 0px 0px 0px 0px; position: fixed; top: 0px; width: 100%; z-index: 9; }",
+    ".framer-KerES .framer-1jzvjb-container, .framer-KerES .framer-n9qexm-container { flex: none; height: auto; position: relative; width: 100%; }",
+    '.framer-KerES .framer-hxphpd { background-color: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, #ffffff) /* {"name":"Background"} */; inset: 0px; position: fixed; user-select: none; z-index: 9; }',
+    ".framer-KerES .framer-ls50ie-container { flex: none; height: 100%; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 9; }",
+    ".framer-KerES .framer-aphebl-container { flex: none; height: auto; left: 0px; mix-blend-mode: difference; position: fixed; top: 0px; width: 100%; z-index: 9; }",
+    ".framer-KerES .framer-19mjyuk { aspect-ratio: 1 / 1; background-color: #ffffff; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; border-top-left-radius: 50%; border-top-right-radius: 50%; flex: none; height: var(--framer-aspect-ratio-supported, 28px); left: 0px; mix-blend-mode: difference; opacity: 0; overflow: hidden; position: fixed; top: 0px; width: 28px; will-change: var(--framer-will-change-override, transform); z-index: 10; }",
+    ".framer-KerES .framer-ff07s6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; z-index: 1; }",
+    ".framer-KerES .framer-sxnkka, .framer-KerES .framer-ay5vmq { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; min-height: 200vh; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1vs9j2n, .framer-KerES .framer-d0srh9 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: sticky; top: 0px; width: 100%; will-change: transform; }",
+    ".framer-KerES .framer-fbeloj, .framer-KerES .framer-h56cgw { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 80px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-a5qqq5, .framer-KerES .framer-hw9fme { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre; width: auto; z-index: 1; }",
+    ".framer-KerES .framer-n6ojdh, .framer-KerES .framer-m5z4ka { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: 100vh; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: sticky; top: 0px; width: 100%; will-change: transform; z-index: 1; }",
+    ".framer-KerES .framer-905i20-container, .framer-KerES .framer-jk2zpe-container { flex: none; height: 100%; left: 0px; position: absolute; top: 0px; transform: perspective(1200px); width: 100%; z-index: 1; }",
+    ".framer-KerES .framer-hly2nv, .framer-KerES .framer-1ol1doi { -webkit-user-select: none; bottom: 0px; flex: none; height: 50vh; left: 0px; opacity: 0; overflow: hidden; position: absolute; user-select: none; width: 100%; z-index: 1; }",
+    ".framer-KerES .framer-ort62j { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; min-height: 100vh; overflow: visible; padding: 60px 20px 60px 20px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1qzx9a3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; max-width: 45%; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-181jt2g, .framer-KerES .framer-1x1knlo, .framer-KerES .framer-1txksbf { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; transform: perspective(1200px); white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }",
+    ".framer-KerES .framer-1656lin { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; min-height: 100vh; overflow: visible; padding: 60px 0px 60px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1lfhxa { display: grid; flex: none; gap: 0px; grid-auto-rows: min-content; grid-template-columns: repeat(4, minmax(1px, 1fr)); grid-template-rows: repeat(1, min-content); height: min-content; justify-content: start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-85amrc, .framer-KerES .framer-12av4ny, .framer-KerES .framer-1r0luc8, .framer-KerES .framer-1v6vg5y { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; justify-self: start; overflow: visible; padding: 0px 20px 0px 20px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-u028x7, .framer-KerES .framer-1oj7knz, .framer-KerES .framer-1x9kz0n, .framer-KerES .framer-iviaiw, .framer-KerES .framer-1gz2us, .framer-KerES .framer-14ontzk, .framer-KerES .framer-1t28nju, .framer-KerES .framer-1d3eim9, .framer-KerES .framer-jby6qb { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }",
+    ".framer-KerES .framer-fggjjk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 26px; position: relative; transform: perspective(1200px); width: 100%; }",
+    ".framer-KerES .framer-1mz8pib { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-y5vz91, .framer-KerES .framer-1fsezjb, .framer-KerES .framer-1sfk1qj, .framer-KerES .framer-14w9lgi, .framer-KerES .framer-iogstm, .framer-KerES .framer-1viylp1, .framer-KerES .framer-gpo3mp, .framer-KerES .framer-kk3jys, .framer-KerES .framer-vzr19p, .framer-KerES .framer-17zj9z0, .framer-KerES .framer-180ogp8, .framer-KerES .framer-9vzl2g { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: none; height: auto; left: -25px; position: absolute; top: 0px; white-space: pre; width: auto; z-index: 1; }",
+    ".framer-KerES .framer-vhnnxw, .framer-KerES .framer-15jntf6, .framer-KerES .framer-1y2eyza, .framer-KerES .framer-18hwr04, .framer-KerES .framer-12ts27s, .framer-KerES .framer-6ckd12, .framer-KerES .framer-1nlck6u, .framer-KerES .framer-4dht55, .framer-KerES .framer-vkq4s5, .framer-KerES .framer-574tvy, .framer-KerES .framer-1uq2z7o, .framer-KerES .framer-1fkr70d { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }",
+    ".framer-KerES .framer-p1t1gl, .framer-KerES .framer-guc9y3, .framer-KerES .framer-1lhatsr, .framer-KerES .framer-1fczru5, .framer-KerES .framer-11k506b, .framer-KerES .framer-olgki, .framer-KerES .framer-1ekrdpe, .framer-KerES .framer-6h4jtx, .framer-KerES .framer-1n9lnz6, .framer-KerES .framer-1idvkim, .framer-KerES .framer-1vhsifx { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-s7l7ze { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; transform: perspective(1200px); width: 100%; }",
+    ".framer-KerES .framer-oxifc0, .framer-KerES .framer-x5hf1b, .framer-KerES .framer-1k3ykut, .framer-KerES .framer-jtfr6u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1k90th8, .framer-KerES .framer-20635v, .framer-KerES .framer-1ytwl7i, .framer-KerES .framer-56jygp { --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }",
+    ".framer-KerES .framer-ydm3g3 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 60px 0px 60px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-xlhhls { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 200vh; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1gygf9h { display: grid; flex: 1 0 0px; gap: 40px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(4, minmax(1px, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); height: 100%; justify-content: start; overflow: visible; padding: 0px 20px 0px 20px; position: relative; width: 1px; }",
+    ".framer-KerES .framer-9u5rmu-container { align-self: start; flex: none; grid-row: auto / span 2; height: auto; justify-self: start; position: relative; transform: perspective(1200px); width: 100%; }",
+    ".framer-KerES .framer-1b1qtgs, .framer-KerES .framer-1r722f0 { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; grid-column: auto / span 2; height: 1px; justify-content: flex-start; justify-self: start; opacity: 0; overflow: visible; padding: 0px 0px 0px 0px; pointer-events: none; position: relative; transform: rotate(90deg); width: 1px; }",
+    ".framer-KerES .framer-5xawws { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; justify-self: start; overflow: visible; padding: 80px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-10npegv-container, .framer-KerES .framer-1jnou9i-container, .framer-KerES .framer-4fy9py-container { flex: none; height: auto; position: relative; transform: perspective(1200px); width: 100%; }",
+    ".framer-KerES .framer-wpmb9g, .framer-KerES .framer-18ojbdb, .framer-KerES .framer-gk75g { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 1px; justify-content: flex-start; justify-self: start; opacity: 0; overflow: visible; padding: 0px 0px 0px 0px; pointer-events: none; position: relative; transform: rotate(90deg); width: 1px; }",
+    ".framer-KerES .framer-1ahphst-container, .framer-KerES .framer-1195h3c-container { align-self: start; flex: none; height: auto; justify-self: start; position: relative; transform: perspective(1200px); width: 100%; }",
+    ".framer-KerES .framer-16zzayc { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; justify-self: start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1yw4mki { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; justify-self: start; overflow: visible; padding: 80px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-s33e0g { align-content: flex-start; align-items: flex-start; background-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-1c1szx2 { flex: none; height: 100%; left: 0px; mix-blend-mode: difference; overflow: hidden; position: absolute; top: 0px; width: 100%; }",
+    ".framer-KerES .framer-knutyk-container { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); position: absolute; top: 0px; width: 100%; }",
+    ".framer-KerES .framer-10knw6u { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; z-index: 1; }",
+    ".framer-KerES .framer-l4ythk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-KerES .framer-9o0ai3-container { flex: none; height: auto; max-width: 100%; position: relative; width: auto; }",
+    ".framer-KerES .framer-r9s2q9 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: min-content; }",
+    ".framer-KerES .framer-t4ayke { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; min-height: 100vh; overflow: hidden; padding: 80px 20px 80px 20px; position: relative; width: min-content; }",
+    ".framer-KerES .framer-16gu2sy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
+    ".framer-KerES .framer-1gqho9d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 120px 0px; position: relative; width: 100%; z-index: 1; }",
+    ".framer-KerES .framer-12t0r2b-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }",
+    "@supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-KerES .framer-32rh7m, .framer-KerES .framer-17ovtnn, .framer-KerES .framer-ff07s6, .framer-KerES .framer-sxnkka, .framer-KerES .framer-1vs9j2n, .framer-KerES .framer-fbeloj, .framer-KerES .framer-n6ojdh, .framer-KerES .framer-ort62j, .framer-KerES .framer-1qzx9a3, .framer-KerES .framer-1656lin, .framer-KerES .framer-85amrc, .framer-KerES .framer-12av4ny, .framer-KerES .framer-1r0luc8, .framer-KerES .framer-fggjjk, .framer-KerES .framer-1mz8pib, .framer-KerES .framer-p1t1gl, .framer-KerES .framer-guc9y3, .framer-KerES .framer-1lhatsr, .framer-KerES .framer-1fczru5, .framer-KerES .framer-11k506b, .framer-KerES .framer-olgki, .framer-KerES .framer-1ekrdpe, .framer-KerES .framer-6h4jtx, .framer-KerES .framer-1n9lnz6, .framer-KerES .framer-1idvkim, .framer-KerES .framer-1vhsifx, .framer-KerES .framer-1v6vg5y, .framer-KerES .framer-s7l7ze, .framer-KerES .framer-oxifc0, .framer-KerES .framer-x5hf1b, .framer-KerES .framer-1k3ykut, .framer-KerES .framer-jtfr6u, .framer-KerES .framer-ydm3g3, .framer-KerES .framer-xlhhls, .framer-KerES .framer-1b1qtgs, .framer-KerES .framer-5xawws, .framer-KerES .framer-wpmb9g, .framer-KerES .framer-18ojbdb, .framer-KerES .framer-16zzayc, .framer-KerES .framer-1r722f0, .framer-KerES .framer-1yw4mki, .framer-KerES .framer-gk75g, .framer-KerES .framer-s33e0g, .framer-KerES .framer-10knw6u, .framer-KerES .framer-l4ythk, .framer-KerES .framer-r9s2q9, .framer-KerES .framer-t4ayke, .framer-KerES .framer-1gqho9d, .framer-KerES .framer-ay5vmq, .framer-KerES .framer-d0srh9, .framer-KerES .framer-h56cgw, .framer-KerES .framer-m5z4ka { gap: 0px; } .framer-KerES .framer-32rh7m > *, .framer-KerES .framer-ff07s6 > *, .framer-KerES .framer-sxnkka > *, .framer-KerES .framer-1vs9j2n > *, .framer-KerES .framer-fbeloj > *, .framer-KerES .framer-n6ojdh > *, .framer-KerES .framer-fggjjk > *, .framer-KerES .framer-oxifc0 > *, .framer-KerES .framer-x5hf1b > *, .framer-KerES .framer-1k3ykut > *, .framer-KerES .framer-jtfr6u > *, .framer-KerES .framer-16zzayc > *, .framer-KerES .framer-1yw4mki > *, .framer-KerES .framer-s33e0g > *, .framer-KerES .framer-10knw6u > *, .framer-KerES .framer-l4ythk > *, .framer-KerES .framer-t4ayke > *, .framer-KerES .framer-ay5vmq > *, .framer-KerES .framer-d0srh9 > *, .framer-KerES .framer-h56cgw > *, .framer-KerES .framer-m5z4ka > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-KerES .framer-32rh7m > :first-child, .framer-KerES .framer-ff07s6 > :first-child, .framer-KerES .framer-sxnkka > :first-child, .framer-KerES .framer-1vs9j2n > :first-child, .framer-KerES .framer-fbeloj > :first-child, .framer-KerES .framer-n6ojdh > :first-child, .framer-KerES .framer-ort62j > :first-child, .framer-KerES .framer-1qzx9a3 > :first-child, .framer-KerES .framer-1656lin > :first-child, .framer-KerES .framer-85amrc > :first-child, .framer-KerES .framer-12av4ny > :first-child, .framer-KerES .framer-1r0luc8 > :first-child, .framer-KerES .framer-fggjjk > :first-child, .framer-KerES .framer-1v6vg5y > :first-child, .framer-KerES .framer-s7l7ze > :first-child, .framer-KerES .framer-oxifc0 > :first-child, .framer-KerES .framer-x5hf1b > :first-child, .framer-KerES .framer-1k3ykut > :first-child, .framer-KerES .framer-jtfr6u > :first-child, .framer-KerES .framer-ydm3g3 > :first-child, .framer-KerES .framer-5xawws > :first-child, .framer-KerES .framer-16zzayc > :first-child, .framer-KerES .framer-1yw4mki > :first-child, .framer-KerES .framer-s33e0g > :first-child, .framer-KerES .framer-10knw6u > :first-child, .framer-KerES .framer-l4ythk > :first-child, .framer-KerES .framer-t4ayke > :first-child, .framer-KerES .framer-ay5vmq > :first-child, .framer-KerES .framer-d0srh9 > :first-child, .framer-KerES .framer-h56cgw > :first-child, .framer-KerES .framer-m5z4ka > :first-child { margin-top: 0px; } .framer-KerES .framer-32rh7m > :last-child, .framer-KerES .framer-ff07s6 > :last-child, .framer-KerES .framer-sxnkka > :last-child, .framer-KerES .framer-1vs9j2n > :last-child, .framer-KerES .framer-fbeloj > :last-child, .framer-KerES .framer-n6ojdh > :last-child, .framer-KerES .framer-ort62j > :last-child, .framer-KerES .framer-1qzx9a3 > :last-child, .framer-KerES .framer-1656lin > :last-child, .framer-KerES .framer-85amrc > :last-child, .framer-KerES .framer-12av4ny > :last-child, .framer-KerES .framer-1r0luc8 > :last-child, .framer-KerES .framer-fggjjk > :last-child, .framer-KerES .framer-1v6vg5y > :last-child, .framer-KerES .framer-s7l7ze > :last-child, .framer-KerES .framer-oxifc0 > :last-child, .framer-KerES .framer-x5hf1b > :last-child, .framer-KerES .framer-1k3ykut > :last-child, .framer-KerES .framer-jtfr6u > :last-child, .framer-KerES .framer-ydm3g3 > :last-child, .framer-KerES .framer-5xawws > :last-child, .framer-KerES .framer-16zzayc > :last-child, .framer-KerES .framer-1yw4mki > :last-child, .framer-KerES .framer-s33e0g > :last-child, .framer-KerES .framer-10knw6u > :last-child, .framer-KerES .framer-l4ythk > :last-child, .framer-KerES .framer-t4ayke > :last-child, .framer-KerES .framer-ay5vmq > :last-child, .framer-KerES .framer-d0srh9 > :last-child, .framer-KerES .framer-h56cgw > :last-child, .framer-KerES .framer-m5z4ka > :last-child { margin-bottom: 0px; } .framer-KerES .framer-17ovtnn > *, .framer-KerES .framer-p1t1gl > *, .framer-KerES .framer-guc9y3 > *, .framer-KerES .framer-1lhatsr > *, .framer-KerES .framer-1fczru5 > *, .framer-KerES .framer-11k506b > *, .framer-KerES .framer-olgki > *, .framer-KerES .framer-1ekrdpe > *, .framer-KerES .framer-6h4jtx > *, .framer-KerES .framer-1n9lnz6 > *, .framer-KerES .framer-1idvkim > *, .framer-KerES .framer-1vhsifx > *, .framer-KerES .framer-xlhhls > *, .framer-KerES .framer-r9s2q9 > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-KerES .framer-17ovtnn > :first-child, .framer-KerES .framer-1mz8pib > :first-child, .framer-KerES .framer-p1t1gl > :first-child, .framer-KerES .framer-guc9y3 > :first-child, .framer-KerES .framer-1lhatsr > :first-child, .framer-KerES .framer-1fczru5 > :first-child, .framer-KerES .framer-11k506b > :first-child, .framer-KerES .framer-olgki > :first-child, .framer-KerES .framer-1ekrdpe > :first-child, .framer-KerES .framer-6h4jtx > :first-child, .framer-KerES .framer-1n9lnz6 > :first-child, .framer-KerES .framer-1idvkim > :first-child, .framer-KerES .framer-1vhsifx > :first-child, .framer-KerES .framer-xlhhls > :first-child, .framer-KerES .framer-1b1qtgs > :first-child, .framer-KerES .framer-wpmb9g > :first-child, .framer-KerES .framer-18ojbdb > :first-child, .framer-KerES .framer-1r722f0 > :first-child, .framer-KerES .framer-gk75g > :first-child, .framer-KerES .framer-r9s2q9 > :first-child, .framer-KerES .framer-1gqho9d > :first-child { margin-left: 0px; } .framer-KerES .framer-17ovtnn > :last-child, .framer-KerES .framer-1mz8pib > :last-child, .framer-KerES .framer-p1t1gl > :last-child, .framer-KerES .framer-guc9y3 > :last-child, .framer-KerES .framer-1lhatsr > :last-child, .framer-KerES .framer-1fczru5 > :last-child, .framer-KerES .framer-11k506b > :last-child, .framer-KerES .framer-olgki > :last-child, .framer-KerES .framer-1ekrdpe > :last-child, .framer-KerES .framer-6h4jtx > :last-child, .framer-KerES .framer-1n9lnz6 > :last-child, .framer-KerES .framer-1idvkim > :last-child, .framer-KerES .framer-1vhsifx > :last-child, .framer-KerES .framer-xlhhls > :last-child, .framer-KerES .framer-1b1qtgs > :last-child, .framer-KerES .framer-wpmb9g > :last-child, .framer-KerES .framer-18ojbdb > :last-child, .framer-KerES .framer-1r722f0 > :last-child, .framer-KerES .framer-gk75g > :last-child, .framer-KerES .framer-r9s2q9 > :last-child, .framer-KerES .framer-1gqho9d > :last-child { margin-right: 0px; } .framer-KerES .framer-ort62j > *, .framer-KerES .framer-1656lin > *, .framer-KerES .framer-s7l7ze > *, .framer-KerES .framer-ydm3g3 > *, .framer-KerES .framer-5xawws > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-KerES .framer-1qzx9a3 > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-KerES .framer-85amrc > *, .framer-KerES .framer-12av4ny > *, .framer-KerES .framer-1r0luc8 > *, .framer-KerES .framer-1v6vg5y > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-KerES .framer-1mz8pib > *, .framer-KerES .framer-1b1qtgs > *, .framer-KerES .framer-wpmb9g > *, .framer-KerES .framer-18ojbdb > *, .framer-KerES .framer-1r722f0 > *, .framer-KerES .framer-gk75g > *, .framer-KerES .framer-1gqho9d > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } }",
+    "@media (min-width: 1200px) { .framer-KerES .hidden-32rh7m { display: none !important; } }",
+    `@media (min-width: 810px) and (max-width: 1199px) { .framer-KerES .hidden-17p1l1l { display: none !important; } .${A.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); } .framer-KerES .framer-32rh7m { width: 810px; } .framer-KerES .framer-xlhhls { height: min-content; } .framer-KerES .framer-1gygf9h { grid-auto-rows: min-content; grid-template-columns: repeat(2, minmax(1px, 1fr)); grid-template-rows: repeat(3, min-content); height: min-content; } .framer-KerES .framer-16zzayc { padding: 40px 0px 0px 0px; }}`,
+    `@media (max-width: 809px) { .framer-KerES .hidden-6qoyec { display: none !important; } .${A.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); } .framer-KerES .framer-32rh7m { width: 390px; } .framer-KerES .framer-17ovtnn { flex-direction: column; } .framer-KerES .framer-1jzvjb-container { mix-blend-mode: difference; } .framer-KerES .framer-ort62j { order: 2; } .framer-KerES .framer-1qzx9a3 { max-width: unset; } .framer-KerES .framer-1656lin { order: 3; } .framer-KerES .framer-1lfhxa { gap: 40px; grid-template-columns: repeat(1, minmax(1px, 1fr)); } .framer-KerES .framer-85amrc, .framer-KerES .framer-12av4ny, .framer-KerES .framer-1r0luc8, .framer-KerES .framer-1v6vg5y { gap: 20px; } .framer-KerES .framer-u028x7, .framer-KerES .framer-1oj7knz, .framer-KerES .framer-1x9kz0n, .framer-KerES .framer-iviaiw { transform: perspective(1200px); } .framer-KerES .framer-ydm3g3 { order: 4; } .framer-KerES .framer-xlhhls { height: min-content; } .framer-KerES .framer-1gygf9h { grid-auto-rows: min-content; grid-template-columns: repeat(1, minmax(1px, 1fr)); grid-template-rows: repeat(3, min-content); height: min-content; } .framer-KerES .framer-5xawws { grid-column: auto / span 1; padding: 0px 0px 0px 0px; } .framer-KerES .framer-1yw4mki { padding: 0px 0px 0px 0px; } .framer-KerES .framer-s33e0g { order: 5; } .framer-KerES .framer-1gqho9d { padding: 0px 0px 20px 0px; width: min-content; } .framer-KerES .framer-12t0r2b-container { flex: none; width: 120px; } .framer-KerES .framer-ay5vmq { order: 0; } @supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-KerES .framer-17ovtnn, .framer-KerES .framer-1lfhxa, .framer-KerES .framer-85amrc, .framer-KerES .framer-12av4ny, .framer-KerES .framer-1r0luc8, .framer-KerES .framer-1v6vg5y { gap: 0px; } .framer-KerES .framer-17ovtnn > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-KerES .framer-17ovtnn > :first-child, .framer-KerES .framer-85amrc > :first-child, .framer-KerES .framer-12av4ny > :first-child, .framer-KerES .framer-1r0luc8 > :first-child, .framer-KerES .framer-1v6vg5y > :first-child { margin-top: 0px; } .framer-KerES .framer-17ovtnn > :last-child, .framer-KerES .framer-85amrc > :last-child, .framer-KerES .framer-12av4ny > :last-child, .framer-KerES .framer-1r0luc8 > :last-child, .framer-KerES .framer-1v6vg5y > :last-child { margin-bottom: 0px; } .framer-KerES .framer-1lfhxa > *, .framer-KerES .framer-1lfhxa > :first-child, .framer-KerES .framer-1lfhxa > :last-child { margin: 0px; } .framer-KerES .framer-85amrc > *, .framer-KerES .framer-12av4ny > *, .framer-KerES .framer-1r0luc8 > *, .framer-KerES .framer-1v6vg5y > * { margin: 0px; margin-bottom: calc(20px / 2); margin-top: calc(20px / 2); } }}`,
+    ...xr,
+    ...cr,
+    ...Sr,
+    ...fr,
+    ...br,
+  ],
+  T = er(ae, te, "framer-KerES"),
+  je = T;
+(T.displayName = "Studio"),
+  (T.defaultProps = {
+    height: 8810,
+    width: 1200,
+  }),
+  ir(T, [
+    ...Mr,
+    ...Qr,
+    ...Wr,
+    ...Hr,
+    ...Pr,
+    ...Ur,
+    ...Dr,
+    ...Zr,
+    ...gr,
+    ...or,
+    ...vr,
+    ...sr,
+    ...Kr,
+  ]);
+var ze = {
+  exports: {
+    Props: {
+      type: "tsType",
+      annotations: {
+        framerContractVersion: "1",
+      },
+    },
+    default: {
+      type: "reactComponent",
+      name: "FramerWL0ATVtHF",
+      slots: [],
+      annotations: {
+        framerCanvasComponentVariantDetails:
+          '{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"TFH34v6C8":{"layout":["fixed","auto"]},"BRVqjymYB":{"layout":["fixed","auto"]}}}',
+        framerImmutableVariables: "false",
+        framerIntrinsicWidth: "1200",
+        framerIntrinsicHeight: "8810",
+        framerResponsiveScreen: "",
+        framerContractVersion: "1",
+      },
+    },
+    __FramerMetadata__: {
+      type: "variable",
+    },
+  },
+};
+export { ze as __FramerMetadata__, je as default };
+//# sourceMappingURL=177PATI9RBXtI38NLf44hsGYoQwIjj3yuccgJ26ngkU.AE32YM6R.mjs.map

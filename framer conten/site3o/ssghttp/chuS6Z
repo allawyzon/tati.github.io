@@ -1,0 +1,78 @@
+import {b as e, c as g} from "./chunk-5SFOXFGW.mjs";
+import {P as b, S as _, k as p, m as r, n, r as m, v as h, w as y, x as v} from "./chunk-NVV4GD4L.mjs";
+function w(a) {
+    let i = r(null)
+      , t = r(null)
+      , l = r(null)
+      , [d,o] = n(0)
+      , [x,S] = n(0);
+    p(()=>{
+        o(t.current.scrollWidth);
+        let u = new ResizeObserver(s=>{
+            for (let f of s)
+                S(f.contentRect.width),
+                o(t.current.scrollWidth)
+        }
+        );
+        u.observe(l.current);
+        let c = new MutationObserver(s=>{
+            for (let f of s)
+                o(t.current.scrollWidth)
+        }
+        );
+        return c.observe(t.current, {
+            attributes: !0,
+            attributeFilter: ["style"]
+        }),
+        ()=>{
+            u.disconnect(),
+            c.disconnect()
+        }
+    }
+    , []);
+    let {scrollYProgress: C} = v({
+        target: i
+    })
+      , W = h(C, [0, 1], [0, -d + x])
+      , F = y(W, {
+        damping: 60,
+        mass: 1,
+        stiffness: 500
+    });
+    return g("div", {
+        ref: i,
+        ...a,
+        children: [e("div", {
+            style: {
+                position: "sticky",
+                top: 0
+            },
+            children: e("div", {
+                style: {
+                    overflow: "hidden"
+                },
+                children: e(m.div, {
+                    ref: t,
+                    style: {
+                        x: F
+                    },
+                    children: a.children
+                })
+            })
+        }), e("div", {
+            ref: l,
+            "aria-hidden": "true",
+            style: {
+                width: "100%",
+                height: d
+            }
+        })]
+    })
+}
+_(w, {
+    children: {
+        type: b.ComponentInstance
+    }
+});
+export {w as a};
+//# sourceMappingURL=chunk-S6ZWUL3A.mjs.map

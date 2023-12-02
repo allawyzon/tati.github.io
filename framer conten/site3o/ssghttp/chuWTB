@@ -1,0 +1,399 @@
+import {b as N} from "./chunk-5SFOXFGW.mjs";
+import {N as E, P as t, S as ee, U as k, e as Q, g as M, i as p, l as C, m as S, n as _, q as z, z as X} from "./chunk-NVV4GD4L.mjs";
+import {b as r} from "./chunk-OIST4OYN.mjs";
+var te = {
+    position: "relative",
+    width: "100%",
+    height: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+}
+  , he = {
+    ...te,
+    borderRadius: 6,
+    background: "rgba(136, 85, 255, 0.3)",
+    color: "#85F",
+    border: "1px dashed #85F",
+    flexDirection: "column"
+}
+  , U = {
+    onClick: {
+        type: t.EventHandler
+    },
+    onMouseEnter: {
+        type: t.EventHandler
+    },
+    onMouseLeave: {
+        type: t.EventHandler
+    }
+}
+  , Ce = {
+    type: t.Number,
+    title: "Font Size",
+    min: 2,
+    max: 200,
+    step: 1,
+    displayStepper: !0
+}
+  , be = {
+    font: {
+        type: t.Boolean,
+        title: "Font",
+        defaultValue: !1,
+        disabledTitle: "Default",
+        enabledTitle: "Custom"
+    },
+    fontFamily: {
+        type: t.String,
+        title: "Family",
+        placeholder: "Inter",
+        hidden: ({font: e})=>!e
+    },
+    fontWeight: {
+        type: t.Enum,
+        title: "Weight",
+        options: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        optionTitles: ["Thin", "Extra-light", "Light", "Regular", "Medium", "Semi-bold", "Bold", "Extra-bold", "Black"],
+        hidden: ({font: e})=>!e
+    }
+};
+function $(e, n) {
+    return ne(!0, e, n)
+}
+function j(e, n) {
+    return ne(!1, e, n)
+}
+function ne(e, n, i=!0) {
+    let u = k();
+    p(()=>{
+        i && u === e && n()
+    }
+    , [u])
+}
+var Se = ()=>{
+    if (typeof r < "u") {
+        let e = r.userAgent.toLowerCase();
+        return (e.indexOf("safari") > -1 || e.indexOf("framermobile") > -1 || e.indexOf("framerx") > -1) && e.indexOf("chrome") < 0
+    } else
+        return !1
+}
+  , H = ()=>C(()=>Se(), []);
+function D() {
+    return C(()=>E.current() === E.canvas, [])
+}
+function K(e) {
+    let {borderRadius: n, isMixedBorderRadius: i, topLeftRadius: u, topRightRadius: f, bottomRightRadius: d, bottomLeftRadius: c} = e;
+    return C(()=>i ? `${u}px ${f}px ${d}px ${c}px` : `${n}px`, [n, i, u, f, d, c])
+}
+var G = {
+    borderRadius: {
+        title: "Radius",
+        type: t.FusedNumber,
+        toggleKey: "isMixedBorderRadius",
+        toggleTitles: ["Radius", "Radius per corner"],
+        valueKeys: ["topLeftRadius", "topRightRadius", "bottomRightRadius", "bottomLeftRadius"],
+        valueLabels: ["TL", "TR", "BR", "BL"],
+        min: 0
+    }
+};
+var Te = {
+    padding: {
+        type: t.FusedNumber,
+        toggleKey: "paddingPerSide",
+        toggleTitles: ["Padding", "Padding per side"],
+        valueKeys: ["paddingTop", "paddingRight", "paddingBottom", "paddingLeft"],
+        valueLabels: ["T", "R", "B", "L"],
+        min: 0,
+        title: "Padding"
+    }
+};
+var b;
+(function(e) {
+    e.Fill = "fill",
+    e.Contain = "contain",
+    e.Cover = "cover",
+    e.None = "none",
+    e.ScaleDown = "scale-down"
+}
+)(b || (b = {}));
+var y;
+(function(e) {
+    e.Video = "Upload",
+    e.Url = "URL"
+}
+)(y || (y = {}));
+function Me(e) {
+    let {width: n, height: i, topLeft: u, topRight: f, bottomRight: d, bottomLeft: c, id: g, children: v, ...s} = e;
+    return s
+}
+function W(e) {
+    let n = Me(e);
+    return N(Ee, {
+        ...n
+    })
+}
+function _e(e) {
+    let n = k()
+      , i = S(!1)
+      , u = M(c=>{
+        if (!e.current)
+            return;
+        let g = (c === 1 ? .999 : c) * e.current.duration
+          , v = Math.abs(e.current.currentTime - g) < .1;
+        e.current.duration > 0 && !v && (e.current.currentTime = g)
+    }
+    , [])
+      , f = M(()=>{
+        !(e.current.currentTime > 0 && e.current.onplaying && !e.current.paused && !e.current.ended && e.current.readyState > e.current.HAVE_CURRENT_DATA) && e.current && !i.current && n && (i.current = !0,
+        e.current.play().catch(g=>{}
+        ).finally(()=>i.current = !1))
+    }
+    , [])
+      , d = M(()=>{
+        !e.current || i.current || e.current.pause()
+    }
+    , []);
+    return {
+        play: f,
+        pause: d,
+        setProgress: u
+    }
+}
+function Fe({playingProp: e, muted: n, loop: i, playsinline: u, controls: f}) {
+    let[d] = _(()=>e)
+      , [c,g] = _(!1);
+    e !== d && !c && g(!0);
+    let v = d && n && i && u && !f && !c, s;
+    return v ? s = "on-viewport" : d ? s = "on-mount" : s = "no-autoplay",
+    s
+}
+var oe = !1
+  , Ee = Q(function(n) {
+    let {srcType: i, srcFile: u, srcUrl: f, playing: d, muted: c, playsinline: g, controls: v, progress: s, objectFit: ie, backgroundColor: se, onSeeked: P, onPause: R, onPlay: A, onEnd: w, onClick: q, onMouseEnter: le, onMouseLeave: ue, onMouseDown: ce, onMouseUp: pe, poster: de, posterEnabled: me, startTime: Y, volume: F, loop: I} = n
+      , m = S()
+      , fe = H()
+      , B = S(null)
+      , Z = S(null)
+      , x = D()
+      , ge = K(n)
+      , V = x ? "no-autoplay" : Fe({
+        playingProp: d,
+        muted: c,
+        loop: I,
+        playsinline: g,
+        controls: v
+    })
+      , J = x ? !0 : X(m)
+      , h = Y === 100 ? 99.9 : Y
+      , {play: T, pause: O, setProgress: L} = _e(m);
+    p(()=>{
+        x || (d ? T() : O())
+    }
+    , [d]),
+    p(()=>{
+        x || V === "on-viewport" && (J ? T() : O())
+    }
+    , [V, J]),
+    p(()=>{
+        if (!oe) {
+            oe = !0;
+            return
+        }
+        let l = z(s) ? s.get() : (s ?? 0) * .01;
+        L((l ?? 0) || (h ?? 0) / 100)
+    }
+    , [h, u, f, s]),
+    p(()=>{
+        if (z(s))
+            return s.on("change", l=>L(l))
+    }
+    , [s]),
+    $(()=>{
+        B.current !== null && m.current && (!Z && I || !B.current) && T()
+    }
+    ),
+    j(()=>{
+        m.current && (Z.current = m.current.ended,
+        B.current = m.current.paused,
+        O())
+    }
+    );
+    let ye = C(()=>{
+        let l = "";
+        if (i === y.Url)
+            return f + l;
+        if (i === y.Video)
+            return u + l
+    }
+    , [i, u, f, h]);
+    return p(()=>{
+        fe && m.current && V === "on-mount" && setTimeout(()=>T(), 50)
+    }
+    , []),
+    p(()=>{
+        m.current && !c && (m.current.volume = (F ?? 0) / 100)
+    }
+    , [F]),
+    N("video", {
+        onClick: q,
+        onMouseEnter: le,
+        onMouseLeave: ue,
+        onMouseDown: ce,
+        onMouseUp: pe,
+        src: ye,
+        loop: I,
+        ref: m,
+        onSeeked: l=>P?.(l),
+        onPause: l=>R?.(l),
+        onPlay: l=>A?.(l),
+        onEnded: l=>w?.(l),
+        autoPlay: V === "on-mount",
+        poster: me ? de : void 0,
+        onLoadedData: ()=>{
+            m.current && (m.current.currentTime < .3 && L((h ?? 0) * .01),
+            V === "on-mount" && T())
+        }
+        ,
+        controls: v,
+        muted: x ? !0 : c,
+        playsInline: g,
+        style: {
+            cursor: q ? "pointer" : "auto",
+            width: "100%",
+            height: "100%",
+            borderRadius: ge,
+            display: "block",
+            objectFit: ie,
+            backgroundColor: se,
+            objectPosition: "50% 50%"
+        }
+    })
+});
+W.displayName = "Video";
+W.defaultProps = {
+    srcType: y.Url,
+    srcUrl: "https://assets.mixkit.co/videos/preview/mixkit-ice-cream-glass-of-red-soda-5094-small.mp4",
+    srcFile: "",
+    posterEnabled: !1,
+    controls: !1,
+    playing: !0,
+    loop: !0,
+    muted: !0,
+    playsinline: !0,
+    restartOnEnter: !1,
+    objectFit: b.Cover,
+    backgroundColor: "rgba(0,0,0,0)",
+    radius: 0,
+    volume: 25,
+    startTime: 0
+};
+var ke = /[A-Z]{2,}|[A-Z][a-z]+|[a-z]+|[A-Z]|\d+/gu;
+function Pe(e) {
+    return e.charAt(0).toUpperCase() + e.slice(1)
+}
+function Re(e) {
+    return (e.match(ke) || []).map(Pe).join(" ")
+}
+var ae = [b.Cover, b.Fill, b.Contain, b.ScaleDown, b.None];
+ee(W, {
+    srcType: {
+        type: t.Enum,
+        displaySegmentedControl: !0,
+        title: "Source",
+        options: [y.Url, y.Video]
+    },
+    srcUrl: {
+        type: t.String,
+        title: "URL",
+        placeholder: "../example.mp4",
+        hidden(e) {
+            return e.srcType === y.Video
+        },
+        description: "Hosted video file URL. For YouTube, use the YouTube component."
+    },
+    srcFile: {
+        type: t.File,
+        title: "File",
+        allowedFileTypes: ["mp4", "webm"],
+        hidden(e) {
+            return e.srcType === y.Url
+        }
+    },
+    playing: {
+        type: t.Boolean,
+        title: "Playing",
+        enabledTitle: "Yes",
+        disabledTitle: "No"
+    },
+    posterEnabled: {
+        type: t.Boolean,
+        title: "Poster",
+        enabledTitle: "Yes",
+        disabledTitle: "No"
+    },
+    poster: {
+        type: t.Image,
+        title: " ",
+        hidden: ({posterEnabled: e})=>!e
+    },
+    backgroundColor: {
+        type: t.Color,
+        title: "Background"
+    },
+    ...G,
+    startTime: {
+        title: "Start Time",
+        type: t.Number,
+        min: 0,
+        max: 100,
+        step: .1,
+        unit: "%"
+    },
+    loop: {
+        type: t.Boolean,
+        title: "Loop",
+        enabledTitle: "Yes",
+        disabledTitle: "No"
+    },
+    objectFit: {
+        type: t.Enum,
+        title: "Fit",
+        options: ae,
+        optionTitles: ae.map(Re)
+    },
+    controls: {
+        type: t.Boolean,
+        title: "Controls",
+        enabledTitle: "Show",
+        disabledTitle: "Hide"
+    },
+    muted: {
+        type: t.Boolean,
+        title: "Muted",
+        enabledTitle: "Yes",
+        disabledTitle: "No"
+    },
+    volume: {
+        type: t.Number,
+        max: 100,
+        min: 0,
+        unit: "%",
+        hidden: ({muted: e})=>e
+    },
+    onEnd: {
+        type: t.EventHandler
+    },
+    onSeeked: {
+        type: t.EventHandler
+    },
+    onPause: {
+        type: t.EventHandler
+    },
+    onPlay: {
+        type: t.EventHandler
+    },
+    ...U
+});
+export {W as a};
+//# sourceMappingURL=chunk-WTBM6HB3.mjs.map

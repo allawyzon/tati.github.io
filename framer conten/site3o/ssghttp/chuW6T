@@ -1,0 +1,395 @@
+import {b as s} from "./chunk-5SFOXFGW.mjs";
+import {P as t, S as i, b as r} from "./chunk-NVV4GD4L.mjs";
+var e = (a,o)=>{
+if (!(!a || typeof a != "object"))
+return {
+...a,
+alt: o
+}
+}
+, n = [{
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/6Jx5N820uNad5TF0wIFpxlVd80.jpg",
+srcSet: "https://framerusercontent.com/images/6Jx5N820uNad5TF0wIFpxlVd80.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/6Jx5N820uNad5TF0wIFpxlVd80.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/6Jx5N820uNad5TF0wIFpxlVd80.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/6Jx5N820uNad5TF0wIFpxlVd80.jpg 2500w"
+}, ""),
+GvYg4k_29: "https://www.framer.com/?via=favoritframe",
+id: "QRe7YGr5q",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/2idLvbBLNdsAKvd9D17AnzEyEw.jpg",
+srcSet: "https://framerusercontent.com/images/2idLvbBLNdsAKvd9D17AnzEyEw.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/2idLvbBLNdsAKvd9D17AnzEyEw.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/2idLvbBLNdsAKvd9D17AnzEyEw.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/2idLvbBLNdsAKvd9D17AnzEyEw.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "Commissioned by Nike, we enthusiastically embraced the task of designing a bespoke typeface for the much-anticipated Nike x LeBron partnership. Our goal was to intricately infuse the iconic Nike logo\u2019s essence into the typography, resulting in a harmonious visual narrative. Through an innovative fusion, where the swoosh seamlessly integrates with the \u2019y\u2019 character, we not only established a definitive feature for the \u2019Play\u2019 lettering but also crafted a typography that remains rooted in Nike\u2019s design ethos while exuding its unique personality."
+})
+}),
+RwRQS2g1D: "Play the game",
+s2nlB5IkI: "play-the-game",
+UN6yxAgmr: "Nike x Lebron",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/G6pp48xM4PtSE0ypdPqsHslyGWg.jpg",
+srcSet: "https://framerusercontent.com/images/G6pp48xM4PtSE0ypdPqsHslyGWg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/G6pp48xM4PtSE0ypdPqsHslyGWg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/G6pp48xM4PtSE0ypdPqsHslyGWg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/G6pp48xM4PtSE0ypdPqsHslyGWg.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/PV2FKZdZ2PjMWmgOOG9kgc7VZg.jpg",
+srcSet: "https://framerusercontent.com/images/PV2FKZdZ2PjMWmgOOG9kgc7VZg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/PV2FKZdZ2PjMWmgOOG9kgc7VZg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/PV2FKZdZ2PjMWmgOOG9kgc7VZg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/PV2FKZdZ2PjMWmgOOG9kgc7VZg.jpg 2500w"
+}, ""),
+XO1oyEwpp: !0,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "nikeplay.com",
+YsHTDWziD: "pwrfUXeph",
+yYDlFhgPd: "23/12"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/IJYkKPuOfRKPlKIEOba1EaJzmdU.jpg",
+srcSet: "https://framerusercontent.com/images/IJYkKPuOfRKPlKIEOba1EaJzmdU.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/IJYkKPuOfRKPlKIEOba1EaJzmdU.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/IJYkKPuOfRKPlKIEOba1EaJzmdU.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/IJYkKPuOfRKPlKIEOba1EaJzmdU.jpg 2500w"
+}, ""),
+eTKryENK_: "https://framerusercontent.com/assets/l19mz0KDi8P1p5Pa4CFCTMaczc.mp4",
+EyIoNsZae: "https://framerusercontent.com/assets/Ml8H7glndbqGl7hQFyE2ubo1zQ.mp4",
+id: "Vxhxm7pQO",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/Rsi2mT9SywhHDrpAdzzI6Gvf108.jpg",
+srcSet: "https://framerusercontent.com/images/Rsi2mT9SywhHDrpAdzzI6Gvf108.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/Rsi2mT9SywhHDrpAdzzI6Gvf108.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/Rsi2mT9SywhHDrpAdzzI6Gvf108.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/Rsi2mT9SywhHDrpAdzzI6Gvf108.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "For our esteemed client, Porsche, we embarked on an innovative journey by conceiving the \u201EPOV\u201C campaign. Distinct from conventional automotive advertisements, we opted not to showcase the car itself, but instead, we delved into the driver\u2019s perspective. This visionary approach revolves around capturing and conveying the visceral thrill of driving. In a nod to Porsche\u2019s iconic logo, the letters \u201EPO\u201C are presented, seamlessly aligning with the brand\u2019s identity. The space between \u201EPO\u201C and \u201EV\u201C serves as a canvas for your very own aspirations and dreams. Can you sense the essence of possibility that lies within this creative void?"
+})
+}),
+RwRQS2g1D: "Point of View",
+s2nlB5IkI: "point-of-view",
+UN6yxAgmr: "Porsche",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/HRODJFWCOIZvyur521e0vq6KkCE.jpg",
+srcSet: "https://framerusercontent.com/images/HRODJFWCOIZvyur521e0vq6KkCE.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/HRODJFWCOIZvyur521e0vq6KkCE.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/HRODJFWCOIZvyur521e0vq6KkCE.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/HRODJFWCOIZvyur521e0vq6KkCE.jpg 2500w"
+}, ""),
+Xcg5CViE_: e(void 0, ""),
+XO1oyEwpp: !1,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "",
+YsHTDWziD: "ltB2TYQag",
+yYDlFhgPd: "23/09"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/R2ECAAmX4Gri3dulvZB2RymRNlA.jpg",
+srcSet: "https://framerusercontent.com/images/R2ECAAmX4Gri3dulvZB2RymRNlA.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/R2ECAAmX4Gri3dulvZB2RymRNlA.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/R2ECAAmX4Gri3dulvZB2RymRNlA.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/R2ECAAmX4Gri3dulvZB2RymRNlA.jpg 2500w"
+}, ""),
+id: "K2p2GxPlG",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/mKsGx1dhPk7FbZLXxXVGtTU6cfU.jpg",
+srcSet: "https://framerusercontent.com/images/mKsGx1dhPk7FbZLXxXVGtTU6cfU.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/mKsGx1dhPk7FbZLXxXVGtTU6cfU.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/mKsGx1dhPk7FbZLXxXVGtTU6cfU.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/mKsGx1dhPk7FbZLXxXVGtTU6cfU.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "For Bang & Olufsen, we orchestrated a refined playlist \u2013 a vinyl masterpiece meticulously curated with exclusively designed musical pieces, each artfully highlighting the exceptional capabilities of B&O speakers. This auditory journey converges seamlessly with our innovative design, inspired by circles, typography, and materials. Here, everything unites \u2013 content, form, audio, and brand \u2013 reflecting a playful yet profound fusion that celebrates the artistry of sound and design in harmonious synchrony, ultimately creating an immersive sensory experience that is uniquely Bang & Olufsen."
+})
+}),
+RwRQS2g1D: "The Selection",
+s2nlB5IkI: "the-selection",
+UN6yxAgmr: "Bang & Olufsen",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/JU65LOOyPBI0yJp2A2cI8TQVCss.jpg",
+srcSet: "https://framerusercontent.com/images/JU65LOOyPBI0yJp2A2cI8TQVCss.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/JU65LOOyPBI0yJp2A2cI8TQVCss.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/JU65LOOyPBI0yJp2A2cI8TQVCss.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/JU65LOOyPBI0yJp2A2cI8TQVCss.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/vIPmjvnYhalFvJVNZwtAkCDRsU.jpg",
+srcSet: "https://framerusercontent.com/images/vIPmjvnYhalFvJVNZwtAkCDRsU.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/vIPmjvnYhalFvJVNZwtAkCDRsU.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/vIPmjvnYhalFvJVNZwtAkCDRsU.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/vIPmjvnYhalFvJVNZwtAkCDRsU.jpg 2500w"
+}, ""),
+XO1oyEwpp: !1,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "",
+YsHTDWziD: "Ci0UFGLw0",
+yYDlFhgPd: "23/07"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/UY2lRcsKL9Rd5kZaCwyNbX1t8IQ.jpg",
+srcSet: "https://framerusercontent.com/images/UY2lRcsKL9Rd5kZaCwyNbX1t8IQ.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/UY2lRcsKL9Rd5kZaCwyNbX1t8IQ.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/UY2lRcsKL9Rd5kZaCwyNbX1t8IQ.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/UY2lRcsKL9Rd5kZaCwyNbX1t8IQ.jpg 2500w"
+}, ""),
+GvYg4k_29: "https://www.framer.com/?via=favoritframe",
+id: "XyXT_Zgkb",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/U7602SzM5rwXlQryEchZ1iTnb94.jpg",
+srcSet: "https://framerusercontent.com/images/U7602SzM5rwXlQryEchZ1iTnb94.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/U7602SzM5rwXlQryEchZ1iTnb94.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/U7602SzM5rwXlQryEchZ1iTnb94.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/U7602SzM5rwXlQryEchZ1iTnb94.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "we created AM/PM, a visionary brand that revolutionizes skincare through its innovative lotion line. Tailored for specific times of the day, AM and PM, this collection represents a bold fusion of science and style. The visual and typographic elements brilliantly mirror the product\u2019s essence \u2013 AM radiating with brightness, while PM exudes a captivating darkness. Our packaging design serves as a visual guide, reinforcing the timely application. The result is a harmonious synergy that not only elevates your skincare routine but also amplifies the significance of each moment, empowering you to embrace AM\u2019s energy and PM\u2019s tranquility with every application."
+})
+}),
+RwRQS2g1D: "Product Line",
+s2nlB5IkI: "product-line",
+UN6yxAgmr: "AM/PM",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/EPuglszWzvqTmUNWVYrSWoY.jpg",
+srcSet: "https://framerusercontent.com/images/EPuglszWzvqTmUNWVYrSWoY.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/EPuglszWzvqTmUNWVYrSWoY.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/EPuglszWzvqTmUNWVYrSWoY.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/EPuglszWzvqTmUNWVYrSWoY.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/9Ggk6Xl3iMZAfYofAB4Pl3IwYLg.jpg",
+srcSet: "https://framerusercontent.com/images/9Ggk6Xl3iMZAfYofAB4Pl3IwYLg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/9Ggk6Xl3iMZAfYofAB4Pl3IwYLg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/9Ggk6Xl3iMZAfYofAB4Pl3IwYLg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/9Ggk6Xl3iMZAfYofAB4Pl3IwYLg.jpg 2500w"
+}, ""),
+XO1oyEwpp: !0,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "ampm.design",
+YsHTDWziD: "t3tzRx7Xb",
+yYDlFhgPd: "23/05"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/5nNaQ0V1wBUjuL07Ke7XYJJ3RU.jpg",
+srcSet: "https://framerusercontent.com/images/5nNaQ0V1wBUjuL07Ke7XYJJ3RU.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/5nNaQ0V1wBUjuL07Ke7XYJJ3RU.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/5nNaQ0V1wBUjuL07Ke7XYJJ3RU.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/5nNaQ0V1wBUjuL07Ke7XYJJ3RU.jpg 2500w"
+}, ""),
+GvYg4k_29: "https://www.framer.com/?via=favoritframe",
+id: "hpxo4D01o",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/D3LifWvEo0YyisXnemjGLtGvR4.jpg",
+srcSet: "https://framerusercontent.com/images/D3LifWvEo0YyisXnemjGLtGvR4.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/D3LifWvEo0YyisXnemjGLtGvR4.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/D3LifWvEo0YyisXnemjGLtGvR4.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/D3LifWvEo0YyisXnemjGLtGvR4.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "36 Times presents a limited edition exclusively curated for Aesop, embodying the very essence of time within a collection of 36 premium essential oil-based incense sticks. Each stick is a portal to a distinct moment, as unique as the next, inviting you to embark on an olfactory journey that spans 36 extraordinary experiences. Our bespoke packaging design mirrors the intricacies of this sensory expedition, seamlessly uniting artistry with aroma. With 36 Times by Aesop, each delicate wisp of fragrance serves as a conduit to a new time, a fresh mood, and an evolved version of yourself."
+})
+}),
+RwRQS2g1D: "36 Times",
+s2nlB5IkI: "36-times",
+UN6yxAgmr: "Aesop",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/3VVGgdM54sCWUYvf5OmnUTIXI.jpg",
+srcSet: "https://framerusercontent.com/images/3VVGgdM54sCWUYvf5OmnUTIXI.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/3VVGgdM54sCWUYvf5OmnUTIXI.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/3VVGgdM54sCWUYvf5OmnUTIXI.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/3VVGgdM54sCWUYvf5OmnUTIXI.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/nblZIdwKW4bisMc5K22YYTESbrQ.jpg",
+srcSet: "https://framerusercontent.com/images/nblZIdwKW4bisMc5K22YYTESbrQ.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/nblZIdwKW4bisMc5K22YYTESbrQ.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/nblZIdwKW4bisMc5K22YYTESbrQ.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/nblZIdwKW4bisMc5K22YYTESbrQ.jpg 2500w"
+}, ""),
+XO1oyEwpp: !0,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "36times.com",
+YsHTDWziD: "ltB2TYQag",
+yYDlFhgPd: "22/07"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/4XlXTS7Ez48q9DGzNFkKOrUNj8.jpg",
+srcSet: "https://framerusercontent.com/images/4XlXTS7Ez48q9DGzNFkKOrUNj8.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/4XlXTS7Ez48q9DGzNFkKOrUNj8.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/4XlXTS7Ez48q9DGzNFkKOrUNj8.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/4XlXTS7Ez48q9DGzNFkKOrUNj8.jpg 2500w"
+}, ""),
+eTKryENK_: "https://framerusercontent.com/assets/ysaqjoALj1VtOSZPEHkNRVL4bKI.mp4",
+EyIoNsZae: "https://framerusercontent.com/assets/aS37XSp63ptqHSBAUO7VP6xJCYc.mp4",
+id: "xRl_xib2D",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/Fl1PfUomEOH2VFAeTtVZHRTlyg.jpg",
+srcSet: "https://framerusercontent.com/images/Fl1PfUomEOH2VFAeTtVZHRTlyg.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/Fl1PfUomEOH2VFAeTtVZHRTlyg.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/Fl1PfUomEOH2VFAeTtVZHRTlyg.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/Fl1PfUomEOH2VFAeTtVZHRTlyg.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "Presenting L100 by Lululemon \u2013 an editorial narrative that delves into the essence of uniqueness through 100 captivating portraits. This immersive project has given birth to exquisite portrait films and a visually captivating book, offering a glimpse into the lives of extraordinary individuals. As the stories of these diverse personalities unfold, we celebrate the power of individuality, interconnectedness, and the shared pursuit of mindful living. L100 is a testament to the profound beauty that emerges when authenticity meets creativity, a celebration of the vibrant tapestry of human experience that weaves us all together."
+})
+}),
+RwRQS2g1D: "100 Portraits",
+s2nlB5IkI: "100-portraits",
+UN6yxAgmr: "Lululemon",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/2CPzPEhGM68tLCN67vSZg2YOrys.jpg",
+srcSet: "https://framerusercontent.com/images/2CPzPEhGM68tLCN67vSZg2YOrys.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/2CPzPEhGM68tLCN67vSZg2YOrys.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/2CPzPEhGM68tLCN67vSZg2YOrys.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/2CPzPEhGM68tLCN67vSZg2YOrys.jpg 2500w"
+}, ""),
+Xcg5CViE_: e(void 0, ""),
+XO1oyEwpp: !1,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "",
+YsHTDWziD: "tqsNWQm28",
+yYDlFhgPd: "22/06"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/UKYvBndjOVdXcsAImGXRCbOkmWo.jpg",
+srcSet: "https://framerusercontent.com/images/UKYvBndjOVdXcsAImGXRCbOkmWo.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/UKYvBndjOVdXcsAImGXRCbOkmWo.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/UKYvBndjOVdXcsAImGXRCbOkmWo.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/UKYvBndjOVdXcsAImGXRCbOkmWo.jpg 2500w"
+}, ""),
+id: "skBKe3YRU",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/MhKikyg8bjZrGdyi3pdl2zveHo.jpg",
+srcSet: "https://framerusercontent.com/images/MhKikyg8bjZrGdyi3pdl2zveHo.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/MhKikyg8bjZrGdyi3pdl2zveHo.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/MhKikyg8bjZrGdyi3pdl2zveHo.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/MhKikyg8bjZrGdyi3pdl2zveHo.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "Introducing Anti \u2013 the ultimate sustainability statement by doing absolutely nothing. In a world of green claims, we\u2019ve mastered the art of eco-inaction, proudly producing zero, leaving no trace, and making the most impact by making nothing at all. While others tout their green efforts, Anti is the brand that speaks volumes through its absence, proving that the best way to be truly sustainable is to stay non-existent. So, while they play the game of production, we\u2019re rewriting the rules by opting out \u2013 the champions of conscious non-participation. the ultimate statement that less truly is more."
+})
+}),
+RwRQS2g1D: "A Statement",
+s2nlB5IkI: "a-statement",
+UN6yxAgmr: "Anti",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/juimcrjQjUWc7Gvi363q1u1aq8.jpg",
+srcSet: "https://framerusercontent.com/images/juimcrjQjUWc7Gvi363q1u1aq8.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/juimcrjQjUWc7Gvi363q1u1aq8.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/juimcrjQjUWc7Gvi363q1u1aq8.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/juimcrjQjUWc7Gvi363q1u1aq8.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/arZXHhfxyskcrhadQpczr488qo.jpg",
+srcSet: "https://framerusercontent.com/images/arZXHhfxyskcrhadQpczr488qo.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/arZXHhfxyskcrhadQpczr488qo.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/arZXHhfxyskcrhadQpczr488qo.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/arZXHhfxyskcrhadQpczr488qo.jpg 2500w"
+}, ""),
+XO1oyEwpp: !1,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "",
+YsHTDWziD: "b3GjIaWpV",
+yYDlFhgPd: "22/03"
+}, {
+ba48O3sY6: e({
+src: "https://framerusercontent.com/images/8pHlNlml7jBwVGv1mKNGFIjHhr8.jpg",
+srcSet: "https://framerusercontent.com/images/8pHlNlml7jBwVGv1mKNGFIjHhr8.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/8pHlNlml7jBwVGv1mKNGFIjHhr8.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/8pHlNlml7jBwVGv1mKNGFIjHhr8.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/8pHlNlml7jBwVGv1mKNGFIjHhr8.jpg 2500w"
+}, ""),
+GvYg4k_29: "https://www.framer.com/?via=favoritframe",
+id: "q_ElLIRNQ",
+Ly2Me0hfE: e({
+src: "https://framerusercontent.com/images/vRgzAO2Gc7Oyjq03brH2EkLRsQ.jpg",
+srcSet: "https://framerusercontent.com/images/vRgzAO2Gc7Oyjq03brH2EkLRsQ.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/vRgzAO2Gc7Oyjq03brH2EkLRsQ.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/vRgzAO2Gc7Oyjq03brH2EkLRsQ.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/vRgzAO2Gc7Oyjq03brH2EkLRsQ.jpg 2500w"
+}, ""),
+mfFdPfmpR: s(r, {
+children: s("p", {
+children: "TEAQUILA is the spirited marriage of tequila\u2019s essence and the tranquility of tea, all without the alcohol. Crafted from a blend of handpicked tea leaves and botanicals, TEAQUILA captures the boldness of tequila and the soothing touch of tea in every sip. It\u2019s a unique concoction that pays homage to tradition while embracing innovation, offering a taste experience that\u2019s both exhilarating and calming. Cheers to TEAQUILA \u2013 where two worlds unite in a single bottle, inviting you to savor the unexpected."
+})
+}),
+RwRQS2g1D: "Product Launch",
+s2nlB5IkI: "product-launch",
+UN6yxAgmr: "TEAQUILA",
+WUfuixF6Y: e({
+src: "https://framerusercontent.com/images/JErRWmDOxeZLPeAmi35FQiL8.jpg",
+srcSet: "https://framerusercontent.com/images/JErRWmDOxeZLPeAmi35FQiL8.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/JErRWmDOxeZLPeAmi35FQiL8.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/JErRWmDOxeZLPeAmi35FQiL8.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/JErRWmDOxeZLPeAmi35FQiL8.jpg 2500w"
+}, ""),
+Xcg5CViE_: e({
+src: "https://framerusercontent.com/images/o1aOgu7IHVJ6S1AXHmGX7F2w3zM.jpg",
+srcSet: "https://framerusercontent.com/images/o1aOgu7IHVJ6S1AXHmGX7F2w3zM.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/o1aOgu7IHVJ6S1AXHmGX7F2w3zM.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/o1aOgu7IHVJ6S1AXHmGX7F2w3zM.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/o1aOgu7IHVJ6S1AXHmGX7F2w3zM.jpg 2500w"
+}, ""),
+XO1oyEwpp: !1,
+XPCe7fdSA: e(void 0, ""),
+YpOlZz3tq: "teaquila.com",
+YsHTDWziD: "t3tzRx7Xb",
+yYDlFhgPd: "22/02"
+}];
+for (let a of n)
+Object.freeze(a);
+i(n, {
+RwRQS2g1D: {
+defaultValue: "",
+title: "Title",
+type: t.String
+},
+s2nlB5IkI: {
+title: "Slug",
+type: t.String
+},
+yYDlFhgPd: {
+defaultValue: "",
+title: "Date",
+type: t.String
+},
+UN6yxAgmr: {
+defaultValue: "",
+title: "Client",
+type: t.String
+},
+YsHTDWziD: {
+defaultValue: "b3GjIaWpV",
+options: ["b3GjIaWpV", "tqsNWQm28", "pwrfUXeph", "t3tzRx7Xb", "ltB2TYQag", "Ci0UFGLw0"],
+optionTitles: ["Branding", "Editorial", "Type Design", "Packaging", "Campaign", "Design"],
+title: "Type",
+type: t.Enum
+},
+GvYg4k*29: {
+title: "Website Link",
+type: t.Link
+},
+YpOlZz3tq: {
+defaultValue: "",
+title: "Website Label",
+type: t.String
+},
+mfFdPfmpR: {
+defaultValue: "",
+title: "Content",
+type: t.RichText
+},
+Ly2Me0hfE: {
+title: "Image 1 (Preview)",
+type: t.ResponsiveImage
+},
+ba48O3sY6: {
+title: "Image 2",
+type: t.ResponsiveImage
+},
+WUfuixF6Y: {
+title: "Image 3",
+type: t.ResponsiveImage
+},
+Xcg5CViE*: {
+title: "Image 4",
+type: t.ResponsiveImage
+},
+XPCe7fdSA: {
+title: "Image 5",
+type: t.ResponsiveImage
+},
+XO1oyEwpp: {
+defaultValue: !1,
+title: "CTA Inverted",
+type: t.Boolean
+},
+EyIoNsZae: {
+allowedFileTypes: ["mp4"],
+title: "Video",
+type: t.File
+},
+eTKryENK\_: {
+allowedFileTypes: ["mp4"],
+title: "Preview Video",
+type: t.File
+}
+});
+n.displayName = "Projects";
+var f = n
+, m = (a,o)=>{
+let c = o?.fallback;
+switch (a) {
+case "b3GjIaWpV":
+return "Branding";
+case "tqsNWQm28":
+return "Editorial";
+case "pwrfUXeph":
+return "Type Design";
+case "t3tzRx7Xb":
+return "Packaging";
+case "ltB2TYQag":
+return "Campaign";
+case "Ci0UFGLw0":
+return "Design";
+default:
+return ""
+}
+}
+, w = {
+YsHTDWziD: m
+}
+, y = {
+exports: {
+YsHTDWziDToDisplayName: {
+type: "variable",
+annotations: {
+framerContractVersion: "1"
+}
+},
+default: {
+type: "data",
+name: "data",
+annotations: {
+framerSlug: "s2nlB5IkI",
+framerRecordIdKey: "id",
+framerEnumToDisplayNameUtils: "2",
+framerContractVersion: "1",
+framerData: ""
+}
+},
+enumToDisplayNameFunctions: {
+type: "variable",
+annotations: {
+framerContractVersion: "1"
+}
+},
+**FramerMetadata**: {
+type: "variable"
+}
+}
+};
+export {f as a, m as b, w as c, y as d};
+//# sourceMappingURL=chunk-W6TYGKAL.mjs.map

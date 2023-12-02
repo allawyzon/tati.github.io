@@ -1,0 +1,555 @@
+import { a as N } from "./chunk-4GE4BFSS.mjs";
+import { a as K } from "./chunk-S6ZWUL3A.mjs";
+import { a as B } from "./chunk-SGIMV2LV.mjs";
+import "./chunk-WTBM6HB3.mjs";
+import { a as z } from "./chunk-4OXT4YBR.mjs";
+import { b as $ } from "./chunk-EG2VFEVJ.mjs";
+import { a as J, b as I } from "./chunk-W6TYGKAL.mjs";
+import { p as U, q as y, r as k, s as Q } from "./chunk-AACKV3QY.mjs";
+import { a as E, b as e, c as p } from "./chunk-5SFOXFGW.mjs";
+import {
+  C as S,
+  I as L,
+  J as W,
+  V as b,
+  Y as o,
+  Z as P,
+  _ as M,
+  aa as h,
+  b as _,
+  d as A,
+  ia as X,
+  j as V,
+  ja as u,
+  k as D,
+  ka as F,
+  la as H,
+  ma as R,
+  oa as q,
+  pa as Y,
+  r as t,
+  s as O,
+  t as v,
+  xa as G,
+  ya as l,
+} from "./chunk-NVV4GD4L.mjs";
+import "./chunk-OIST4OYN.mjs";
+var pe = l(k),
+  xe = l(y),
+  he = l(U),
+  ue = l(z),
+  ye = Q(t.div),
+  ge = l(B),
+  we = $(t.div),
+  ve = l(K);
+var ee = {
+    e_rIZUoT4: "(max-width: 809px)",
+    kdEa5jdI8: "(min-width: 1200px)",
+    ZuwziBV_k: "(min-width: 810px) and (max-width: 1199px)",
+  },
+  re = () => typeof document < "u",
+  ae = {
+    e_rIZUoT4: "framer-v-1ygk7d3",
+    kdEa5jdI8: "framer-v-1x32c4v",
+    ZuwziBV_k: "framer-v-1ij83si",
+  };
+re() && R("kdEa5jdI8", ee, ae);
+var be = {
+  default: {
+    duration: 0,
+  },
+};
+function Ee({ children: r, blockDocumentScrolling: m }) {
+  let [n, i] = q({
+    blockDocumentScrolling: m,
+  });
+  return r({
+    hide: () => i(!1),
+    show: () => i(!0),
+    toggle: () => i(!n),
+    visible: n,
+  });
+}
+var Ue = (r) =>
+    typeof r == "object" && r !== null && typeof r.src == "string"
+      ? r
+      : typeof r == "string"
+      ? {
+          src: r,
+        }
+      : void 0,
+  Be = (r) => r != null && r !== "",
+  ke = ({ query: r, children: m }) => {
+    let n = Y(r);
+    return m(n);
+  },
+  Z = N(),
+  Ke = {
+    Desktop: "kdEa5jdI8",
+    Phone: "e_rIZUoT4",
+    Tablet: "ZuwziBV_k",
+  },
+  Ie = ({ height: r, id: m, width: n, ...i }) => {
+    var s, f;
+    return {
+      ...i,
+      variant:
+        (f = (s = Ke[i.variant]) !== null && s !== void 0 ? s : i.variant) !==
+          null && f !== void 0
+          ? f
+          : "kdEa5jdI8",
+    };
+  },
+  ze = A(function (r, m) {
+    let { activeLocale: n } = W(),
+      {
+        style: i,
+        className: s,
+        layoutId: f,
+        variant: te,
+        Ly2Me0hfEwZOAiXZu0: Ze,
+        UN6yxAgmrwZOAiXZu0: je,
+        YsHTDWziDwZOAiXZu0: Ce,
+        s2nlB5IkIwZOAiXZu0: Te,
+        eTKryENK_wZOAiXZu0: _e,
+        XO1oyEwppwZOAiXZu0: Ae,
+        EyIoNsZaewZOAiXZu0: Ve,
+        idwZOAiXZu0: De,
+        ...ie
+      } = Ie(r);
+    D(() => {
+      let a = N();
+      if (((document.title = a.title || ""), a.viewport)) {
+        var d;
+        (d = document.querySelector('meta[name="viewport"]')) === null ||
+          d === void 0 ||
+          d.setAttribute("content", a.viewport);
+      }
+      a.bodyClassName &&
+        (Array.from(document.body.classList)
+          .filter((c) => c.startsWith("framer-body-"))
+          .map((c) => document.body.classList.remove(c)),
+        document.body.classList.add(a.bodyClassName));
+    }, []);
+    let [x, Oe] = H(te, ee, !1);
+    be.default;
+    let { activeVariantCallback: j, delay: Se } = F(void 0),
+      ne = (a) =>
+        j(async (...d) => {
+          a.toggle();
+        }),
+      oe = (a) =>
+        j(async (...d) => {
+          a.hide();
+        }),
+      de = () => x === "e_rIZUoT4" || !re(),
+      w = L(),
+      le = V();
+    return e(P.Provider, {
+      value: {
+        primaryVariantId: "kdEa5jdI8",
+        variantClassNames: ae,
+      },
+      children: e(v, {
+        id: f ?? le,
+        children: p(t.div, {
+          className: b("framer-EBUK7"),
+          style: {
+            display: "contents",
+          },
+          children: [
+            p(t.div, {
+              ...ie,
+              className: b("framer-1x32c4v", s),
+              ref: m,
+              style: {
+                ...i,
+              },
+              children: [
+                e(t.div, {
+                  className: "framer-1jygjf8",
+                  "data-framer-name": "Grid Wrapper",
+                  name: "Grid Wrapper",
+                  children: e(o, {
+                    className: "framer-hbzdxt-container",
+                    children: e(u, {
+                      breakpoint: x,
+                      overrides: {
+                        e_rIZUoT4: {
+                          opacity: 0.1,
+                        },
+                      },
+                      children: e(k, {
+                        background:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        columns: 4,
+                        height: "100%",
+                        id: "rManaxrgm",
+                        layoutId: "rManaxrgm",
+                        opacity: 0.15,
+                        style: {
+                          height: "100%",
+                          width: "100%",
+                        },
+                        width: "100%",
+                      }),
+                    }),
+                  }),
+                }),
+                e(t.div, {
+                  className: "framer-lsb2or",
+                  "data-framer-name": "Blend Header",
+                  name: "Blend Header",
+                  children: e(Ee, {
+                    children: (a) =>
+                      e(E, {
+                        children: p(o, {
+                          className: "framer-nskpse-container",
+                          children: [
+                            e(u, {
+                              breakpoint: x,
+                              overrides: {
+                                e_rIZUoT4: {
+                                  nav: "sLw35ONWj",
+                                },
+                              },
+                              children: e(y, {
+                                height: "100%",
+                                id: "WpzfTQl1Z",
+                                layoutId: "WpzfTQl1Z",
+                                nav: "R47JrM5Cv",
+                                style: {
+                                  width: "100%",
+                                },
+                                tap: ne(a),
+                                width: "100%",
+                              }),
+                            }),
+                            de() &&
+                              e(O, {
+                                children:
+                                  a.visible &&
+                                  e(E, {
+                                    children: S(
+                                      p(_, {
+                                        children: [
+                                          e(
+                                            t.div,
+                                            {
+                                              animate: {
+                                                opacity: 1,
+                                                transition: {
+                                                  delay: 0,
+                                                  duration: 0,
+                                                  ease: [0.5, 0, 0.88, 0.77],
+                                                  type: "tween",
+                                                },
+                                              },
+                                              className:
+                                                "framer-10xijly hidden-1x32c4v hidden-1ij83si",
+                                              exit: {
+                                                opacity: 0,
+                                                transition: {
+                                                  delay: 0,
+                                                  duration: 0,
+                                                  ease: [0.12, 0.23, 0.5, 1],
+                                                  type: "tween",
+                                                },
+                                              },
+                                              initial: {
+                                                opacity: 0,
+                                              },
+                                              onTap: () => a.hide(),
+                                            },
+                                            "RzKQbxCFs"
+                                          ),
+                                          e(o, {
+                                            className:
+                                              "framer-tnrik0-container",
+                                            children: e(U, {
+                                              height: "100%",
+                                              id: "fNONRUfDK",
+                                              layoutId: "fNONRUfDK",
+                                              style: {
+                                                height: "100%",
+                                                width: "100%",
+                                              },
+                                              width: "100%",
+                                            }),
+                                          }),
+                                          e(o, {
+                                            className:
+                                              "framer-3rgu4o-container",
+                                            children: e(y, {
+                                              height: "100%",
+                                              id: "DAVuSiMHR",
+                                              layoutId: "DAVuSiMHR",
+                                              nav: "cz0I8PyZA",
+                                              style: {
+                                                width: "100%",
+                                              },
+                                              tap: oe(a),
+                                              width: "100%",
+                                            }),
+                                          }),
+                                        ],
+                                      }),
+                                      document.querySelector("#overlay")
+                                    ),
+                                  }),
+                              }),
+                          ],
+                        }),
+                      }),
+                  }),
+                }),
+                e(t.div, {
+                  className: "framer-1kll4oz",
+                  "data-framer-name": "Subnav",
+                  name: "Subnav",
+                  children: e(o, {
+                    className: "framer-ucq1zn-container",
+                    children: e(u, {
+                      breakpoint: x,
+                      overrides: {
+                        e_rIZUoT4: {
+                          style: {
+                            width: "100%",
+                          },
+                        },
+                      },
+                      children: e(z, {
+                        height: "100%",
+                        id: "jgcz0dgEc",
+                        label: "List View",
+                        label2: "Img \u2006View",
+                        layoutId: "jgcz0dgEc",
+                        link: h(
+                          {
+                            webPageId: "dvOWJ5bSe",
+                          },
+                          w
+                        ),
+                        link2: h(
+                          {
+                            webPageId: "wusb6YOai",
+                          },
+                          w
+                        ),
+                        style: {
+                          maxWidth: "100%",
+                          width: "100%",
+                        },
+                        variant: "nAP0y4xuZ",
+                        width: "100%",
+                      }),
+                    }),
+                  }),
+                }),
+                e(ye, {
+                  className: "framer-1urwt3b",
+                  "data-framer-name": "Cursor",
+                  name: "Cursor",
+                }),
+                e(t.main, {
+                  className: "framer-1f0ylti",
+                  "data-framer-name": "Main",
+                  name: "Main",
+                  children: e(t.section, {
+                    className: "framer-1w6zzes",
+                    "data-framer-name": "Section",
+                    name: "Section",
+                    children: e(o, {
+                      className: "framer-a4mmv1-container",
+                      children: e(K, {
+                        height: "100%",
+                        id: "UDcLSXJFr",
+                        layoutId: "UDcLSXJFr",
+                        style: {
+                          maxWidth: "100%",
+                        },
+                        width: "100%",
+                        children: e(t.div, {
+                          className: "framer-1nnxesx",
+                          children: e(ke, {
+                            query: {
+                              from: {
+                                data: J,
+                                locale: n,
+                                type: "Collection",
+                              },
+                              select: [
+                                {
+                                  name: "Ly2Me0hfE",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "UN6yxAgmr",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "YsHTDWziD",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "s2nlB5IkI",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "eTKryENK_",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "XO1oyEwpp",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "EyIoNsZae",
+                                  type: "Identifier",
+                                },
+                                {
+                                  name: "id",
+                                  type: "Identifier",
+                                },
+                              ],
+                            },
+                            children: (a) =>
+                              a.map(
+                                (
+                                  {
+                                    Ly2Me0hfE: d,
+                                    UN6yxAgmr: c,
+                                    YsHTDWziD: me,
+                                    s2nlB5IkI: C,
+                                    eTKryENK_: fe,
+                                    XO1oyEwpp: se,
+                                    EyIoNsZae: ce,
+                                    id: T,
+                                  },
+                                  Le
+                                ) =>
+                                  e(
+                                    v,
+                                    {
+                                      id: `wZOAiXZu0-${T}`,
+                                      children: e(M.Provider, {
+                                        value: {
+                                          s2nlB5IkI: C,
+                                        },
+                                        children: e(we, {
+                                          className: "framer-1ldi4kt",
+                                          children: e(o, {
+                                            className:
+                                              "framer-h2nm1r-container",
+                                            children: e(B, {
+                                              cTAInverted: se,
+                                              cTALabel: "View",
+                                              height: "100%",
+                                              id: "k9HCdu85e",
+                                              image: Ue(d),
+                                              layoutId: "k9HCdu85e",
+                                              link: h(
+                                                {
+                                                  pathVariables: {
+                                                    s2nlB5IkI: C,
+                                                  },
+                                                  webPageId: "pSjIbl0ap",
+                                                },
+                                                w
+                                              ),
+                                              meta:
+                                                I == null ? void 0 : I(me, n),
+                                              scaleIn: !1,
+                                              showVideo: Be(ce),
+                                              style: {
+                                                maxWidth: "100%",
+                                              },
+                                              title: c,
+                                              video: fe,
+                                              width: "100%",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                    },
+                                    T
+                                  )
+                              ),
+                          }),
+                        }),
+                      }),
+                    }),
+                  }),
+                }),
+              ],
+            }),
+            e("div", {
+              id: "overlay",
+            }),
+          ],
+        }),
+      }),
+    });
+  }),
+  Ne = [
+    '.framer-EBUK7 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+    "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
+    `.${Z.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); }`,
+    ".framer-EBUK7 .framer-np79vw { display: block; }",
+    ".framer-EBUK7 .framer-1x32c4v { align-content: center; align-items: center; background-color: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, #000000); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 1200px; }",
+    ".framer-EBUK7 .framer-1jygjf8 { flex: none; height: 100%; left: 0px; overflow: hidden; pointer-events: none; position: fixed; top: 0px; width: 100%; }",
+    ".framer-EBUK7 .framer-hbzdxt-container { flex: none; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; }",
+    ".framer-EBUK7 .framer-lsb2or { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 0px; mix-blend-mode: difference; overflow: hidden; padding: 0px 0px 0px 0px; position: fixed; top: 0px; width: 100%; z-index: 9; }",
+    ".framer-EBUK7 .framer-nskpse-container { flex: none; height: auto; position: relative; width: 100%; }",
+    '.framer-EBUK7 .framer-10xijly { background-color: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, #ffffff) /* {"name":"Background"} */; inset: 0px; position: fixed; user-select: none; z-index: 9; }',
+    ".framer-EBUK7 .framer-tnrik0-container { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); position: fixed; top: calc(50.00000000000002% - 100% / 2); width: 100%; z-index: 9; }",
+    ".framer-EBUK7 .framer-3rgu4o-container { flex: none; height: auto; left: 0px; mix-blend-mode: difference; position: fixed; top: 0px; width: 100%; z-index: 9; }",
+    ".framer-EBUK7 .framer-1kll4oz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; left: 0px; overflow: hidden; padding: 80px 0px 0px 0px; position: fixed; top: 0px; width: 100%; z-index: 8; }",
+    ".framer-EBUK7 .framer-ucq1zn-container { flex: 1 0 0px; height: auto; max-width: 50%; position: relative; width: 1px; z-index: 1; }",
+    ".framer-EBUK7 .framer-1urwt3b { aspect-ratio: 1 / 1; background-color: #ffffff; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; border-top-left-radius: 50%; border-top-right-radius: 50%; flex: none; height: var(--framer-aspect-ratio-supported, 28px); left: 0px; mix-blend-mode: difference; opacity: 0; overflow: hidden; position: fixed; top: 0px; width: 28px; will-change: var(--framer-will-change-override, transform); z-index: 10; }",
+    ".framer-EBUK7 .framer-1f0ylti { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; z-index: 1; }",
+    ".framer-EBUK7 .framer-1w6zzes { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-EBUK7 .framer-a4mmv1-container, .framer-EBUK7 .framer-h2nm1r-container { flex: none; height: auto; max-width: 100%; position: relative; width: auto; }",
+    ".framer-EBUK7 .framer-1nnxesx { align-content: flex-start; align-items: flex-start; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; padding: 0px 0px 0px 0px; position: relative; width: min-content; }",
+    ".framer-EBUK7 .framer-1ldi4kt { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; min-height: 100vh; padding: 175px 20px 20px 20px; position: relative; width: min-content; }",
+    "@supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-EBUK7 .framer-1x32c4v, .framer-EBUK7 .framer-lsb2or, .framer-EBUK7 .framer-1kll4oz, .framer-EBUK7 .framer-1f0ylti, .framer-EBUK7 .framer-1w6zzes, .framer-EBUK7 .framer-1nnxesx, .framer-EBUK7 .framer-1ldi4kt { gap: 0px; } .framer-EBUK7 .framer-1x32c4v > *, .framer-EBUK7 .framer-lsb2or > *, .framer-EBUK7 .framer-1f0ylti > *, .framer-EBUK7 .framer-1w6zzes > *, .framer-EBUK7 .framer-1ldi4kt > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-EBUK7 .framer-1x32c4v > :first-child, .framer-EBUK7 .framer-lsb2or > :first-child, .framer-EBUK7 .framer-1f0ylti > :first-child, .framer-EBUK7 .framer-1w6zzes > :first-child, .framer-EBUK7 .framer-1ldi4kt > :first-child { margin-top: 0px; } .framer-EBUK7 .framer-1x32c4v > :last-child, .framer-EBUK7 .framer-lsb2or > :last-child, .framer-EBUK7 .framer-1f0ylti > :last-child, .framer-EBUK7 .framer-1w6zzes > :last-child, .framer-EBUK7 .framer-1ldi4kt > :last-child { margin-bottom: 0px; } .framer-EBUK7 .framer-1kll4oz > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-EBUK7 .framer-1kll4oz > :first-child, .framer-EBUK7 .framer-1nnxesx > :first-child { margin-left: 0px; } .framer-EBUK7 .framer-1kll4oz > :last-child, .framer-EBUK7 .framer-1nnxesx > :last-child { margin-right: 0px; } .framer-EBUK7 .framer-1nnxesx > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } }",
+    "@media (min-width: 1200px) { .framer-EBUK7 .hidden-1x32c4v { display: none !important; } }",
+    `@media (min-width: 810px) and (max-width: 1199px) { .framer-EBUK7 .hidden-1ij83si { display: none !important; } .${Z.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); } .framer-EBUK7 .framer-1x32c4v { width: 810px; }}`,
+    `@media (max-width: 809px) { .framer-EBUK7 .hidden-1ygk7d3 { display: none !important; } .${Z.bodyClassName} { background: var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(0, 0, 0)); } .framer-EBUK7 .framer-1x32c4v { width: 390px; } .framer-EBUK7 .framer-ucq1zn-container { max-width: unset; }}`,
+  ],
+  g = X(ze, Ne, "framer-EBUK7"),
+  nr = g;
+(g.displayName = "Projects Thumbs"),
+  (g.defaultProps = {
+    height: 8343.5,
+    width: 1200,
+  }),
+  G(g, [...pe, ...xe, ...he, ...ue, ...ge, ...ve]);
+var or = {
+  exports: {
+    Props: {
+      type: "tsType",
+      annotations: {
+        framerContractVersion: "1",
+      },
+    },
+    default: {
+      type: "reactComponent",
+      name: "Framerwusb6YOai",
+      slots: [],
+      annotations: {
+        framerIntrinsicHeight: "8343.5",
+        framerResponsiveScreen: "",
+        framerIntrinsicWidth: "1200",
+        framerContractVersion: "1",
+        framerCanvasComponentVariantDetails:
+          '{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"ZuwziBV_k":{"layout":["fixed","auto"]},"e_rIZUoT4":{"layout":["fixed","auto"]}}}',
+      },
+    },
+    __FramerMetadata__: {
+      type: "variable",
+    },
+  },
+};
+export { or as __FramerMetadata__, nr as default };
+//# sourceMappingURL=XDzDl25xCmhbDaZy7ExJFO-bUDakgB-Eidc2JxaYPkE.XNCFG4BV.mjs.map

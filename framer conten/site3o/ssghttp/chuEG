@@ -1,0 +1,282 @@
+import { b as y } from "./chunk-5SFOXFGW.mjs";
+import { i as E, n as L } from "./chunk-NVV4GD4L.mjs";
+import { c as a, d as o } from "./chunk-OIST4OYN.mjs";
+var M = {};
+function lt(t) {
+  var e = typeof t;
+  return t != null && (e == "object" || e == "function");
+}
+M = lt;
+var x = M;
+var j = typeof globalThis < "u" ? globalThis : typeof self < "u" ? self : o,
+  N = {},
+  dt = typeof j == "object" && j && j.Object === Object && j;
+N = dt;
+var pt = N,
+  F = {},
+  ht = pt,
+  bt = typeof self == "object" && self && self.Object === Object && self,
+  gt = ht || bt || Function("return this")();
+F = gt;
+var w = F;
+var k = {},
+  yt = w,
+  xt = function () {
+    return yt.Date.now();
+  };
+k = xt;
+var H = k;
+var V = {},
+  jt = /\s/;
+function wt(t) {
+  for (var e = t.length; e-- && jt.test(t.charAt(e)); );
+  return e;
+}
+V = wt;
+var z = V;
+var A = {},
+  _t = z,
+  Tt = /^\s+/;
+function Ot(t) {
+  return t && t.slice(0, _t(t) + 1).replace(Tt, "");
+}
+A = Ot;
+var D = A;
+var P = {},
+  Et = w,
+  Gt = Et.Symbol;
+P = Gt;
+var G = P;
+var q = {},
+  R = G,
+  B = Object.prototype,
+  St = B.hasOwnProperty,
+  Wt = B.toString,
+  b = R ? R.toStringTag : void 0;
+function $t(t) {
+  var e = St.call(t, b),
+    n = t[b];
+  try {
+    t[b] = void 0;
+    var f = !0;
+  } catch {}
+  var i = Wt.call(t);
+  return f && (e ? (t[b] = n) : delete t[b]), i;
+}
+q = $t;
+var Ct = q,
+  J = {},
+  It = Object.prototype,
+  Lt = It.toString;
+function Mt(t) {
+  return Lt.call(t);
+}
+J = Mt;
+var Nt = J,
+  K = {},
+  U = G,
+  Ft = Ct,
+  kt = Nt,
+  Ht = "[object Null]",
+  Vt = "[object Undefined]",
+  X = U ? U.toStringTag : void 0;
+function zt(t) {
+  return t == null
+    ? t === void 0
+      ? Vt
+      : Ht
+    : X && X in Object(t)
+    ? Ft(t)
+    : kt(t);
+}
+K = zt;
+var Q = K;
+var Y = {};
+function At(t) {
+  return t != null && typeof t == "object";
+}
+Y = At;
+var Z = Y;
+var tt = {},
+  Dt = Q,
+  Pt = Z,
+  Rt = "[object Symbol]";
+function Ut(t) {
+  return typeof t == "symbol" || (Pt(t) && Dt(t) == Rt);
+}
+tt = Ut;
+var et = tt;
+var it = {},
+  Xt = D,
+  rt = x,
+  qt = et,
+  at = NaN,
+  Bt = /^[-+]0x[0-9a-f]+$/i,
+  Jt = /^0b[01]+$/i,
+  Kt = /^0o[0-7]+$/i,
+  Qt = parseInt;
+function Yt(t) {
+  if (typeof t == "number") return t;
+  if (qt(t)) return at;
+  if (rt(t)) {
+    var e = typeof t.valueOf == "function" ? t.valueOf() : t;
+    t = rt(e) ? e + "" : e;
+  }
+  if (typeof t != "string") return t === 0 ? t : +t;
+  t = Xt(t);
+  var n = Jt.test(t);
+  return n || Kt.test(t) ? Qt(t.slice(2), n ? 2 : 8) : Bt.test(t) ? at : +t;
+}
+it = Yt;
+var ot = it;
+var Zt = typeof globalThis < "u" ? globalThis : typeof self < "u" ? self : o,
+  ft = {},
+  te = x,
+  S = H,
+  nt = ot,
+  ee = "Expected a function",
+  re = Math.max,
+  ae = Math.min;
+function ie(t, e, n) {
+  var f,
+    i,
+    s,
+    l,
+    u,
+    c,
+    d = 0,
+    W = !1,
+    p = !1,
+    _ = !0;
+  if (typeof t != "function") throw new TypeError(ee);
+  (e = nt(e) || 0),
+    te(n) &&
+      ((W = !!n.leading),
+      (p = "maxWait" in n),
+      (s = p ? re(nt(n.maxWait) || 0, e) : s),
+      (_ = "trailing" in n ? !!n.trailing : _));
+  function T(r) {
+    var m = f,
+      h = i;
+    return (f = i = void 0), (d = r), (l = t.apply(h, m)), l;
+  }
+  function vt(r) {
+    return (d = r), (u = setTimeout(g, e)), W ? T(r) : l;
+  }
+  function st(r) {
+    var m = r - c,
+      h = r - d,
+      I = e - m;
+    return p ? ae(I, s - h) : I;
+  }
+  function $(r) {
+    var m = r - c,
+      h = r - d;
+    return c === void 0 || m >= e || m < 0 || (p && h >= s);
+  }
+  function g() {
+    var r = S();
+    if ($(r)) return C(r);
+    u = setTimeout(g, st(r));
+  }
+  function C(r) {
+    return (u = void 0), _ && f ? T(r) : ((f = i = void 0), l);
+  }
+  function mt() {
+    u !== void 0 && clearTimeout(u), (d = 0), (f = c = i = u = void 0);
+  }
+  function ct() {
+    return u === void 0 ? l : C(S());
+  }
+  function O() {
+    var r = S(),
+      m = $(r);
+    if (((f = arguments), (i = this || Zt), (c = r), m)) {
+      if (u === void 0) return vt(c);
+      if (p) return clearTimeout(u), (u = setTimeout(g, e)), T(c);
+    }
+    return u === void 0 && (u = setTimeout(g, e)), l;
+  }
+  return (O.cancel = mt), (O.flush = ct), O;
+}
+ft = ie;
+var ut = ft;
+function rr(t) {
+  return (e) =>
+    y(t, {
+      ...e,
+      style: {
+        ...e.style,
+        transformOrigin: "top left",
+      },
+      animate: {
+        scaleX: [0, 1],
+      },
+      transition: {
+        duration: 2,
+        ease: [0.075, 0.82, 0.165, 1],
+      },
+    });
+}
+function ar(t) {
+  return (e) => {
+    let [n, f] = L(25);
+    return (
+      E(() => {
+        let i = document.createElement("style");
+        return (
+          (i.textContent = `
+                .grid-align:nth-child(2n) {
+                    justify-content: end;
+                }
+
+                .grid-align:nth-child(3n) {
+                    justify-content: center;
+                }
+            `),
+          document.head.appendChild(i),
+          () => {
+            document.head.removeChild(i);
+          }
+        );
+      }, []),
+      E(() => {
+        let i = () => {
+            a.matchMedia("(max-width: 609px)").matches
+              ? f(100)
+              : a.matchMedia("(max-width: 1100px)").matches
+              ? f(50)
+              : f(25);
+          },
+          s = ut(i, 200);
+        return (
+          a.addEventListener("resize", s),
+          i(),
+          () => {
+            a.removeEventListener("resize", s);
+          }
+        );
+      }, []),
+      y(t, {
+        ...e,
+        className: `${e.className} grid-align`,
+        style: {
+          ...e.style,
+          width: `${n}vw`,
+        },
+      })
+    );
+  };
+}
+function ir(t) {
+  return (e) =>
+    y(t, {
+      ...e,
+      style: {
+        ...e.style,
+        width: "75vw",
+      },
+    });
+}
+export { rr as a, ar as b, ir as c };
+//# sourceMappingURL=chunk-EG2VFEVJ.mjs.map

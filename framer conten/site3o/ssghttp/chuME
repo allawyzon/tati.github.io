@@ -1,0 +1,63 @@
+import { b as p } from "./chunk-5SFOXFGW.mjs";
+import { A as l, i as a, y as o, z as m } from "./chunk-NVV4GD4L.mjs";
+function j(y) {
+  return (r) => {
+    let [t, n] = o(),
+      s = m(t, {
+        amount: 0.5,
+      }),
+      c = [0.075, 0.82, 0.165, 1],
+      u = [0.6, 0.04, 0.98, 0.335],
+      i = {
+        delay: l(0.1),
+      };
+    return (
+      a(() => {
+        s
+          ? n(
+              "span",
+              {
+                y: ["100%", 0],
+              },
+              {
+                ...i,
+                duration: 2,
+                ease: c,
+                onPlay: () => (t.current.style.opacity = 1),
+              }
+            )
+          : n(
+              "span",
+              {
+                y: [0, "-100%"],
+              },
+              {
+                ...i,
+                duration: 1,
+                ease: u,
+              }
+            );
+      }, [s]),
+      a(() => {
+        let e = t.current.querySelector(".framer-text");
+        (e.style.display = "flex"),
+          (e.style.justifyContent = "center"),
+          (e.style.fontSize = "clamp(2rem, 28cqi, 40rem)"),
+          (e.innerHTML = e.textContent
+            .split("")
+            .map((f, _) => `<span style="display: inline-block">${f}</span>`)
+            .join(""));
+      }, []),
+      p(y, {
+        ...r,
+        style: {
+          ...r.style,
+          opacity: 0,
+        },
+        ref: t,
+      })
+    );
+  };
+}
+export { j as a };
+//# sourceMappingURL=chunk-MEZSA5XW.mjs.map

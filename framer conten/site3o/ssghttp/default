@@ -1,0 +1,186 @@
+import { a as b, b as R } from "./chunk-7L4MWRSW.mjs";
+import {
+  F as u,
+  G as e,
+  H as h,
+  O as F,
+  Q as f,
+  c as m,
+  f as g,
+  ha as y,
+} from "./chunk-NVV4GD4L.mjs";
+import { c as a } from "./chunk-OIST4OYN.mjs";
+a.__framer_importFromPackage = (t, s) => () =>
+  m(F, {
+    error: 'Package component not supported: "' + s + '" in "' + t + '"',
+  });
+a.process = {
+  ...a.process,
+  env: {
+    ...(a.process ? a.process.env : void 0),
+    NODE_ENV: "production",
+  },
+};
+f();
+(async () => {
+  let t = {
+      augiA20Il: {
+        elements: {
+          b5iizAEeN: "statements",
+          Jh1_SWJMR: "scroll-trigger",
+          OJFc7eXma: "intro",
+          ozgXYY6mY: "blog-item",
+          PMsEyAMzO: "case",
+          SC6KaHTx0: "title",
+          XCc3BvWIk: "blog",
+        },
+        page: e(
+          () =>
+            import("./NvQ4engLRtCtmdS08_UYaaHtl3MgAjmSmPKXgAmGtH8.P7YDW6TE.mjs")
+        ),
+        path: "/",
+      },
+      dvOWJ5bSe: {
+        elements: {},
+        page: e(
+          () =>
+            import("./5FyCQBl66F4KebpG5vF8pwSp8ATvkVBQgRbzF6E_jP0.QF5VV3ID.mjs")
+        ),
+        path: "/projects",
+      },
+      wusb6YOai: {
+        elements: {},
+        page: e(
+          () =>
+            import("./XDzDl25xCmhbDaZy7ExJFO-bUDakgB-Eidc2JxaYPkE.XNCFG4BV.mjs")
+        ),
+        path: "/projects-thumbs",
+      },
+      S5aJtSRSm: {
+        elements: {},
+        page: e(
+          () =>
+            import("./nF6vpKos7f5q-6riCdCB4hkuF6k8uf8Vd7-1xbvt_AM.7X2VJIAS.mjs")
+        ),
+        path: "/blog",
+      },
+      mL1NOSGam: {
+        elements: {},
+        page: e(
+          () =>
+            import("./YwQsjYSDETjfYZwtb_3Mxl3LDpaW09d7imys50Boeno.ENTYPMAE.mjs")
+        ),
+        path: "/blog-design",
+      },
+      ZiUgWafGl: {
+        elements: {},
+        page: e(
+          () =>
+            import("./bjMr1XICV45VmXGL7SQKaO3bmP9QKRYaDRLTLhNAQ-0.MSEYD2YP.mjs")
+        ),
+        path: "/blog-studio",
+      },
+      vlvUr_ZFe: {
+        elements: {},
+        page: e(
+          () =>
+            import("./XOvhYoK09PcLxls4XKOYSr_-HzPiR0GHVTup7WLhU84.J4Z2GHNV.mjs")
+        ),
+        path: "/blog-objects",
+      },
+      WL0ATVtHF: {
+        elements: {
+          JxQKonVuj: "video-trigger",
+          n7prDYwBK: "intro",
+          QyQRZJIvC: "video-trigger-1",
+        },
+        page: e(
+          () =>
+            import("./177PATI9RBXtI38NLf44hsGYoQwIjj3yuccgJ26ngkU.AE32YM6R.mjs")
+        ),
+        path: "/studio",
+      },
+      SmmuIBx8v: {
+        elements: {},
+        page: e(
+          () =>
+            import("./Mn_X1-O9N7odyEU1VGgbwp-mrKtmn-YJ1C_1UZYmu3U.U7LNOMU7.mjs")
+        ),
+        path: "/404",
+      },
+      D9oGb1uDv: {
+        elements: {},
+        page: e(
+          () =>
+            import("./oQUy3c0O1Wp3I7wO6dLSTTk1wKHlm3VltCjUtcDwlLM.MHZLXIBS.mjs")
+        ),
+        path: "/blog/:ZRYGHD43I",
+      },
+      pSjIbl0ap: {
+        elements: {},
+        page: e(
+          () =>
+            import("./uCm4DjUzhMq6tJpDmG5THP4cODyyloEgk5S9_FYP4_4.LRUZLLRR.mjs")
+        ),
+        path: "/projects/:s2nlB5IkI",
+      },
+    },
+    s = [
+      {
+        code: "en",
+        id: "default",
+        name: "English",
+        slug: "",
+      },
+    ],
+    I = e(
+      () => import("./Mn_X1-O9N7odyEU1VGgbwp-mrKtmn-YJ1C_1UZYmu3U.U7LNOMU7.mjs")
+    ),
+    n = document.getElementById("main"),
+    o,
+    l,
+    p,
+    i = !1;
+  if ("framerHydrateV2" in n.dataset) {
+    let r = JSON.parse(n.dataset.framerHydrateV2);
+    (o = r.routeId), (l = r.localeId), (p = r.pathVariables), (i = !0);
+  } else {
+    let r = h(t, decodeURIComponent(location.pathname), !0, s);
+    (o = r.routeId), (l = r.localeId), (p = r.pathVariables);
+  }
+  let c = await t[o].page.preload();
+  t[o].page = c;
+  let _ = m(y, {
+      RootComponent: c,
+      isWebsite: !0,
+      routeId: o,
+      pathVariables: p,
+      routes: t,
+      notFoundPage: I,
+      isReducedMotion: !1,
+      localeId: l,
+      locales: s,
+    }),
+    d = m(u, {
+      children: _,
+      value: {
+        routes: {},
+      },
+    });
+  i
+    ? g(() => {
+        R(n, d);
+      })
+    : b(n).render(d);
+})().catch((t) => {
+  throw (
+    (a.__send_framer_event &&
+      a.__send_framer_event("published_site_load_error", {
+        message: String(t),
+        stack:
+          t instanceof Error && typeof t.stack == "string" ? t.stack : null,
+      }),
+    t)
+  );
+});
+//# sourceMappingURL=default_script0.ENS2XVWQ.mjs.map

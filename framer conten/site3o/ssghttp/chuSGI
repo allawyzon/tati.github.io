@@ -1,0 +1,612 @@
+import {a as F} from "./chunk-WTBM6HB3.mjs";
+import {a as ae, b as ne, c as ie, g as oe, k as le, m as se, n as de, o as me} from "./chunk-AACKV3QY.mjs";
+import {b as t, c as y} from "./chunk-5SFOXFGW.mjs";
+import {$ as re, J as q, P as h, S as Q, T as te, V, b as I, d as H, h as T, i as $, ia as O, j as _, l as z, m as L, n as ee, p as N, r as a, ra as G, t as S, ta as Z, u as D, va as Y, w as A, wa as M, xa as E, ya as J} from "./chunk-NVV4GD4L.mjs";
+import {c as C} from "./chunk-OIST4OYN.mjs";
+function ce(e) {
+    return r=>{
+        let o = L(null)
+          , [n,f] = ee(!1)
+          , l = D(0)
+          , p = D(0)
+          , c = D(0)
+          , d = {
+            damping: 40,
+            mass: 1,
+            stiffness: 500
+        }
+          , g = A(l, d)
+          , x = A(p, d)
+          , v = A(c, d);
+        return $(()=>{
+            C.matchMedia("(pointer: fine)").matches ? f(!0) : f(!1)
+        }
+        ),
+        t(e, {
+            ...r,
+            style: {
+                ...r.style
+            },
+            onMouseOver: n ? ()=>{
+                v.set(1)
+            }
+            : void 0,
+            onMouseOut: n ? ()=>{
+                v.set(0)
+            }
+            : void 0,
+            onMouseMove: n ? i=>{
+                var s;
+                let u = (s = o.current) === null || s === void 0 ? void 0 : s.getBoundingClientRect();
+                g.set((i.clientX - u.left - u.width / 2) / 4),
+                x.set((i.clientY - u.top - u.height / 2) / 4)
+            }
+            : void 0,
+            children: t(a.div, {
+                ref: o,
+                style: {
+                    pointerEvents: "none",
+                    x: g,
+                    y: x,
+                    scale: v
+                },
+                initial: !1,
+                children: r.children
+            })
+        })
+    }
+}
+var xe = oe(a.div)
+  , Ne = ce(a.a)
+  , Ve = ["kVqnQMd7O", "jp98akH9u"]
+  , Be = {
+    jp98akH9u: "framer-v-1fz1b3f",
+    kVqnQMd7O: "framer-v-ej37nw"
+};
+function he(e, ...r) {
+    let o = {};
+    return r?.forEach(n=>n && Object.assign(o, e[n])),
+    o
+}
+var Ie = {
+    default: {
+        damping: 60,
+        delay: 0,
+        mass: 1,
+        stiffness: 500,
+        type: "spring"
+    }
+}
+  , Me = ({value: e, children: r})=>{
+    let o = T(N)
+      , n = e ?? o.transition
+      , f = z(()=>({
+        ...o,
+        transition: n
+    }), [JSON.stringify(n)]);
+    return t(N.Provider, {
+        value: f,
+        children: r
+    })
+}
+  , je = {
+    Default: "kVqnQMd7O",
+    Inverted: "jp98akH9u"
+}
+  , Re = ({height: e, id: r, link: o, title: n, width: f, ...l})=>{
+    var p, c, d;
+    return {
+        ...l,
+        Hhu7verNO: (p = n ?? l.Hhu7verNO) !== null && p !== void 0 ? p : "Read",
+        variant: (d = (c = je[l.variant]) !== null && c !== void 0 ? c : l.variant) !== null && d !== void 0 ? d : "kVqnQMd7O",
+        y7tsoCA0l: o ?? l.y7tsoCA0l
+    }
+}
+  , Ce = (e,r)=>r.join("-") + e.layoutDependency
+  , He = H(function(e, r) {
+    let {activeLocale: o} = q()
+      , {style: n, className: f, layoutId: l, variant: p, y7tsoCA0l: c, Hhu7verNO: d, ...g} = Re(e)
+      , {baseVariant: x, classNames: v, gestureVariant: i, setGestureState: s, setVariant: u, transition: w, variants: k} = G({
+        cycleOrder: Ve,
+        defaultVariant: "kVqnQMd7O",
+        transitions: Ie,
+        variant: p,
+        variantClassNames: Be
+    })
+      , b = Ce(e, k)
+      , P = _();
+    return t(S, {
+        id: l ?? P,
+        children: t(a.div, {
+            initial: p,
+            animate: k,
+            onHoverStart: ()=>s({
+                isHovered: !0
+            }),
+            onHoverEnd: ()=>s({
+                isHovered: !1
+            }),
+            onTapStart: ()=>s({
+                isPressed: !0
+            }),
+            onTap: ()=>s({
+                isPressed: !1
+            }),
+            onTapCancel: ()=>s({
+                isPressed: !1
+            }),
+            className: V("framer-hVtgx", me, v),
+            style: {
+                display: "contents"
+            },
+            children: t(Me, {
+                value: w,
+                children: t(re, {
+                    href: c,
+                    children: t(Ne, {
+                        ...g,
+                        className: `${V("framer-ej37nw", f)} framer-1avpltq`,
+                        "data-framer-name": "Default",
+                        layoutDependency: b,
+                        layoutId: "kVqnQMd7O",
+                        ref: r,
+                        style: {
+                            ...n
+                        },
+                        ...he({
+                            jp98akH9u: {
+                                "data-framer-name": "Inverted"
+                            }
+                        }, x, i),
+                        children: y(a.div, {
+                            className: "framer-enew2x",
+                            layoutDependency: b,
+                            layoutId: "WlAGBZfWM",
+                            children: [t(xe, {
+                                className: "framer-143agau",
+                                layoutDependency: b,
+                                layoutId: "xIIBVoH8N",
+                                style: {
+                                    borderBottomLeftRadius: 30,
+                                    borderBottomRightRadius: 30,
+                                    borderTopLeftRadius: 30,
+                                    borderTopRightRadius: 30
+                                },
+                                children: t(M, {
+                                    __fromCanvasComponent: !0,
+                                    children: t(I, {
+                                        children: t(a.p, {
+                                            className: "framer-styles-preset-pkh94a",
+                                            "data-styles-preset": "eU7VI2S7e",
+                                            style: {
+                                                "--framer-text-color": "var(--extracted-r6o4lv)"
+                                            },
+                                            children: "Read"
+                                        })
+                                    }),
+                                    className: "framer-6lo0zp",
+                                    layoutDependency: b,
+                                    layoutId: "lgGGr2hwV",
+                                    style: {
+                                        "--extracted-r6o4lv": "rgb(255, 255, 255)",
+                                        "--framer-link-text-color": "rgb(0, 153, 255)",
+                                        "--framer-link-text-decoration": "underline",
+                                        "--framer-paragraph-spacing": "0px"
+                                    },
+                                    text: d,
+                                    variants: {
+                                        jp98akH9u: {
+                                            "--extracted-r6o4lv": "rgb(0, 0, 0)"
+                                        }
+                                    },
+                                    verticalAlignment: "top",
+                                    withExternalLayout: !0
+                                })
+                            }), y(xe, {
+                                className: "framer-67kmed",
+                                layoutDependency: b,
+                                layoutId: "AzpjOf0H6",
+                                style: {
+                                    borderBottomLeftRadius: "50%",
+                                    borderBottomRightRadius: "50%",
+                                    borderTopLeftRadius: "50%",
+                                    borderTopRightRadius: "50%"
+                                },
+                                children: [x !== "jp98akH9u" && t(Z, {
+                                    className: "framer-5l7x3f",
+                                    "data-framer-name": "Arrow Light",
+                                    layout: "position",
+                                    layoutDependency: b,
+                                    layoutId: "MAzLRx2yB",
+                                    opacity: 1,
+                                    svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><path d="M 13.7 4.355 L 13.7 12.459 L 1.4 0 L 0 1.418 L 12 13.674 L 4.1 13.674 L 4.1 15.7 L 15.7 15.7 L 15.7 4.355 Z" fill="hsl(0, 0%, 100%)"></path></svg>',
+                                    svgContentId: 4256879659,
+                                    withExternalLayout: !0
+                                }), x === "jp98akH9u" && t(Z, {
+                                    className: "framer-abtdfc",
+                                    "data-framer-name": "Arrow Dark",
+                                    layout: "position",
+                                    layoutDependency: b,
+                                    layoutId: "tGn962FV1",
+                                    opacity: 1,
+                                    svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><path d="M 13.7 4.355 L 13.7 12.459 L 1.4 0 L 0 1.418 L 12 13.674 L 4.1 13.674 L 4.1 15.7 L 15.7 15.7 L 15.7 4.355 Z" fill="rgb(0,0,0)"></path></svg>',
+                                    svgContentId: 349945251,
+                                    withExternalLayout: !0,
+                                    ...he({
+                                        jp98akH9u: {
+                                            svgContentId: 772697992
+                                        }
+                                    }, x, i)
+                                })]
+                            })]
+                        })
+                    })
+                })
+            })
+        })
+    })
+})
+  , Te = ['.framer-hVtgx [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }', "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-hVtgx .framer-1avpltq { display: block; }", ".framer-hVtgx .framer-ej37nw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; text-decoration: none; width: min-content; }", ".framer-hVtgx .framer-enew2x { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: min-content; }", ".framer-hVtgx .framer-143agau { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 4px 16px 4px 16px; position: relative; width: min-content; will-change: transform; }", ".framer-hVtgx .framer-6lo0zp { flex: none; height: auto; position: relative; white-space: pre; width: auto; }", ".framer-hVtgx .framer-67kmed { align-content: center; align-items: center; aspect-ratio: 1 / 1; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: var(--framer-aspect-ratio-supported, 40px); justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 40px; }", ".framer-hVtgx .framer-5l7x3f, .framer-hVtgx .framer-abtdfc { flex: none; height: 16px; position: relative; width: 16px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-hVtgx .framer-ej37nw, .framer-hVtgx .framer-enew2x, .framer-hVtgx .framer-143agau, .framer-hVtgx .framer-67kmed { gap: 0px; } .framer-hVtgx .framer-ej37nw > *, .framer-hVtgx .framer-enew2x > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-hVtgx .framer-ej37nw > :first-child, .framer-hVtgx .framer-enew2x > :first-child { margin-left: 0px; } .framer-hVtgx .framer-ej37nw > :last-child, .framer-hVtgx .framer-enew2x > :last-child { margin-right: 0px; } .framer-hVtgx .framer-143agau > *, .framer-hVtgx .framer-67kmed > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-hVtgx .framer-143agau > :first-child, .framer-hVtgx .framer-67kmed > :first-child { margin-top: 0px; } .framer-hVtgx .framer-143agau > :last-child, .framer-hVtgx .framer-67kmed > :last-child { margin-bottom: 0px; } }", ...de]
+  , j = O(He, Te, "framer-hVtgx")
+  , W = j;
+j.displayName = "CTA",
+j.defaultProps = {
+    height: 41,
+    width: 157
+},
+Q(j, {
+    variant: {
+        options: ["kVqnQMd7O", "jp98akH9u"],
+        optionTitles: ["Default", "Inverted"],
+        title: "Variant",
+        type: h.Enum
+    },
+    y7tsoCA0l: {
+        title: "Link",
+        type: h.Link
+    },
+    Hhu7verNO: {
+        defaultValue: "Read",
+        displayTextArea: !1,
+        title: "Title",
+        type: h.String
+    }
+}),
+E(j, [...se]);
+var _e = le(Y)
+  , ze = J(F)
+  , Le = J(W)
+  , X = te(F)
+  , Se = ["IGSuVydNG"];
+var De = {
+    IGSuVydNG: "framer-v-231n6t"
+};
+var Ae = {
+    default: {
+        damping: 60,
+        delay: 0,
+        mass: 1,
+        stiffness: 500,
+        type: "spring"
+    }
+}
+  , ue = e=>!e
+  , ge = e=>typeof e == "object" && e !== null && typeof e.src == "string" ? e : typeof e == "string" ? {
+    src: e
+} : void 0
+  , qe = e=>typeof e == "object" && e !== null && typeof e.src == "string" ? e.src : typeof e == "string" ? e : void 0
+  , U = e=>e != null && e !== ""
+  , Qe = ({value: e, children: r})=>{
+    let o = T(N)
+      , n = e ?? o.transition
+      , f = z(()=>({
+        ...o,
+        transition: n
+    }), [JSON.stringify(n)]);
+    return t(N.Provider, {
+        value: f,
+        children: r
+    })
+}
+  , Oe = ({cTAInverted: e, cTALabel: r, height: o, id: n, image: f, link: l, meta: p, scaleIn: c, showVideo: d, title: g, video: x, width: v, ...i})=>{
+    var s, u, w, k;
+    return {
+        ...i,
+        ddQMkdkdo: (s = f ?? i.ddQMkdkdo) !== null && s !== void 0 ? s : {
+            src: "https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?scale-down-to=1024",
+            srcSet: "https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?scale-down-to=2048 2048w, https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?scale-down-to=4096 4096w, https://framerusercontent.com/images/ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg 4896w"
+        },
+        G5KBM_7bd: c ?? i.G5KBM_7bd,
+        G6300ScRf: l ?? i.G6300ScRf,
+        H2POhTSwb: d ?? i.H2POhTSwb,
+        oEYvl36ZQ: (u = p ?? i.oEYvl36ZQ) !== null && u !== void 0 ? u : "Meta",
+        pedAo6Ikh: (w = g ?? i.pedAo6Ikh) !== null && w !== void 0 ? w : "Title",
+        qd10VzCH_: e ?? i.qd10VzCH_,
+        TEW6XRezz: (k = r ?? i.TEW6XRezz) !== null && k !== void 0 ? k : "Read",
+        X3t6ClaxR: x ?? i.X3t6ClaxR
+    }
+}
+  , Ge = (e,r)=>r.join("-") + e.layoutDependency
+  , Ee = H(function(e, r) {
+    let {activeLocale: o} = q()
+      , {style: n, className: f, layoutId: l, variant: p, ddQMkdkdo: c, pedAo6Ikh: d, oEYvl36ZQ: g, G6300ScRf: x, X3t6ClaxR: v, TEW6XRezz: i, qd10VzCH_: s, H2POhTSwb: u, G5KBM_7bd: w, ...k} = Oe(e)
+      , {baseVariant: b, classNames: P, gestureVariant: We, setGestureState: B, setVariant: Pe, transition: ye, variants: K} = G({
+        cycleOrder: Se,
+        defaultVariant: "IGSuVydNG",
+        transitions: Ae,
+        variant: p,
+        variantClassNames: De
+    })
+      , m = Ge(e, K)
+      , ve = L(null)
+      , we = _()
+      , ke = [ie];
+    return t(S, {
+        id: l ?? we,
+        children: t(a.div, {
+            initial: p,
+            animate: K,
+            onHoverStart: ()=>B({
+                isHovered: !0
+            }),
+            onHoverEnd: ()=>B({
+                isHovered: !1
+            }),
+            onTapStart: ()=>B({
+                isPressed: !0
+            }),
+            onTap: ()=>B({
+                isPressed: !1
+            }),
+            onTapCancel: ()=>B({
+                isPressed: !1
+            }),
+            className: V("framer-kxNnB", ...ke, P),
+            style: {
+                display: "contents"
+            },
+            children: t(Qe, {
+                value: ye,
+                children: t(a.div, {
+                    ...k,
+                    className: V("framer-231n6t", f),
+                    "data-framer-name": "Default",
+                    layoutDependency: m,
+                    layoutId: "IGSuVydNG",
+                    ref: r ?? ve,
+                    style: {
+                        ...n
+                    },
+                    children: y(a.div, {
+                        className: "framer-102kiqg",
+                        layoutDependency: m,
+                        layoutId: "NJAHtqTla",
+                        children: [y(a.div, {
+                            className: "framer-1l3zkwk",
+                            layoutDependency: m,
+                            layoutId: "QV6JcR1oL",
+                            children: [y(a.div, {
+                                className: "framer-11ljhb2",
+                                "data-framer-name": "Image",
+                                layoutDependency: m,
+                                layoutId: "yrQ1ns_pp",
+                                children: [ue(w) && t(Y, {
+                                    background: {
+                                        alt: "",
+                                        fit: "fill",
+                                        sizes: "min(min(900px, 100vw), min(900px, 100vw))",
+                                        ...ge(c)
+                                    },
+                                    className: "framer-1bktdoi",
+                                    "data-framer-name": "Default Image",
+                                    layoutDependency: m,
+                                    layoutId: "BJjM_Nb2_"
+                                }), w && t(_e, {
+                                    background: {
+                                        alt: "",
+                                        fit: "fill",
+                                        sizes: "min(min(900px, 100vw), min(900px, 100vw))",
+                                        ...ge(c)
+                                    },
+                                    className: "framer-jslssk",
+                                    "data-framer-name": "Scale Image",
+                                    layoutDependency: m,
+                                    layoutId: "Rwr6X8jtJ"
+                                })]
+                            }), u && t(a.div, {
+                                className: "framer-1wqddo9-container",
+                                layoutDependency: m,
+                                layoutId: "dAaeu95eY-container",
+                                children: t(F, {
+                                    backgroundColor: "rgba(0, 0, 0, 0)",
+                                    borderRadius: 0,
+                                    bottomLeftRadius: 0,
+                                    bottomRightRadius: 0,
+                                    controls: !1,
+                                    height: "100%",
+                                    id: "dAaeu95eY",
+                                    isMixedBorderRadius: !1,
+                                    layoutId: "dAaeu95eY",
+                                    loop: !0,
+                                    muted: !0,
+                                    objectFit: "cover",
+                                    playing: !0,
+                                    poster: qe(c),
+                                    posterEnabled: !0,
+                                    srcFile: v,
+                                    srcType: "Upload",
+                                    srcUrl: "https://assets.mixkit.co/videos/preview/mixkit-ice-cream-glass-of-red-soda-5094-small.mp4",
+                                    startTime: 0,
+                                    style: {
+                                        height: "100%",
+                                        width: "100%"
+                                    },
+                                    topLeftRadius: 0,
+                                    topRightRadius: 0,
+                                    volume: 25,
+                                    width: "100%"
+                                })
+                            }), U(x) && y(a.div, {
+                                className: "framer-1awizxf",
+                                layoutDependency: m,
+                                layoutId: "YalxF9CkF",
+                                children: [s && t(a.div, {
+                                    className: "framer-rdn8q-container",
+                                    layoutDependency: m,
+                                    layoutId: "TtMFUrEjY-container",
+                                    children: t(W, {
+                                        height: "100%",
+                                        id: "TtMFUrEjY",
+                                        layoutId: "TtMFUrEjY",
+                                        link: x,
+                                        style: {
+                                            height: "100%",
+                                            width: "100%"
+                                        },
+                                        title: i,
+                                        variant: "jp98akH9u",
+                                        width: "100%"
+                                    })
+                                }), ue(s) && t(a.div, {
+                                    className: "framer-sdmeks-container",
+                                    layoutDependency: m,
+                                    layoutId: "aAGOaZrVH-container",
+                                    children: t(W, {
+                                        height: "100%",
+                                        id: "aAGOaZrVH",
+                                        layoutId: "aAGOaZrVH",
+                                        link: x,
+                                        style: {
+                                            height: "100%",
+                                            width: "100%"
+                                        },
+                                        title: i,
+                                        variant: "kVqnQMd7O",
+                                        width: "100%"
+                                    })
+                                })]
+                            })]
+                        }), y(a.div, {
+                            className: "framer-qix8vw",
+                            layoutDependency: m,
+                            layoutId: "McOBl1wcE",
+                            children: [U(d) && t(a.div, {
+                                className: "framer-1nt5qnl",
+                                layoutDependency: m,
+                                layoutId: "ejmRXu3nu",
+                                children: t(M, {
+                                    __fromCanvasComponent: !0,
+                                    children: t(I, {
+                                        children: t(a.p, {
+                                            className: "framer-styles-preset-mcv18p",
+                                            "data-styles-preset": "QiDr8NhVa",
+                                            children: "Title"
+                                        })
+                                    }),
+                                    className: "framer-ld6eri",
+                                    layoutDependency: m,
+                                    layoutId: "u6flbFolQ",
+                                    style: {
+                                        "--framer-link-text-color": "rgb(0, 153, 255)",
+                                        "--framer-link-text-decoration": "underline",
+                                        "--framer-paragraph-spacing": "0px"
+                                    },
+                                    text: d,
+                                    verticalAlignment: "top",
+                                    withExternalLayout: !0
+                                })
+                            }), U(g) && t(a.div, {
+                                className: "framer-1x83xnx",
+                                layoutDependency: m,
+                                layoutId: "A_LCH9U3i",
+                                children: t(M, {
+                                    __fromCanvasComponent: !0,
+                                    children: t(I, {
+                                        children: t(a.p, {
+                                            className: "framer-styles-preset-mcv18p",
+                                            "data-styles-preset": "QiDr8NhVa",
+                                            style: {
+                                                "--framer-text-alignment": "right"
+                                            },
+                                            children: "Meta"
+                                        })
+                                    }),
+                                    className: "framer-vb7i81",
+                                    layoutDependency: m,
+                                    layoutId: "yAjEivWuy",
+                                    style: {
+                                        "--framer-link-text-color": "rgb(0, 153, 255)",
+                                        "--framer-link-text-decoration": "underline",
+                                        "--framer-paragraph-spacing": "0px"
+                                    },
+                                    text: g,
+                                    verticalAlignment: "top",
+                                    withExternalLayout: !0
+                                })
+                            })]
+                        })]
+                    })
+                })
+            })
+        })
+    })
+})
+  , Fe = ['.framer-kxNnB [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }', "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-kxNnB .framer-1i510ek { display: block; }", ".framer-kxNnB .framer-231n6t { align-content: flex-start; align-items: flex-start; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 900px; }", ".framer-kxNnB .framer-102kiqg { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: flex-start; max-width: 100%; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }", ".framer-kxNnB .framer-1l3zkwk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 100%; }", ".framer-kxNnB .framer-11ljhb2 { aspect-ratio: 1.5 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 600px); overflow: hidden; position: relative; width: 100%; z-index: 1; }", ".framer-kxNnB .framer-1bktdoi { flex: none; height: 100%; left: 0px; overflow: visible; position: absolute; top: 0px; width: 100%; z-index: 1; }", ".framer-kxNnB .framer-jslssk { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100% / 2); width: 100%; z-index: 1; }", ".framer-kxNnB .framer-1wqddo9-container { flex: none; height: 101%; left: -1px; position: absolute; top: -1px; width: 101%; z-index: 1; }", ".framer-kxNnB .framer-1awizxf { flex: none; height: 100%; left: 0px; overflow: hidden; position: absolute; top: 0px; width: 100%; z-index: 1; }", ".framer-kxNnB .framer-rdn8q-container, .framer-kxNnB .framer-sdmeks-container { flex: none; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; }", ".framer-kxNnB .framer-qix8vw { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }", ".framer-kxNnB .framer-1nt5qnl { align-content: flex-start; align-items: flex-start; display: flex; flex: 0.65 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 1px; }", ".framer-kxNnB .framer-ld6eri, .framer-kxNnB .framer-vb7i81 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }", ".framer-kxNnB .framer-1x83xnx { align-content: flex-start; align-items: flex-start; display: flex; flex: 0.35 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 1px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-kxNnB .framer-231n6t, .framer-kxNnB .framer-102kiqg, .framer-kxNnB .framer-1l3zkwk, .framer-kxNnB .framer-qix8vw, .framer-kxNnB .framer-1nt5qnl, .framer-kxNnB .framer-1x83xnx { gap: 0px; } .framer-kxNnB .framer-231n6t > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-kxNnB .framer-231n6t > :first-child, .framer-kxNnB .framer-102kiqg > :first-child, .framer-kxNnB .framer-1l3zkwk > :first-child { margin-top: 0px; } .framer-kxNnB .framer-231n6t > :last-child, .framer-kxNnB .framer-102kiqg > :last-child, .framer-kxNnB .framer-1l3zkwk > :last-child { margin-bottom: 0px; } .framer-kxNnB .framer-102kiqg > * { margin: 0px; margin-bottom: calc(15px / 2); margin-top: calc(15px / 2); } .framer-kxNnB .framer-1l3zkwk > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-kxNnB .framer-qix8vw > * { margin: 0px; margin-left: calc(40px / 2); margin-right: calc(40px / 2); } .framer-kxNnB .framer-qix8vw > :first-child, .framer-kxNnB .framer-1nt5qnl > :first-child, .framer-kxNnB .framer-1x83xnx > :first-child { margin-left: 0px; } .framer-kxNnB .framer-qix8vw > :last-child, .framer-kxNnB .framer-1nt5qnl > :last-child, .framer-kxNnB .framer-1x83xnx > :last-child { margin-right: 0px; } .framer-kxNnB .framer-1nt5qnl > *, .framer-kxNnB .framer-1x83xnx > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } }", ...ne]
+  , R = O(Ee, Fe, "framer-kxNnB")
+  , ct = R;
+R.displayName = "Teaser",
+R.defaultProps = {
+    height: 628.5,
+    width: 900
+},
+Q(R, {
+    ddQMkdkdo: {
+        __defaultAssetReference: "data:framer/asset-reference,ohzWl3iZdQMvnQWR6kmJg5rZm7Y.jpg?originalFilename=photo-1507166763745-bfe008fbb831%3Fcrop%3Dentropy%26cs%3Dsrgb%26fm%3Djpg%26ixid%3DM3wxMzc5NjJ8MHwxfHNlYXJjaHwxMXx8b2NlYW58ZW58MHx8fHwxNjkxMDk0NTIwfDA%26ixlib%3Drb-4.0.jpg&preferredSize=auto",
+        title: "Image",
+        type: h.ResponsiveImage
+    },
+    pedAo6Ikh: {
+        defaultValue: "Title",
+        title: "Title",
+        type: h.String
+    },
+    oEYvl36ZQ: {
+        defaultValue: "Meta",
+        title: "Meta",
+        type: h.String
+    },
+    G6300ScRf: {
+        title: "Link",
+        type: h.Link
+    },
+    X3t6ClaxR: X?.srcFile && {
+        ...X.srcFile,
+        __defaultAssetReference: "",
+        hidden: void 0,
+        title: "Video"
+    },
+    TEW6XRezz: {
+        defaultValue: "Read",
+        displayTextArea: !1,
+        title: "CTA Label",
+        type: h.String
+    },
+    qd10VzCH_: {
+        defaultValue: !1,
+        title: "CTA Inverted",
+        type: h.Boolean
+    },
+    H2POhTSwb: {
+        defaultValue: !1,
+        title: "Show Video",
+        type: h.Boolean
+    },
+    G5KBM_7bd: {
+        defaultValue: !1,
+        title: "Scale In",
+        type: h.Boolean
+    }
+}),
+E(R, [...ze, ...Le, ...ae]);
+export {ct as a};
+//# sourceMappingURL=chunk-SGIMV2LV.mjs.map

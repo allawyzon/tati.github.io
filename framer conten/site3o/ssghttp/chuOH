@@ -1,0 +1,237 @@
+import {d} from "./chunk-YIYFVZEU.mjs";
+import {b as r, c as R} from "./chunk-5SFOXFGW.mjs";
+import {J as V, P as I, S as z, V as g, d as u, h as x, ia as D, j as w, l as b, p as h, r as e, ra as O, t as k, xa as S, ya as M} from "./chunk-NVV4GD4L.mjs";
+var P = M(d)
+  , T = ["M2SzVrFKv", "O1VdR0oxm"]
+  , Y = {
+    M2SzVrFKv: "framer-v-1njhvm0",
+    O1VdR0oxm: "framer-v-pcgdo"
+};
+function p(t, ...i) {
+    let n = {};
+    return i?.forEach(a=>a && Object.assign(n, t[a])),
+    n
+}
+var B = {
+    default: {
+        damping: 60,
+        delay: 0,
+        mass: 1,
+        stiffness: 500,
+        type: "spring"
+    }
+}
+  , W = ({value: t, children: i})=>{
+    let n = x(h)
+      , a = t ?? n.transition
+      , m = b(()=>({
+        ...n,
+        transition: a
+    }), [JSON.stringify(a)]);
+    return r(h.Provider, {
+        value: m,
+        children: i
+    })
+}
+  , _ = {
+    Default: "M2SzVrFKv",
+    Mobile: "O1VdR0oxm"
+}
+  , H = ({height: t, id: i, width: n, ...a})=>{
+    var m, f;
+    return {
+        ...a,
+        variant: (f = (m = _[a.variant]) !== null && m !== void 0 ? m : a.variant) !== null && f !== void 0 ? f : "M2SzVrFKv"
+    }
+}
+  , K = (t,i)=>i.join("-") + t.layoutDependency
+  , L = u(function(t, i) {
+    let {activeLocale: n} = V()
+      , {style: a, className: m, layoutId: f, variant: y, ...C} = H(t)
+      , {baseVariant: l, classNames: F, gestureVariant: c, setGestureState: s, setVariant: G, transition: N, variants: v} = O({
+        cycleOrder: T,
+        defaultVariant: "M2SzVrFKv",
+        transitions: B,
+        variant: y,
+        variantClassNames: Y
+    })
+      , o = K(t, v)
+      , E = w();
+    return r(k, {
+        id: f ?? E,
+        children: r(e.div, {
+            initial: y,
+            animate: v,
+            onHoverStart: ()=>s({
+                isHovered: !0
+            }),
+            onHoverEnd: ()=>s({
+                isHovered: !1
+            }),
+            onTapStart: ()=>s({
+                isPressed: !0
+            }),
+            onTap: ()=>s({
+                isPressed: !1
+            }),
+            onTapCancel: ()=>s({
+                isPressed: !1
+            }),
+            className: g("framer-99jji", F),
+            style: {
+                display: "contents"
+            },
+            children: r(W, {
+                value: N,
+                children: R(e.div, {
+                    ...C,
+                    className: g("framer-1njhvm0", m),
+                    "data-framer-name": "Default",
+                    layoutDependency: o,
+                    layoutId: "M2SzVrFKv",
+                    ref: i,
+                    style: {
+                        ...a
+                    },
+                    ...p({
+                        O1VdR0oxm: {
+                            "data-framer-name": "Mobile"
+                        }
+                    }, l, c),
+                    children: [r(e.div, {
+                        className: "framer-1awkf98",
+                        layoutDependency: o,
+                        layoutId: "Vzuf8iTlg",
+                        children: r(e.div, {
+                            className: "framer-1go09s6-container",
+                            layoutDependency: o,
+                            layoutId: "W0YdxSyuU-container",
+                            children: r(d, {
+                                background: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                color: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                height: "100%",
+                                id: "W0YdxSyuU",
+                                layoutId: "W0YdxSyuU",
+                                link: "mailto:name@framer.com",
+                                showIcon: !1,
+                                title: "Email",
+                                variant: "mwPhlERM3",
+                                width: "100%",
+                                ...p({
+                                    O1VdR0oxm: {
+                                        style: {
+                                            width: "100%"
+                                        }
+                                    }
+                                }, l, c)
+                            })
+                        })
+                    }), r(e.div, {
+                        className: "framer-1wh78y5",
+                        layoutDependency: o,
+                        layoutId: "T3cqMd4Tz",
+                        children: r(e.div, {
+                            className: "framer-15evx3y-container",
+                            layoutDependency: o,
+                            layoutId: "wLWxfxO1f-container",
+                            children: r(d, {
+                                background: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                color: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                height: "100%",
+                                id: "wLWxfxO1f",
+                                layoutId: "wLWxfxO1f",
+                                link: "https://www.framer.com?via=favoritframe",
+                                showIcon: !1,
+                                title: "Framer",
+                                variant: "mwPhlERM3",
+                                width: "100%",
+                                ...p({
+                                    O1VdR0oxm: {
+                                        style: {
+                                            width: "100%"
+                                        }
+                                    }
+                                }, l, c)
+                            })
+                        })
+                    }), r(e.div, {
+                        className: "framer-1izyp8",
+                        layoutDependency: o,
+                        layoutId: "wsRnQLHxk",
+                        children: r(e.div, {
+                            className: "framer-br8yem-container",
+                            layoutDependency: o,
+                            layoutId: "CEYYO9asD-container",
+                            children: r(d, {
+                                background: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                color: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                height: "100%",
+                                id: "CEYYO9asD",
+                                layoutId: "CEYYO9asD",
+                                link: "https://www.x.com",
+                                showIcon: !1,
+                                title: "Twitter",
+                                variant: "mwPhlERM3",
+                                width: "100%",
+                                ...p({
+                                    O1VdR0oxm: {
+                                        style: {
+                                            width: "100%"
+                                        }
+                                    }
+                                }, l, c)
+                            })
+                        })
+                    }), r(e.div, {
+                        className: "framer-1hoajgc",
+                        layoutDependency: o,
+                        layoutId: "O5HWYpnX5",
+                        children: r(e.div, {
+                            className: "framer-zy5b23-container",
+                            layoutDependency: o,
+                            layoutId: "S0IvEDU2F-container",
+                            children: r(d, {
+                                background: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                color: 'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                                height: "100%",
+                                id: "S0IvEDU2F",
+                                layoutId: "S0IvEDU2F",
+                                link: "https://the-brandidentity.com/store/product/ff-identity-framer-template-ff-grotesk-typeface-bundle",
+                                showIcon: !1,
+                                title: "Buy me",
+                                variant: "mwPhlERM3",
+                                width: "100%",
+                                ...p({
+                                    O1VdR0oxm: {
+                                        style: {
+                                            width: "100%"
+                                        }
+                                    }
+                                }, l, c)
+                            })
+                        })
+                    })]
+                })
+            })
+        })
+    })
+})
+  , U = ['.framer-99jji [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }', "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-99jji .framer-163wk7n { display: block; }", ".framer-99jji .framer-1njhvm0 { display: grid; gap: 0px; grid-auto-rows: min-content; grid-template-columns: repeat(4, minmax(1px, 1fr)); grid-template-rows: repeat(1, min-content); height: min-content; justify-content: start; overflow: hidden; padding: 0px 20px 0px 20px; position: relative; width: 1200px; }", ".framer-99jji .framer-1awkf98, .framer-99jji .framer-1wh78y5, .framer-99jji .framer-1izyp8, .framer-99jji .framer-1hoajgc { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; justify-self: start; overflow: hidden; padding: 0px 0px 0px 0px; position: relative; width: 100%; }", ".framer-99jji .framer-1go09s6-container, .framer-99jji .framer-15evx3y-container, .framer-99jji .framer-br8yem-container, .framer-99jji .framer-zy5b23-container { flex: none; height: auto; position: relative; width: auto; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-99jji .framer-1awkf98, .framer-99jji .framer-1wh78y5, .framer-99jji .framer-1izyp8, .framer-99jji .framer-1hoajgc { gap: 0px; } .framer-99jji .framer-1awkf98 > *, .framer-99jji .framer-1wh78y5 > *, .framer-99jji .framer-1izyp8 > *, .framer-99jji .framer-1hoajgc > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-99jji .framer-1awkf98 > :first-child, .framer-99jji .framer-1wh78y5 > :first-child, .framer-99jji .framer-1izyp8 > :first-child, .framer-99jji .framer-1hoajgc > :first-child { margin-left: 0px; } .framer-99jji .framer-1awkf98 > :last-child, .framer-99jji .framer-1wh78y5 > :last-child, .framer-99jji .framer-1izyp8 > :last-child, .framer-99jji .framer-1hoajgc > :last-child { margin-right: 0px; } }", ".framer-99jji.framer-v-pcgdo .framer-1njhvm0 { grid-template-columns: repeat(1, minmax(1px, 1fr)); padding: 0px 0px 0px 0px; width: 300px; }", ".framer-99jji.framer-v-pcgdo .framer-1awkf98, .framer-99jji.framer-v-pcgdo .framer-1wh78y5, .framer-99jji.framer-v-pcgdo .framer-1izyp8, .framer-99jji.framer-v-pcgdo .framer-1hoajgc { gap: 0px; }", ".framer-99jji.framer-v-pcgdo .framer-1go09s6-container, .framer-99jji.framer-v-pcgdo .framer-15evx3y-container, .framer-99jji.framer-v-pcgdo .framer-br8yem-container, .framer-99jji.framer-v-pcgdo .framer-zy5b23-container { flex: 1 0 0px; width: 1px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-99jji.framer-v-pcgdo .framer-1awkf98, .framer-99jji.framer-v-pcgdo .framer-1wh78y5, .framer-99jji.framer-v-pcgdo .framer-1izyp8, .framer-99jji.framer-v-pcgdo .framer-1hoajgc { gap: 0px; } .framer-99jji.framer-v-pcgdo .framer-1awkf98 > *, .framer-99jji.framer-v-pcgdo .framer-1wh78y5 > *, .framer-99jji.framer-v-pcgdo .framer-1izyp8 > *, .framer-99jji.framer-v-pcgdo .framer-1hoajgc > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-99jji.framer-v-pcgdo .framer-1awkf98 > :first-child, .framer-99jji.framer-v-pcgdo .framer-1wh78y5 > :first-child, .framer-99jji.framer-v-pcgdo .framer-1izyp8 > :first-child, .framer-99jji.framer-v-pcgdo .framer-1hoajgc > :first-child { margin-left: 0px; } .framer-99jji.framer-v-pcgdo .framer-1awkf98 > :last-child, .framer-99jji.framer-v-pcgdo .framer-1wh78y5 > :last-child, .framer-99jji.framer-v-pcgdo .framer-1izyp8 > :last-child, .framer-99jji.framer-v-pcgdo .framer-1hoajgc > :last-child { margin-right: 0px; } }"]
+  , j = D(L, U, "framer-99jji")
+  , ar = j;
+j.displayName = "Social",
+j.defaultProps = {
+    height: 41,
+    width: 1200
+},
+z(j, {
+    variant: {
+        options: ["M2SzVrFKv", "O1VdR0oxm"],
+        optionTitles: ["Default", "Mobile"],
+        title: "Variant",
+        type: I.Enum
+    }
+}),
+S(j, [...P]);
+export {ar as a};
+//# sourceMappingURL=chunk-OHXEU5DX.mjs.map

@@ -1,0 +1,113 @@
+import { ua as e } from "./chunk-NVV4GD4L.mjs";
+var o = {
+    hodAYBfzH: {
+      borderRadius: 15,
+      bottomLeftRadius: 15,
+      bottomRightRadius: 15,
+      darkTheme: "framerDark",
+      font: {
+        fontFamily: '"Fragment Mono", monospace',
+        fontSize: "14px",
+        fontStyle: "normal",
+        fontWeight: 400,
+        letterSpacing: "0em",
+        lineHeight: "1.5em",
+      },
+      isMixedBorderRadius: !1,
+      lightTheme: "framerLight",
+      padding: 30,
+      paddingBottom: 30,
+      paddingLeft: 30,
+      paddingPerSide: !1,
+      paddingRight: 30,
+      paddingTop: 30,
+      theme: "framerDark",
+      themeMode: "Static",
+      topLeftRadius: 15,
+      topRightRadius: 15,
+    },
+  },
+  n = {
+    hodAYBfzH: [
+      {
+        family: "Fragment Mono",
+        moduleAsset: {
+          localModuleIdentifier:
+            "local-module:componentPresets/componentPresets:default",
+          url: "https://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+        },
+        style: "normal",
+        url: "https://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+        weight: "400",
+      },
+    ],
+  };
+e.loadWebFontsFromSelectors(["CUSTOM;FF Grotesk Regular"]);
+var i = [
+    {
+      family: "FF Grotesk Regular",
+      moduleAsset: {
+        localModuleIdentifier: "local-module:css/IqzMXaeaZ:default",
+        url: "assets/Fu5bTsziyHQgZ6Pq74Babf5gc.woff2",
+      },
+      url: new URL(
+        "https://framerusercontent.com/modules/assets/Fu5bTsziyHQgZ6Pq74Babf5gc~DOGDlu6geGbeSU80sOOGd7Y8JZjvIYXbOQ4p_eN-tJw.woff2"
+      ).href,
+    },
+  ],
+  p = [
+    '.framer-AGSpP .framer-styles-preset-1e056a4:not(.rich-text-wrapper), .framer-AGSpP .framer-styles-preset-1e056a4.rich-text-wrapper h2 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; }',
+    '@media (max-width: 1199px) and (min-width: 810px) { .framer-AGSpP .framer-styles-preset-1e056a4:not(.rich-text-wrapper), .framer-AGSpP .framer-styles-preset-1e056a4.rich-text-wrapper h2 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 24px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+    '@media (max-width: 809px) and (min-width: 0px) { .framer-AGSpP .framer-styles-preset-1e056a4:not(.rich-text-wrapper), .framer-AGSpP .framer-styles-preset-1e056a4.rich-text-wrapper h2 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 24px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+  ],
+  l = "framer-AGSpP";
+e.loadWebFontsFromSelectors(["CUSTOM;FF Grotesk Regular"]);
+var x = [
+    {
+      family: "FF Grotesk Regular",
+      moduleAsset: {
+        localModuleIdentifier: "local-module:css/LcJv6lAA2:default",
+        url: "assets/Fu5bTsziyHQgZ6Pq74Babf5gc.woff2",
+      },
+      url: new URL(
+        "https://framerusercontent.com/modules/assets/Fu5bTsziyHQgZ6Pq74Babf5gc~DOGDlu6geGbeSU80sOOGd7Y8JZjvIYXbOQ4p_eN-tJw.woff2"
+      ).href,
+    },
+  ],
+  h = [
+    '.framer-x0B2p .framer-styles-preset-1m18iwe:not(.rich-text-wrapper), .framer-x0B2p .framer-styles-preset-1m18iwe.rich-text-wrapper h3 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; }',
+    '@media (max-width: 1199px) and (min-width: 810px) { .framer-x0B2p .framer-styles-preset-1m18iwe:not(.rich-text-wrapper), .framer-x0B2p .framer-styles-preset-1m18iwe.rich-text-wrapper h3 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 24px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+    '@media (max-width: 809px) and (min-width: 0px) { .framer-x0B2p .framer-styles-preset-1m18iwe:not(.rich-text-wrapper), .framer-x0B2p .framer-styles-preset-1m18iwe.rich-text-wrapper h3 { --framer-font-family: "FF Grotesk Regular", sans-serif; --framer-font-size: 24px; --framer-font-style: normal; --framer-font-weight: 400; --framer-letter-spacing: 0.01em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: center; --framer-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-text-decoration: none; --framer-text-transform: uppercase; } }',
+  ],
+  u = "framer-x0B2p";
+e.loadWebFontsFromSelectors(["GF;Fragment Mono-regular"]);
+var F = [
+    {
+      family: "Fragment Mono",
+      moduleAsset: {
+        localModuleIdentifier: "local-module:css/QUvjvbsYs:default",
+        url: "https://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+      },
+      style: "normal",
+      url: "https://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+      weight: "400",
+    },
+  ],
+  _ = [
+    '.framer-uRzUG .framer-styles-preset-s2r4a8 { --framer-code-font-family: "Fragment Mono", monospace; --framer-code-font-style: normal; --framer-code-font-weight: 400; --framer-code-text-color: var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, #000000); --framer-font-size-scale: 1; background-color: rgba(0, 0, 0, 0.1); padding-bottom: 0.1em; padding-left: 0.2em; padding-right: 0.2em; padding-top: 0.1em; }',
+  ],
+  R = "framer-uRzUG";
+export {
+  o as a,
+  n as b,
+  i as c,
+  p as d,
+  l as e,
+  x as f,
+  h as g,
+  u as h,
+  F as i,
+  _ as j,
+  R as k,
+};
+//# sourceMappingURL=chunk-352HGIDO.mjs.map

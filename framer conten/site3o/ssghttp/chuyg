@@ -1,0 +1,49 @@
+import {a as t} from "./chunk-LQASWB4D.mjs";
+function r(e, a) {
+    return {
+        bodyClassName: "framer-body-WL0ATVtHF",
+        breakpoints: [{
+            hash: "32rh7m",
+            mediaQuery: "(min-width: 1200px)"
+        }, {
+            hash: "17p1l1l",
+            mediaQuery: "(min-width: 810px) and (max-width: 1199px)"
+        }, {
+            hash: "6qoyec",
+            mediaQuery: "(max-width: 809px)"
+        }],
+        description: t(e, a).description,
+        elements: {
+            JxQKonVuj: "video-trigger",
+            n7prDYwBK: "intro",
+            QyQRZJIvC: "video-trigger-1"
+        },
+        framerSearch: {
+            index: !0
+        },
+        title: "Studio - Form Studio",
+        viewport: "width=device-width"
+    }
+}
+var m = 1
+  , s = {
+    exports: {
+        metadataVersion: {
+            type: "variable",
+            annotations: {
+                framerContractVersion: "1"
+            }
+        },
+        default: {
+            type: "function",
+            annotations: {
+                framerContractVersion: "1"
+            }
+        },
+        __FramerMetadata__: {
+            type: "variable"
+        }
+    }
+};
+export {r as a, m as b, s as c};
+//# sourceMappingURL=chunk-4YGELINC.mjs.map

@@ -1,0 +1,49 @@
+var e = (t) => (typeof t == "string" ? t : String(t)),
+  a = (t) => ({
+    bodyClassName: "framer-body-D9oGb1uDv",
+    breakpoints: [
+      {
+        hash: "nvdh42",
+        mediaQuery: "(min-width: 1200px)",
+      },
+      {
+        hash: "1wk5ajs",
+        mediaQuery: "(min-width: 810px) and (max-width: 1199px)",
+      },
+      {
+        hash: "a2l5u1",
+        mediaQuery: "(max-width: 809px)",
+      },
+    ],
+    elements: {},
+    framerSearch: {
+      index: !0,
+    },
+    title: `${
+      t?.sb3daLmIQ !== void 0 ? e(t.sb3daLmIQ) : "{{sb3daLmIQ}}"
+    } - Form Studio`,
+    viewport: "width=device-width",
+  }),
+  d = a,
+  o = 1,
+  s = {
+    exports: {
+      default: {
+        type: "variable",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      metadataVersion: {
+        type: "variable",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      __FramerMetadata__: {
+        type: "variable",
+      },
+    },
+  };
+export { d as a, o as b, s as c };
+//# sourceMappingURL=chunk-7VUSH5DZ.mjs.map

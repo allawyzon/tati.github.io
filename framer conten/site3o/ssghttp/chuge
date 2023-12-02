@@ -1,0 +1,46 @@
+var a = (e) => ({
+    bodyClassName: "framer-body-wusb6YOai",
+    breakpoints: [
+      {
+        hash: "1x32c4v",
+        mediaQuery: "(min-width: 1200px)",
+      },
+      {
+        hash: "1ij83si",
+        mediaQuery: "(min-width: 810px) and (max-width: 1199px)",
+      },
+      {
+        hash: "1ygk7d3",
+        mediaQuery: "(max-width: 809px)",
+      },
+    ],
+    elements: {},
+    framerSearch: {
+      index: !0,
+    },
+    title: "Projects - Form Studio",
+    viewport: "width=device-width",
+  }),
+  o = a,
+  d = 1,
+  n = {
+    exports: {
+      default: {
+        type: "variable",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      metadataVersion: {
+        type: "variable",
+        annotations: {
+          framerContractVersion: "1",
+        },
+      },
+      __FramerMetadata__: {
+        type: "variable",
+      },
+    },
+  };
+export { o as a, d as b, n as c };
+//# sourceMappingURL=chunk-4GE4BFSS.mjs.map

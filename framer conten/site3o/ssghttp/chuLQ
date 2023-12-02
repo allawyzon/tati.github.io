@@ -1,0 +1,20 @@
+var e = (t) => ({
+    customHTMLHeadEnd: `<style>
+    body {
+        font-feature-settings: "liga" 1;
+        overscroll-behavior: none;
+    }
+</style>`,
+    description:
+      "FF Identity is a minimalist template for design studios and agencies. Elevate your portfolio with impactful typography, showcasing your creative works. Exclusively designed for The Brand Identity, FF Identity is your template for a timeless presentation.",
+    favicon: new URL(
+      "https://framerusercontent.com/images/let5i5QPlBt7VZZpppMUJfeidIc.png"
+    ).href,
+    socialImage: new URL(
+      "https://framerusercontent.com/images/SG1KqSjNtVIMYXVp6uEXX9LE.jpg"
+    ).href,
+    title: "Form Studio",
+  }),
+  n = e;
+export { n as a };
+//# sourceMappingURL=chunk-LQASWB4D.mjs.map

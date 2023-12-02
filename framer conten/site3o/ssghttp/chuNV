@@ -1,0 +1,582 @@
+import { d as c } from "./chunk-YIYFVZEU.mjs";
+import { b as a, c as q } from "./chunk-5SFOXFGW.mjs";
+import {
+  I as C,
+  J as E,
+  P as T,
+  S as U,
+  V as w,
+  aa as b,
+  d as F,
+  h as N,
+  ia as X,
+  j as O,
+  ka as _,
+  l as L,
+  m as Q,
+  p as x,
+  r,
+  ra as A,
+  t as B,
+  xa as V,
+  ya as G,
+} from "./chunk-NVV4GD4L.mjs";
+var ra = G(c),
+  ea = [
+    "jmwnTlRYo",
+    "oAMgqjsQx",
+    "e1ita4Ww9",
+    "orLTfvU1X",
+    "yBfCLKALV",
+    "XWVoG4A89",
+    "JOqybmOl_",
+    "lYf4zh6wu",
+    "s8_2zgN9Y",
+    "mUiYt7iw4",
+  ];
+var ta = {
+  e1ita4Ww9: "framer-v-kxa6t8",
+  jmwnTlRYo: "framer-v-109rxxh",
+  JOqybmOl_: "framer-v-u6eyxn",
+  lYf4zh6wu: "framer-v-cf9blb",
+  mUiYt7iw4: "framer-v-zylria",
+  oAMgqjsQx: "framer-v-wo1cm7",
+  orLTfvU1X: "framer-v-1sv42i3",
+  s8_2zgN9Y: "framer-v-4iyty5",
+  XWVoG4A89: "framer-v-xcnayi",
+  yBfCLKALV: "framer-v-11fdssg",
+};
+function u(i, ...o) {
+  let d = {};
+  return o?.forEach((e) => e && Object.assign(d, i[e])), d;
+}
+var ia = {
+    default: {
+      damping: 60,
+      delay: 0,
+      mass: 1,
+      stiffness: 500,
+      type: "spring",
+    },
+  },
+  oa = ({ value: i, children: o }) => {
+    let d = N(x),
+      e = i ?? d.transition,
+      m = L(
+        () => ({
+          ...d,
+          transition: e,
+        }),
+        [JSON.stringify(e)]
+      );
+    return a(x.Provider, {
+      value: m,
+      children: o,
+    });
+  },
+  na = {
+    "Closed 1": "oAMgqjsQx",
+    "Closed 2": "e1ita4Ww9",
+    "Closed 3": "orLTfvU1X",
+    "Closed 4": "yBfCLKALV",
+    "Open 1": "JOqybmOl_",
+    "Open 2": "lYf4zh6wu",
+    "Open 3": "s8_2zgN9Y",
+    "Open 4": "mUiYt7iw4",
+    Closed: "jmwnTlRYo",
+    Open: "XWVoG4A89",
+  },
+  fa = ({ height: i, id: o, width: d, ...e }) => {
+    var m, v;
+    return {
+      ...e,
+      variant:
+        (v = (m = na[e.variant]) !== null && m !== void 0 ? m : e.variant) !==
+          null && v !== void 0
+          ? v
+          : "jmwnTlRYo",
+    };
+  },
+  la = (i, o) => o.join("-") + i.layoutDependency,
+  da = F(function (i, o) {
+    let { activeLocale: d } = E(),
+      { style: e, className: m, layoutId: v, variant: k, ...z } = fa(i),
+      {
+        baseVariant: s,
+        classNames: I,
+        gestureVariant: p,
+        setGestureState: g,
+        setVariant: n,
+        transition: j,
+        variants: Y,
+      } = A({
+        cycleOrder: ea,
+        defaultVariant: "jmwnTlRYo",
+        transitions: ia,
+        variant: k,
+        variantClassNames: ta,
+      }),
+      t = la(i, Y),
+      { activeVariantCallback: f, delay: sa } = _(s),
+      D = f(async (...l) => {
+        n("XWVoG4A89");
+      }),
+      H = f(async (...l) => {
+        n("JOqybmOl_");
+      }),
+      M = f(async (...l) => {
+        n("lYf4zh6wu");
+      }),
+      W = f(async (...l) => {
+        n("s8_2zgN9Y");
+      }),
+      Z = f(async (...l) => {
+        n("mUiYt7iw4");
+      }),
+      R = f(async (...l) => {
+        n("jmwnTlRYo");
+      }),
+      S = f(async (...l) => {
+        n("oAMgqjsQx");
+      }),
+      J = f(async (...l) => {
+        n("e1ita4Ww9");
+      }),
+      K = f(async (...l) => {
+        n("orLTfvU1X");
+      }),
+      P = f(async (...l) => {
+        n("yBfCLKALV");
+      }),
+      $ = Q(null),
+      y = C(),
+      aa = O();
+    return a(B, {
+      id: v ?? aa,
+      children: a(r.div, {
+        initial: k,
+        animate: Y,
+        onHoverStart: () =>
+          g({
+            isHovered: !0,
+          }),
+        onHoverEnd: () =>
+          g({
+            isHovered: !1,
+          }),
+        onTapStart: () =>
+          g({
+            isPressed: !0,
+          }),
+        onTap: () =>
+          g({
+            isPressed: !1,
+          }),
+        onTapCancel: () =>
+          g({
+            isPressed: !1,
+          }),
+        className: w("framer-iq6i6", I),
+        style: {
+          display: "contents",
+        },
+        children: a(oa, {
+          value: j,
+          children: q(r.div, {
+            ...z,
+            className: w("framer-109rxxh", m),
+            "data-framer-name": "Closed",
+            layoutDependency: t,
+            layoutId: "jmwnTlRYo",
+            ref: o ?? $,
+            style: {
+              ...e,
+            },
+            ...u(
+              {
+                e1ita4Ww9: {
+                  "data-framer-name": "Closed 2",
+                },
+                JOqybmOl_: {
+                  "data-framer-name": "Open 1",
+                },
+                lYf4zh6wu: {
+                  "data-framer-name": "Open 2",
+                },
+                mUiYt7iw4: {
+                  "data-framer-name": "Open 4",
+                },
+                oAMgqjsQx: {
+                  "data-framer-name": "Closed 1",
+                },
+                orLTfvU1X: {
+                  "data-framer-name": "Closed 3",
+                },
+                s8_2zgN9Y: {
+                  "data-framer-name": "Open 3",
+                },
+                XWVoG4A89: {
+                  "data-framer-name": "Open",
+                },
+                yBfCLKALV: {
+                  "data-framer-name": "Closed 4",
+                },
+              },
+              s,
+              p
+            ),
+            children: [
+              a(r.div, {
+                className: "framer-4kr626-container",
+                layoutDependency: t,
+                layoutId: "hbEYYaoYr-container",
+                children: a(c, {
+                  aNskohUuL: !0,
+                  height: "100%",
+                  id: "hbEYYaoYr",
+                  kxxTONr4h: "Filter",
+                  layoutId: "hbEYYaoYr",
+                  QvQoBh8lG:
+                    'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                  style: {
+                    width: "100%",
+                  },
+                  variant: "xd2O0LULD",
+                  width: "100%",
+                  XE8FEHlF3:
+                    'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                  Y79NTwmZo: D,
+                  ...u(
+                    {
+                      e1ita4Ww9: {
+                        Y79NTwmZo: M,
+                      },
+                      JOqybmOl_: {
+                        QvQoBh8lG: "rgba(0, 0, 0, 0)",
+                        variant: "qDagMEe_C",
+                        Y79NTwmZo: S,
+                      },
+                      lYf4zh6wu: {
+                        QvQoBh8lG: "rgba(0, 0, 0, 0)",
+                        variant: "qDagMEe_C",
+                        Y79NTwmZo: J,
+                      },
+                      mUiYt7iw4: {
+                        QvQoBh8lG: "rgba(0, 0, 0, 0)",
+                        variant: "qDagMEe_C",
+                        Y79NTwmZo: P,
+                      },
+                      oAMgqjsQx: {
+                        Y79NTwmZo: H,
+                      },
+                      orLTfvU1X: {
+                        Y79NTwmZo: W,
+                      },
+                      s8_2zgN9Y: {
+                        QvQoBh8lG: "rgba(0, 0, 0, 0)",
+                        variant: "qDagMEe_C",
+                        Y79NTwmZo: K,
+                      },
+                      XWVoG4A89: {
+                        QvQoBh8lG: "rgba(0, 0, 0, 0)",
+                        variant: "qDagMEe_C",
+                        Y79NTwmZo: R,
+                      },
+                      yBfCLKALV: {
+                        Y79NTwmZo: Z,
+                      },
+                    },
+                    s,
+                    p
+                  ),
+                }),
+              }),
+              q(r.div, {
+                className: "framer-sfxvpo",
+                layoutDependency: t,
+                layoutId: "c1qLgRGa_",
+                style: {
+                  opacity: 0,
+                },
+                variants: {
+                  JOqybmOl_: {
+                    opacity: 1,
+                  },
+                  lYf4zh6wu: {
+                    opacity: 1,
+                  },
+                  mUiYt7iw4: {
+                    opacity: 1,
+                  },
+                  s8_2zgN9Y: {
+                    opacity: 1,
+                  },
+                  XWVoG4A89: {
+                    opacity: 1,
+                  },
+                },
+                children: [
+                  a(r.div, {
+                    className: "framer-tv5vqv",
+                    layoutDependency: t,
+                    layoutId: "bK2a8JLfw",
+                    children: a(r.div, {
+                      className: "framer-g7jln5-container",
+                      layoutDependency: t,
+                      layoutId: "HxlputSoH-container",
+                      children: a(c, {
+                        aNskohUuL: !1,
+                        height: "100%",
+                        id: "HxlputSoH",
+                        kxxTONr4h: "All",
+                        layoutId: "HxlputSoH",
+                        QvQoBh8lG:
+                          'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                        style: {
+                          width: "100%",
+                        },
+                        variant: "xd2O0LULD",
+                        width: "100%",
+                        XE8FEHlF3:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        XFz7uFN8l: b(
+                          {
+                            webPageId: "S5aJtSRSm",
+                          },
+                          y
+                        ),
+                        ...u(
+                          {
+                            JOqybmOl_: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              variant: "M4W8D0fZc",
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                            oAMgqjsQx: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                          },
+                          s,
+                          p
+                        ),
+                      }),
+                    }),
+                  }),
+                  a(r.div, {
+                    className: "framer-dpqcpu",
+                    layoutDependency: t,
+                    layoutId: "Albmdhwjf",
+                    children: a(r.div, {
+                      className: "framer-930dt5-container",
+                      layoutDependency: t,
+                      layoutId: "l4drAfM9Y-container",
+                      children: a(c, {
+                        aNskohUuL: !1,
+                        height: "100%",
+                        id: "l4drAfM9Y",
+                        kxxTONr4h: "Design",
+                        layoutId: "l4drAfM9Y",
+                        QvQoBh8lG:
+                          'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                        style: {
+                          width: "100%",
+                        },
+                        variant: "xd2O0LULD",
+                        width: "100%",
+                        XE8FEHlF3:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        XFz7uFN8l: b(
+                          {
+                            webPageId: "mL1NOSGam",
+                          },
+                          y
+                        ),
+                        ...u(
+                          {
+                            e1ita4Ww9: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                            lYf4zh6wu: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              variant: "M4W8D0fZc",
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                          },
+                          s,
+                          p
+                        ),
+                      }),
+                    }),
+                  }),
+                  a(r.div, {
+                    className: "framer-1ndsr35",
+                    layoutDependency: t,
+                    layoutId: "zfriOzToZ",
+                    children: a(r.div, {
+                      className: "framer-1od7pb-container",
+                      layoutDependency: t,
+                      layoutId: "RrEpQK96H-container",
+                      children: a(c, {
+                        aNskohUuL: !1,
+                        height: "100%",
+                        id: "RrEpQK96H",
+                        kxxTONr4h: "Studio",
+                        layoutId: "RrEpQK96H",
+                        QvQoBh8lG:
+                          'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                        style: {
+                          width: "100%",
+                        },
+                        variant: "xd2O0LULD",
+                        width: "100%",
+                        XE8FEHlF3:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        XFz7uFN8l: b(
+                          {
+                            webPageId: "ZiUgWafGl",
+                          },
+                          y
+                        ),
+                        ...u(
+                          {
+                            orLTfvU1X: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                            s8_2zgN9Y: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              variant: "M4W8D0fZc",
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                          },
+                          s,
+                          p
+                        ),
+                      }),
+                    }),
+                  }),
+                  a(r.div, {
+                    className: "framer-an2g9w",
+                    layoutDependency: t,
+                    layoutId: "Pg8Fk8U0I",
+                    children: a(r.div, {
+                      className: "framer-4t5sym-container",
+                      layoutDependency: t,
+                      layoutId: "fvfIfuBVU-container",
+                      children: a(c, {
+                        aNskohUuL: !1,
+                        height: "100%",
+                        id: "fvfIfuBVU",
+                        kxxTONr4h: "Objects",
+                        layoutId: "fvfIfuBVU",
+                        QvQoBh8lG:
+                          'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                        style: {
+                          width: "100%",
+                        },
+                        variant: "xd2O0LULD",
+                        width: "100%",
+                        XE8FEHlF3:
+                          'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                        XFz7uFN8l: b(
+                          {
+                            webPageId: "vlvUr_ZFe",
+                          },
+                          y
+                        ),
+                        ...u(
+                          {
+                            mUiYt7iw4: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              variant: "M4W8D0fZc",
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                            yBfCLKALV: {
+                              QvQoBh8lG:
+                                'var(--token-ad9b4115-c8bf-4757-af13-005f7e571fb7, rgb(0, 0, 0)) /* {"name":"Foreground"} */',
+                              XE8FEHlF3:
+                                'var(--token-99b13e40-5413-47d9-996c-2fa7047e46d6, rgb(255, 255, 255)) /* {"name":"Background"} */',
+                            },
+                          },
+                          s,
+                          p
+                        ),
+                      }),
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          }),
+        }),
+      }),
+    });
+  }),
+  ma = [
+    '.framer-iq6i6 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+    "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
+    ".framer-iq6i6 .framer-rw2wai { display: block; }",
+    ".framer-iq6i6 .framer-109rxxh { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 157px; }",
+    ".framer-iq6i6 .framer-4kr626-container { flex: none; height: auto; position: relative; width: 100%; }",
+    ".framer-iq6i6 .framer-sfxvpo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; left: 0px; overflow: visible; padding: 0px 0px 0px 0px; pointer-events: none; position: absolute; top: 40px; width: 100%; z-index: 5; }",
+    ".framer-iq6i6 .framer-tv5vqv, .framer-iq6i6 .framer-dpqcpu, .framer-iq6i6 .framer-1ndsr35, .framer-iq6i6 .framer-an2g9w { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 0px 0px; position: relative; width: 100%; }",
+    ".framer-iq6i6 .framer-g7jln5-container, .framer-iq6i6 .framer-930dt5-container, .framer-iq6i6 .framer-1od7pb-container, .framer-iq6i6 .framer-4t5sym-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }",
+    "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-iq6i6 .framer-109rxxh, .framer-iq6i6 .framer-sfxvpo, .framer-iq6i6 .framer-tv5vqv, .framer-iq6i6 .framer-dpqcpu, .framer-iq6i6 .framer-1ndsr35, .framer-iq6i6 .framer-an2g9w { gap: 0px; } .framer-iq6i6 .framer-109rxxh > *, .framer-iq6i6 .framer-sfxvpo > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-iq6i6 .framer-109rxxh > :first-child, .framer-iq6i6 .framer-sfxvpo > :first-child { margin-top: 0px; } .framer-iq6i6 .framer-109rxxh > :last-child, .framer-iq6i6 .framer-sfxvpo > :last-child { margin-bottom: 0px; } .framer-iq6i6 .framer-tv5vqv > *, .framer-iq6i6 .framer-dpqcpu > *, .framer-iq6i6 .framer-1ndsr35 > *, .framer-iq6i6 .framer-an2g9w > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-iq6i6 .framer-tv5vqv > :first-child, .framer-iq6i6 .framer-dpqcpu > :first-child, .framer-iq6i6 .framer-1ndsr35 > :first-child, .framer-iq6i6 .framer-an2g9w > :first-child { margin-left: 0px; } .framer-iq6i6 .framer-tv5vqv > :last-child, .framer-iq6i6 .framer-dpqcpu > :last-child, .framer-iq6i6 .framer-1ndsr35 > :last-child, .framer-iq6i6 .framer-an2g9w > :last-child { margin-right: 0px; } }",
+    ".framer-iq6i6.framer-v-xcnayi .framer-sfxvpo, .framer-iq6i6.framer-v-u6eyxn .framer-sfxvpo, .framer-iq6i6.framer-v-cf9blb .framer-sfxvpo, .framer-iq6i6.framer-v-4iyty5 .framer-sfxvpo, .framer-iq6i6.framer-v-zylria .framer-sfxvpo { pointer-events: auto; top: 50px; }",
+  ],
+  h = X(da, ma, "framer-iq6i6"),
+  xa = h;
+(h.displayName = "Filter Dropdown"),
+  (h.defaultProps = {
+    height: 41,
+    width: 157,
+  }),
+  U(h, {
+    variant: {
+      options: [
+        "jmwnTlRYo",
+        "oAMgqjsQx",
+        "e1ita4Ww9",
+        "orLTfvU1X",
+        "yBfCLKALV",
+        "XWVoG4A89",
+        "JOqybmOl_",
+        "lYf4zh6wu",
+        "s8_2zgN9Y",
+        "mUiYt7iw4",
+      ],
+      optionTitles: [
+        "Closed",
+        "Closed 1",
+        "Closed 2",
+        "Closed 3",
+        "Closed 4",
+        "Open",
+        "Open 1",
+        "Open 2",
+        "Open 3",
+        "Open 4",
+      ],
+      title: "Variant",
+      type: T.Enum,
+    },
+  }),
+  V(h, [...ra]);
+export { xa as a };
+//# sourceMappingURL=chunk-NP6HCNUJ.mjs.map
